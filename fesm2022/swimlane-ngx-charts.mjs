@@ -297,8 +297,8 @@ class PositionHelper {
     }
 }
 
-const _c0$10 = ["caretElm"];
-const _c1$u = a0 => ({ model: a0 });
+const _c0$16 = ["caretElm"];
+const _c1$v = a0 => ({ model: a0 });
 function TooltipContentComponent_span_4_ng_template_1_Template(rf, ctx) { }
 function TooltipContentComponent_span_4_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementStart(0, "span");
@@ -307,7 +307,7 @@ function TooltipContentComponent_span_4_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r0 = i0.ɵɵnextContext();
     i0.ɵɵadvance();
-    i0.ɵɵproperty("ngTemplateOutlet", ctx_r0.template)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c1$u, ctx_r0.context));
+    i0.ɵɵproperty("ngTemplateOutlet", ctx_r0.template)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c1$v, ctx_r0.context));
 } }
 function TooltipContentComponent_span_5_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelement(0, "span", 6);
@@ -369,7 +369,7 @@ class TooltipContentComponent {
     }
     static { this.ɵfac = function TooltipContentComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || TooltipContentComponent)(i0.ɵɵdirectiveInject(i0.ElementRef), i0.ɵɵdirectiveInject(i0.Renderer2), i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: TooltipContentComponent, selectors: [["ngx-tooltip-content"]], viewQuery: function TooltipContentComponent_Query(rf, ctx) { if (rf & 1) {
-            i0.ɵɵviewQuery(_c0$10, 5);
+            i0.ɵɵviewQuery(_c0$16, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.caretElm = _t.first);
@@ -989,7 +989,7 @@ class ScaleLegendComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(ScaleLegendComponent, { className: "ScaleLegendComponent", filePath: "lib/common/legend/scale-legend.component.ts", lineNumber: 26 }); })();
 
-const _c0$$ = ["*"];
+const _c0$15 = ["*"];
 function ChartComponent_ngx_charts_scale_legend_3_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelement(0, "ngx-charts-scale-legend", 4);
 } if (rf & 2) {
@@ -1042,7 +1042,7 @@ class ChartComponent {
         return this.legendOptions.scaleType === ScaleType.Linear ? LegendType.ScaleLegend : LegendType.Legend;
     }
     static { this.ɵfac = function ChartComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || ChartComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: ChartComponent, selectors: [["ngx-charts-chart"]], inputs: { view: "view", showLegend: "showLegend", legendOptions: "legendOptions", legendType: "legendType", activeEntries: "activeEntries", animations: "animations" }, outputs: { legendLabelClick: "legendLabelClick", legendLabelActivate: "legendLabelActivate", legendLabelDeactivate: "legendLabelDeactivate" }, standalone: false, features: [i0.ɵɵProvidersFeature([TooltipService]), i0.ɵɵNgOnChangesFeature], ngContentSelectors: _c0$$, decls: 5, vars: 8, consts: [[1, "ngx-charts-outer"], [1, "ngx-charts"], ["class", "chart-legend", 3, "horizontal", "valueRange", "colors", "height", "width", 4, "ngIf"], ["class", "chart-legend", 3, "horizontal", "data", "title", "colors", "height", "width", "activeEntries", "labelClick", "labelActivate", "labelDeactivate", 4, "ngIf"], [1, "chart-legend", 3, "horizontal", "valueRange", "colors", "height", "width"], [1, "chart-legend", 3, "labelClick", "labelActivate", "labelDeactivate", "horizontal", "data", "title", "colors", "height", "width", "activeEntries"]], template: function ChartComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: ChartComponent, selectors: [["ngx-charts-chart"]], inputs: { view: "view", showLegend: "showLegend", legendOptions: "legendOptions", legendType: "legendType", activeEntries: "activeEntries", animations: "animations" }, outputs: { legendLabelClick: "legendLabelClick", legendLabelActivate: "legendLabelActivate", legendLabelDeactivate: "legendLabelDeactivate" }, standalone: false, features: [i0.ɵɵProvidersFeature([TooltipService]), i0.ɵɵNgOnChangesFeature], ngContentSelectors: _c0$15, decls: 5, vars: 8, consts: [[1, "ngx-charts-outer"], [1, "ngx-charts"], ["class", "chart-legend", 3, "horizontal", "valueRange", "colors", "height", "width", 4, "ngIf"], ["class", "chart-legend", 3, "horizontal", "data", "title", "colors", "height", "width", "activeEntries", "labelClick", "labelActivate", "labelDeactivate", 4, "ngIf"], [1, "chart-legend", 3, "horizontal", "valueRange", "colors", "height", "width"], [1, "chart-legend", 3, "labelClick", "labelActivate", "labelDeactivate", "horizontal", "data", "title", "colors", "height", "width", "activeEntries"]], template: function ChartComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵprojectionDef();
             i0.ɵɵelementStart(0, "div", 0);
             i0.ɵɵnamespaceSVG();
@@ -1378,7 +1378,7 @@ var Orientation;
     Orientation["Right"] = "right";
 })(Orientation || (Orientation = {}));
 
-const _c0$_ = ["ngx-charts-axis-label", ""];
+const _c0$14 = ["ngx-charts-axis-label", ""];
 class AxisLabelComponent {
     constructor(element) {
         this.textHeight = 25;
@@ -1415,7 +1415,7 @@ class AxisLabelComponent {
         }
     }
     static { this.ɵfac = function AxisLabelComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || AxisLabelComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AxisLabelComponent, selectors: [["g", "ngx-charts-axis-label", ""]], inputs: { orient: "orient", label: "label", offset: "offset", width: "width", height: "height" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$_, decls: 2, vars: 6, template: function AxisLabelComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AxisLabelComponent, selectors: [["g", "ngx-charts-axis-label", ""]], inputs: { orient: "orient", label: "label", offset: "offset", width: "width", height: "height" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$14, decls: 2, vars: 6, template: function AxisLabelComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "text");
             i0.ɵɵtext(1);
@@ -1563,8 +1563,8 @@ function roundedRect(x, y, w, h, r, [tl, tr, bl, br]) {
     return retval;
 }
 
-const _c0$Z = ["ticksel"];
-const _c1$t = ["ngx-charts-x-axis-ticks", ""];
+const _c0$13 = ["ticksel"];
+const _c1$u = ["ngx-charts-x-axis-ticks", ""];
 function XAxisTicksComponent__svg_g_2__svg_ng_container_1__svg_ng_container_4_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementContainer(0);
@@ -1936,11 +1936,11 @@ class XAxisTicksComponent {
     }
     static { this.ɵfac = function XAxisTicksComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || XAxisTicksComponent)(i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: XAxisTicksComponent, selectors: [["g", "ngx-charts-x-axis-ticks", ""]], viewQuery: function XAxisTicksComponent_Query(rf, ctx) { if (rf & 1) {
-            i0.ɵɵviewQuery(_c0$Z, 5);
+            i0.ɵɵviewQuery(_c0$13, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.ticksElement = _t.first);
-        } }, inputs: { scale: "scale", orient: "orient", tickArguments: "tickArguments", tickValues: "tickValues", tickStroke: "tickStroke", trimTicks: "trimTicks", maxTickLength: "maxTickLength", tickFormatting: "tickFormatting", showGridLines: "showGridLines", gridLineHeight: "gridLineHeight", width: "width", rotateTicks: "rotateTicks", wrapTicks: "wrapTicks", referenceLines: "referenceLines", showRefLabels: "showRefLabels", showRefLines: "showRefLines" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c1$t, decls: 6, vars: 4, consts: [["ticksel", ""], ["tmplMultilineTick", ""], ["tmplSinglelineTick", ""], ["class", "tick", 4, "ngFor", "ngForOf"], [4, "ngFor", "ngForOf"], ["class", "reference-area", 4, "ngIf"], ["class", "ref-line", 4, "ngFor", "ngForOf"], [1, "tick"], [4, "ngIf"], ["stroke-width", "0.01", "font-size", "12px"], [4, "ngIf", "ngIfThen", "ngIfElse"], ["x", "0", 4, "ngFor", "ngForOf"], ["x", "0"], ["y2", "0", 1, "gridline-path", "gridline-path-vertical"], [1, "reference-area"], [1, "ref-line"], ["y1", "25", 1, "refline-path", "gridline-path-vertical"], ["transform", "rotate(-270) translate(5, -5)", 1, "refline-label"]], template: function XAxisTicksComponent_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { scale: "scale", orient: "orient", tickArguments: "tickArguments", tickValues: "tickValues", tickStroke: "tickStroke", trimTicks: "trimTicks", maxTickLength: "maxTickLength", tickFormatting: "tickFormatting", showGridLines: "showGridLines", gridLineHeight: "gridLineHeight", width: "width", rotateTicks: "rotateTicks", wrapTicks: "wrapTicks", referenceLines: "referenceLines", showRefLabels: "showRefLabels", showRefLines: "showRefLines" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c1$u, decls: 6, vars: 4, consts: [["ticksel", ""], ["tmplMultilineTick", ""], ["tmplSinglelineTick", ""], ["class", "tick", 4, "ngFor", "ngForOf"], [4, "ngFor", "ngForOf"], ["class", "reference-area", 4, "ngIf"], ["class", "ref-line", 4, "ngFor", "ngForOf"], [1, "tick"], [4, "ngIf"], ["stroke-width", "0.01", "font-size", "12px"], [4, "ngIf", "ngIfThen", "ngIfElse"], ["x", "0", 4, "ngFor", "ngForOf"], ["x", "0"], ["y2", "0", 1, "gridline-path", "gridline-path-vertical"], [1, "reference-area"], [1, "ref-line"], ["y1", "25", 1, "refline-path", "gridline-path-vertical"], ["transform", "rotate(-270) translate(5, -5)", 1, "refline-label"]], template: function XAxisTicksComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g", null, 0);
             i0.ɵɵtemplate(2, XAxisTicksComponent__svg_g_2_Template, 2, 2, "g", 3);
@@ -2066,7 +2066,7 @@ class XAxisTicksComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(XAxisTicksComponent, { className: "XAxisTicksComponent", filePath: "lib/common/axes/x-axis-ticks.component.ts", lineNumber: 86 }); })();
 
-const _c0$Y = ["ngx-charts-x-axis", ""];
+const _c0$12 = ["ngx-charts-x-axis", ""];
 function XAxisComponent__svg_g_1_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -2125,7 +2125,7 @@ class XAxisComponent {
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.ticksComponent = _t.first);
-        } }, inputs: { xScale: "xScale", dims: "dims", trimTicks: "trimTicks", rotateTicks: "rotateTicks", maxTickLength: "maxTickLength", tickFormatting: "tickFormatting", showGridLines: "showGridLines", showLabel: "showLabel", labelText: "labelText", ticks: "ticks", xAxisTickCount: "xAxisTickCount", xOrient: "xOrient", referenceLines: "referenceLines", showRefLines: "showRefLines", showRefLabels: "showRefLabels", xAxisOffset: "xAxisOffset", wrapTicks: "wrapTicks" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$Y, decls: 3, vars: 4, consts: [["ngx-charts-x-axis-ticks", "", 3, "trimTicks", "rotateTicks", "maxTickLength", "tickFormatting", "tickArguments", "tickStroke", "scale", "orient", "showGridLines", "gridLineHeight", "referenceLines", "showRefLines", "showRefLabels", "width", "tickValues", "wrapTicks", "dimensionsChanged", 4, "ngIf"], ["ngx-charts-axis-label", "", 3, "label", "offset", "orient", "height", "width", 4, "ngIf"], ["ngx-charts-x-axis-ticks", "", 3, "dimensionsChanged", "trimTicks", "rotateTicks", "maxTickLength", "tickFormatting", "tickArguments", "tickStroke", "scale", "orient", "showGridLines", "gridLineHeight", "referenceLines", "showRefLines", "showRefLabels", "width", "tickValues", "wrapTicks"], ["ngx-charts-axis-label", "", 3, "label", "offset", "orient", "height", "width"]], template: function XAxisComponent_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { xScale: "xScale", dims: "dims", trimTicks: "trimTicks", rotateTicks: "rotateTicks", maxTickLength: "maxTickLength", tickFormatting: "tickFormatting", showGridLines: "showGridLines", showLabel: "showLabel", labelText: "labelText", ticks: "ticks", xAxisTickCount: "xAxisTickCount", xOrient: "xOrient", referenceLines: "referenceLines", showRefLines: "showRefLines", showRefLabels: "showRefLabels", xAxisOffset: "xAxisOffset", wrapTicks: "wrapTicks" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$12, decls: 3, vars: 4, consts: [["ngx-charts-x-axis-ticks", "", 3, "trimTicks", "rotateTicks", "maxTickLength", "tickFormatting", "tickArguments", "tickStroke", "scale", "orient", "showGridLines", "gridLineHeight", "referenceLines", "showRefLines", "showRefLabels", "width", "tickValues", "wrapTicks", "dimensionsChanged", 4, "ngIf"], ["ngx-charts-axis-label", "", 3, "label", "offset", "orient", "height", "width", 4, "ngIf"], ["ngx-charts-x-axis-ticks", "", 3, "dimensionsChanged", "trimTicks", "rotateTicks", "maxTickLength", "tickFormatting", "tickArguments", "tickStroke", "scale", "orient", "showGridLines", "gridLineHeight", "referenceLines", "showRefLines", "showRefLabels", "width", "tickValues", "wrapTicks"], ["ngx-charts-axis-label", "", 3, "label", "offset", "orient", "height", "width"]], template: function XAxisComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g");
             i0.ɵɵtemplate(1, XAxisComponent__svg_g_1_Template, 1, 16, "g", 0)(2, XAxisComponent__svg_g_2_Template, 1, 5, "g", 1);
@@ -2221,8 +2221,8 @@ class XAxisComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(XAxisComponent, { className: "XAxisComponent", filePath: "lib/common/axes/x-axis.component.ts", lineNumber: 55 }); })();
 
-const _c0$X = ["ticksel"];
-const _c1$s = ["ngx-charts-y-axis-ticks", ""];
+const _c0$11 = ["ticksel"];
+const _c1$t = ["ngx-charts-y-axis-ticks", ""];
 function YAxisTicksComponent__svg_g_2__svg_ng_container_1__svg_ng_container_4_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementContainer(0);
@@ -2582,11 +2582,11 @@ class YAxisTicksComponent {
     }
     static { this.ɵfac = function YAxisTicksComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || YAxisTicksComponent)(i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: YAxisTicksComponent, selectors: [["g", "ngx-charts-y-axis-ticks", ""]], viewQuery: function YAxisTicksComponent_Query(rf, ctx) { if (rf & 1) {
-            i0.ɵɵviewQuery(_c0$X, 5);
+            i0.ɵɵviewQuery(_c0$11, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.ticksElement = _t.first);
-        } }, inputs: { scale: "scale", orient: "orient", tickArguments: "tickArguments", tickValues: "tickValues", tickStroke: "tickStroke", trimTicks: "trimTicks", maxTickLength: "maxTickLength", tickFormatting: "tickFormatting", showGridLines: "showGridLines", gridLineWidth: "gridLineWidth", height: "height", referenceLines: "referenceLines", showRefLabels: "showRefLabels", showRefLines: "showRefLines", wrapTicks: "wrapTicks" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c1$s, decls: 6, vars: 4, consts: [["ticksel", ""], ["tmplMultilineTick", ""], ["tmplSinglelineTick", ""], ["class", "tick", 4, "ngFor", "ngForOf"], ["class", "reference-area", 4, "ngIf"], [4, "ngFor", "ngForOf"], ["class", "ref-line", 4, "ngFor", "ngForOf"], [1, "tick"], [4, "ngIf"], ["stroke-width", "0.01"], [4, "ngIf", "ngIfThen", "ngIfElse"], [4, "ngIf", "ngIfElse"], ["x", "0", 4, "ngFor", "ngForOf"], ["x", "0"], [1, "reference-area"], ["class", "gridline-path gridline-path-horizontal", "x1", "0", 4, "ngIf"], ["x1", "0", 1, "gridline-path", "gridline-path-horizontal"], [1, "ref-line"], ["x1", "0", 1, "refline-path", "gridline-path-horizontal"], [1, "refline-label"]], template: function YAxisTicksComponent_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { scale: "scale", orient: "orient", tickArguments: "tickArguments", tickValues: "tickValues", tickStroke: "tickStroke", trimTicks: "trimTicks", maxTickLength: "maxTickLength", tickFormatting: "tickFormatting", showGridLines: "showGridLines", gridLineWidth: "gridLineWidth", height: "height", referenceLines: "referenceLines", showRefLabels: "showRefLabels", showRefLines: "showRefLines", wrapTicks: "wrapTicks" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c1$t, decls: 6, vars: 4, consts: [["ticksel", ""], ["tmplMultilineTick", ""], ["tmplSinglelineTick", ""], ["class", "tick", 4, "ngFor", "ngForOf"], ["class", "reference-area", 4, "ngIf"], [4, "ngFor", "ngForOf"], ["class", "ref-line", 4, "ngFor", "ngForOf"], [1, "tick"], [4, "ngIf"], ["stroke-width", "0.01"], [4, "ngIf", "ngIfThen", "ngIfElse"], [4, "ngIf", "ngIfElse"], ["x", "0", 4, "ngFor", "ngForOf"], ["x", "0"], [1, "reference-area"], ["class", "gridline-path gridline-path-horizontal", "x1", "0", 4, "ngIf"], ["x1", "0", 1, "gridline-path", "gridline-path-horizontal"], [1, "ref-line"], ["x1", "0", 1, "refline-path", "gridline-path-horizontal"], [1, "refline-label"]], template: function YAxisTicksComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g", null, 0);
             i0.ɵɵtemplate(2, YAxisTicksComponent__svg_g_2_Template, 2, 2, "g", 3);
@@ -2725,7 +2725,7 @@ class YAxisTicksComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(YAxisTicksComponent, { className: "YAxisTicksComponent", filePath: "lib/common/axes/y-axis-ticks.component.ts", lineNumber: 101 }); })();
 
-const _c0$W = ["ngx-charts-y-axis", ""];
+const _c0$10 = ["ngx-charts-y-axis", ""];
 function YAxisComponent__svg_g_1_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -2794,7 +2794,7 @@ class YAxisComponent {
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.ticksComponent = _t.first);
-        } }, inputs: { yScale: "yScale", dims: "dims", trimTicks: "trimTicks", maxTickLength: "maxTickLength", tickFormatting: "tickFormatting", ticks: "ticks", showGridLines: "showGridLines", showLabel: "showLabel", labelText: "labelText", yAxisTickCount: "yAxisTickCount", yOrient: "yOrient", referenceLines: "referenceLines", showRefLines: "showRefLines", showRefLabels: "showRefLabels", yAxisOffset: "yAxisOffset", wrapTicks: "wrapTicks" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$W, decls: 3, vars: 4, consts: [["ngx-charts-y-axis-ticks", "", 3, "trimTicks", "maxTickLength", "tickFormatting", "tickArguments", "tickValues", "tickStroke", "scale", "orient", "showGridLines", "gridLineWidth", "referenceLines", "showRefLines", "showRefLabels", "height", "wrapTicks", "dimensionsChanged", 4, "ngIf"], ["ngx-charts-axis-label", "", 3, "label", "offset", "orient", "height", "width", 4, "ngIf"], ["ngx-charts-y-axis-ticks", "", 3, "dimensionsChanged", "trimTicks", "maxTickLength", "tickFormatting", "tickArguments", "tickValues", "tickStroke", "scale", "orient", "showGridLines", "gridLineWidth", "referenceLines", "showRefLines", "showRefLabels", "height", "wrapTicks"], ["ngx-charts-axis-label", "", 3, "label", "offset", "orient", "height", "width"]], template: function YAxisComponent_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { yScale: "yScale", dims: "dims", trimTicks: "trimTicks", maxTickLength: "maxTickLength", tickFormatting: "tickFormatting", ticks: "ticks", showGridLines: "showGridLines", showLabel: "showLabel", labelText: "labelText", yAxisTickCount: "yAxisTickCount", yOrient: "yOrient", referenceLines: "referenceLines", showRefLines: "showRefLines", showRefLabels: "showRefLabels", yAxisOffset: "yAxisOffset", wrapTicks: "wrapTicks" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$10, decls: 3, vars: 4, consts: [["ngx-charts-y-axis-ticks", "", 3, "trimTicks", "maxTickLength", "tickFormatting", "tickArguments", "tickValues", "tickStroke", "scale", "orient", "showGridLines", "gridLineWidth", "referenceLines", "showRefLines", "showRefLabels", "height", "wrapTicks", "dimensionsChanged", 4, "ngIf"], ["ngx-charts-axis-label", "", 3, "label", "offset", "orient", "height", "width", 4, "ngIf"], ["ngx-charts-y-axis-ticks", "", 3, "dimensionsChanged", "trimTicks", "maxTickLength", "tickFormatting", "tickArguments", "tickValues", "tickStroke", "scale", "orient", "showGridLines", "gridLineWidth", "referenceLines", "showRefLines", "showRefLabels", "height", "wrapTicks"], ["ngx-charts-axis-label", "", 3, "label", "offset", "orient", "height", "width"]], template: function YAxisComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g");
             i0.ɵɵtemplate(1, YAxisComponent__svg_g_1_Template, 1, 15, "g", 0)(2, YAxisComponent__svg_g_2_Template, 1, 5, "g", 1);
@@ -3169,7 +3169,7 @@ var BarOrientation;
     BarOrientation["Horizontal"] = "horizontal";
 })(BarOrientation || (BarOrientation = {}));
 
-const _c0$V = ["ngx-charts-circle", ""];
+const _c0$$ = ["ngx-charts-circle", ""];
 class CircleComponent {
     constructor() {
         this.select = new EventEmitter();
@@ -3192,7 +3192,7 @@ class CircleComponent {
     static { this.ɵfac = function CircleComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || CircleComponent)(); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: CircleComponent, selectors: [["g", "ngx-charts-circle", ""]], hostBindings: function CircleComponent_HostBindings(rf, ctx) { if (rf & 1) {
             i0.ɵɵlistener("click", function CircleComponent_click_HostBindingHandler() { return ctx.onClick(); })("mouseenter", function CircleComponent_mouseenter_HostBindingHandler() { return ctx.onMouseEnter(); })("mouseleave", function CircleComponent_mouseleave_HostBindingHandler() { return ctx.onMouseLeave(); });
-        } }, inputs: { cx: "cx", cy: "cy", r: "r", fill: "fill", stroke: "stroke", data: "data", classNames: "classNames", circleOpacity: "circleOpacity", pointerEvents: "pointerEvents" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$V, decls: 1, vars: 8, template: function CircleComponent_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { cx: "cx", cy: "cy", r: "r", fill: "fill", stroke: "stroke", data: "data", classNames: "classNames", circleOpacity: "circleOpacity", pointerEvents: "pointerEvents" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$$, decls: 1, vars: 8, template: function CircleComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelement(0, "circle");
         } if (rf & 2) {
@@ -3254,7 +3254,7 @@ class CircleComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(CircleComponent, { className: "CircleComponent", filePath: "lib/common/circle.component.ts", lineNumber: 29 }); })();
 
-const _c0$U = ["ngx-charts-svg-linear-gradient", ""];
+const _c0$_ = ["ngx-charts-svg-linear-gradient", ""];
 function SvgLinearGradientComponent__svg_stop_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "stop");
@@ -3280,7 +3280,7 @@ class SvgLinearGradientComponent {
         }
     }
     static { this.ɵfac = function SvgLinearGradientComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || SvgLinearGradientComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: SvgLinearGradientComponent, selectors: [["g", "ngx-charts-svg-linear-gradient", ""]], inputs: { orientation: "orientation", name: "name", stops: "stops" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$U, decls: 2, vars: 6, consts: [[3, "id"], [3, "stop-color", "stop-opacity", 4, "ngFor", "ngForOf"]], template: function SvgLinearGradientComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: SvgLinearGradientComponent, selectors: [["g", "ngx-charts-svg-linear-gradient", ""]], inputs: { orientation: "orientation", name: "name", stops: "stops" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$_, decls: 2, vars: 6, consts: [[3, "id"], [3, "stop-color", "stop-opacity", 4, "ngFor", "ngForOf"]], template: function SvgLinearGradientComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "linearGradient", 0);
             i0.ɵɵtemplate(1, SvgLinearGradientComponent__svg_stop_1_Template, 1, 5, "stop", 1);
@@ -3318,8 +3318,8 @@ class SvgLinearGradientComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(SvgLinearGradientComponent, { className: "SvgLinearGradientComponent", filePath: "lib/common/svg-linear-gradient.component.ts", lineNumber: 20 }); })();
 
-const _c0$T = ["ngx-charts-circle-series", ""];
-const _c1$r = a0 => ({ name: a0 });
+const _c0$Z = ["ngx-charts-circle-series", ""];
+const _c1$s = a0 => ({ name: a0 });
 function CircleSeriesComponent__svg_g_0__svg_rect_3_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "rect", 4);
@@ -3354,7 +3354,7 @@ function CircleSeriesComponent__svg_g_0_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵadvance();
     i0.ɵɵproperty("ngIf", ctx_r1.isSSR && ctx_r1.barVisible && ctx_r1.type === "standard");
     i0.ɵɵadvance();
-    i0.ɵɵclassProp("active", ctx_r1.isActive(i0.ɵɵpureFunction1(20, _c1$r, ctx_r1.circle.seriesName)));
+    i0.ɵɵclassProp("active", ctx_r1.isActive(i0.ɵɵpureFunction1(20, _c1$s, ctx_r1.circle.seriesName)));
     i0.ɵɵproperty("cx", ctx_r1.circle.cx)("cy", ctx_r1.circle.cy)("r", ctx_r1.circle.radius)("fill", ctx_r1.circle.color)("pointerEvents", ctx_r1.circle.value === 0 ? "none" : "all")("data", ctx_r1.circle.value)("classNames", ctx_r1.circle.classNames)("tooltipDisabled", ctx_r1.tooltipDisabled)("tooltipPlacement", ctx_r1.placementTypes.Top)("tooltipType", ctx_r1.styleTypes.tooltip)("tooltipTitle", ctx_r1.tooltipTemplate ? undefined : ctx_r1.getTooltipText(ctx_r1.circle))("tooltipTemplate", ctx_r1.tooltipTemplate)("tooltipContext", ctx_r1.circle.data);
 } }
 var SeriesType;
@@ -3520,7 +3520,7 @@ class CircleSeriesComponent {
         this.deactivate.emit({ name: this.data.name });
     }
     static { this.ɵfac = function CircleSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || CircleSeriesComponent)(i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: CircleSeriesComponent, selectors: [["g", "ngx-charts-circle-series", ""]], inputs: { data: "data", type: "type", xScale: "xScale", yScale: "yScale", colors: "colors", scaleType: "scaleType", visibleValue: "visibleValue", activeEntries: "activeEntries", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$T, decls: 1, vars: 1, consts: [[4, "ngIf"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"], ["class", "tooltip-bar", 4, "ngIf"], ["ngx-charts-circle", "", "ngx-tooltip", "", 1, "circle", 3, "select", "activate", "deactivate", "cx", "cy", "r", "fill", "pointerEvents", "data", "classNames", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"], [1, "tooltip-bar"]], template: function CircleSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: CircleSeriesComponent, selectors: [["g", "ngx-charts-circle-series", ""]], inputs: { data: "data", type: "type", xScale: "xScale", yScale: "yScale", colors: "colors", scaleType: "scaleType", visibleValue: "visibleValue", activeEntries: "activeEntries", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$Z, decls: 1, vars: 1, consts: [[4, "ngIf"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"], ["class", "tooltip-bar", 4, "ngIf"], ["ngx-charts-circle", "", "ngx-tooltip", "", 1, "circle", 3, "select", "activate", "deactivate", "cx", "cy", "r", "fill", "pointerEvents", "data", "classNames", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"], [1, "tooltip-bar"]], template: function CircleSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, CircleSeriesComponent__svg_g_0_Template, 6, 22, "g", 0);
         } if (rf & 2) {
             i0.ɵɵproperty("ngIf", ctx.circle);
@@ -3637,10 +3637,10 @@ class CircleSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(CircleSeriesComponent, { className: "CircleSeriesComponent", filePath: "lib/common/circle-series.component.ts", lineNumber: 116 }); })();
 
-const _c0$S = ["ngx-charts-grid-panel", ""];
+const _c0$Y = ["ngx-charts-grid-panel", ""];
 class GridPanelComponent {
     static { this.ɵfac = function GridPanelComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || GridPanelComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: GridPanelComponent, selectors: [["g", "ngx-charts-grid-panel", ""]], inputs: { width: "width", height: "height", x: "x", y: "y" }, standalone: false, attrs: _c0$S, decls: 1, vars: 4, consts: [["stroke", "none", 1, "gridpanel"]], template: function GridPanelComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: GridPanelComponent, selectors: [["g", "ngx-charts-grid-panel", ""]], inputs: { width: "width", height: "height", x: "x", y: "y" }, standalone: false, attrs: _c0$Y, decls: 1, vars: 4, consts: [["stroke", "none", 1, "gridpanel"]], template: function GridPanelComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelement(0, "rect", 0);
         } if (rf & 2) {
@@ -3668,7 +3668,7 @@ class GridPanelComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(GridPanelComponent, { className: "GridPanelComponent", filePath: "lib/common/grid-panel.component.ts", lineNumber: 11 }); })();
 
-const _c0$R = ["ngx-charts-grid-panel-series", ""];
+const _c0$X = ["ngx-charts-grid-panel-series", ""];
 function GridPanelSeriesComponent__svg_g_0_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "g", 1);
@@ -3732,7 +3732,7 @@ class GridPanelSeriesComponent {
         });
     }
     static { this.ɵfac = function GridPanelSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || GridPanelSeriesComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: GridPanelSeriesComponent, selectors: [["g", "ngx-charts-grid-panel-series", ""]], inputs: { data: "data", dims: "dims", xScale: "xScale", yScale: "yScale", orient: "orient" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$R, decls: 1, vars: 1, consts: [["ngx-charts-grid-panel", "", 3, "height", "width", "x", "y", "grid-panel", "odd", "even", 4, "ngFor", "ngForOf"], ["ngx-charts-grid-panel", "", 3, "height", "width", "x", "y"]], template: function GridPanelSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: GridPanelSeriesComponent, selectors: [["g", "ngx-charts-grid-panel-series", ""]], inputs: { data: "data", dims: "dims", xScale: "xScale", yScale: "yScale", orient: "orient" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$X, decls: 1, vars: 1, consts: [["ngx-charts-grid-panel", "", 3, "height", "width", "x", "y", "grid-panel", "odd", "even", 4, "ngFor", "ngForOf"], ["ngx-charts-grid-panel", "", 3, "height", "width", "x", "y"]], template: function GridPanelSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, GridPanelSeriesComponent__svg_g_0_Template, 1, 10, "g", 0);
         } if (rf & 2) {
             i0.ɵɵproperty("ngForOf", ctx.gridPanels);
@@ -3771,7 +3771,7 @@ class GridPanelSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(GridPanelSeriesComponent, { className: "GridPanelSeriesComponent", filePath: "lib/common/grid-panel-series.component.ts", lineNumber: 37 }); })();
 
-const _c0$Q = ["ngx-charts-svg-radial-gradient", ""];
+const _c0$W = ["ngx-charts-svg-radial-gradient", ""];
 function SvgRadialGradientComponent__svg_stop_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "stop");
@@ -3810,7 +3810,7 @@ class SvgRadialGradientComponent {
         }
     }
     static { this.ɵfac = function SvgRadialGradientComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || SvgRadialGradientComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: SvgRadialGradientComponent, selectors: [["g", "ngx-charts-svg-radial-gradient", ""]], inputs: { color: "color", name: "name", startOpacity: "startOpacity", endOpacity: "endOpacity", cx: "cx", cy: "cy", stops: "stops" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$Q, decls: 2, vars: 5, consts: [["gradientUnits", "userSpaceOnUse", 3, "id"], [3, "stop-color", "stop-opacity", 4, "ngFor", "ngForOf"]], template: function SvgRadialGradientComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: SvgRadialGradientComponent, selectors: [["g", "ngx-charts-svg-radial-gradient", ""]], inputs: { color: "color", name: "name", startOpacity: "startOpacity", endOpacity: "endOpacity", cx: "cx", cy: "cy", stops: "stops" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$W, decls: 2, vars: 5, consts: [["gradientUnits", "userSpaceOnUse", 3, "id"], [3, "stop-color", "stop-opacity", 4, "ngFor", "ngForOf"]], template: function SvgRadialGradientComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "radialGradient", 0);
             i0.ɵɵtemplate(1, SvgRadialGradientComponent__svg_stop_1_Template, 1, 5, "stop", 1);
@@ -3856,7 +3856,7 @@ class SvgRadialGradientComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(SvgRadialGradientComponent, { className: "SvgRadialGradientComponent", filePath: "lib/common/svg-radial-gradient.component.ts", lineNumber: 19 }); })();
 
-const _c0$P = ["ngx-charts-area", ""];
+const _c0$V = ["ngx-charts-area", ""];
 function AreaComponent__svg_defs_0_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementStart(0, "defs");
@@ -3936,7 +3936,7 @@ class AreaComponent {
         ];
     }
     static { this.ɵfac = function AreaComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || AreaComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AreaComponent, selectors: [["g", "ngx-charts-area", ""]], inputs: { data: "data", path: "path", startingPath: "startingPath", fill: "fill", opacity: "opacity", startOpacity: "startOpacity", endOpacity: "endOpacity", gradient: "gradient", stops: "stops", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$P, decls: 2, vars: 5, consts: [[4, "ngIf"], [1, "area"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"]], template: function AreaComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AreaComponent, selectors: [["g", "ngx-charts-area", ""]], inputs: { data: "data", path: "path", startingPath: "startingPath", fill: "fill", opacity: "opacity", startOpacity: "startOpacity", endOpacity: "endOpacity", gradient: "gradient", stops: "stops", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$V, decls: 2, vars: 5, consts: [[4, "ngIf"], [1, "area"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"]], template: function AreaComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, AreaComponent__svg_defs_0_Template, 2, 3, "defs", 0);
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelement(1, "path", 1);
@@ -4050,7 +4050,7 @@ function decimalChecker(countTo) {
     return 0;
 }
 
-const _c0$O = ["ngx-charts-count-up", ""];
+const _c0$U = ["ngx-charts-count-up", ""];
 /**
  * Count up component
  *
@@ -4113,7 +4113,7 @@ class CountUpDirective {
         this.animationReq = count(this.countFrom, this.countTo, this.countDecimals, this.countDuration, callback);
     }
     static { this.ɵfac = function CountUpDirective_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || CountUpDirective)(i0.ɵɵdirectiveInject(i0.ChangeDetectorRef), i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: CountUpDirective, selectors: [["", "ngx-charts-count-up", ""]], inputs: { countDuration: "countDuration", countPrefix: "countPrefix", countSuffix: "countSuffix", valueFormatting: "valueFormatting", countDecimals: "countDecimals", countTo: "countTo", countFrom: "countFrom" }, outputs: { countChange: "countChange", countFinish: "countFinish" }, standalone: false, attrs: _c0$O, decls: 1, vars: 1, template: function CountUpDirective_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: CountUpDirective, selectors: [["", "ngx-charts-count-up", ""]], inputs: { countDuration: "countDuration", countPrefix: "countPrefix", countSuffix: "countSuffix", valueFormatting: "valueFormatting", countDecimals: "countDecimals", countTo: "countTo", countFrom: "countFrom" }, outputs: { countChange: "countChange", countFinish: "countFinish" }, standalone: false, attrs: _c0$U, decls: 1, vars: 1, template: function CountUpDirective_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtext(0);
         } if (rf & 2) {
             i0.ɵɵtextInterpolate1(" ", ctx.value, " ");
@@ -4173,8 +4173,8 @@ function createMouseEvent(name, bubbles = false, cancelable = true) {
     }
 }
 
-const _c0$N = ["tooltipAnchor"];
-const _c1$q = ["ngx-charts-tooltip-area", ""];
+const _c0$T = ["tooltipAnchor"];
+const _c1$r = ["ngx-charts-tooltip-area", ""];
 function TooltipArea__svg_ng_template_2_div_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementStart(0, "div", 6);
     i0.ɵɵelement(1, "span", 7);
@@ -4344,11 +4344,11 @@ class TooltipArea {
     }
     static { this.ɵfac = function TooltipArea_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || TooltipArea)(i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: TooltipArea, selectors: [["g", "ngx-charts-tooltip-area", ""]], viewQuery: function TooltipArea_Query(rf, ctx) { if (rf & 1) {
-            i0.ɵɵviewQuery(_c0$N, 5);
+            i0.ɵɵviewQuery(_c0$T, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipAnchor = _t.first);
-        } }, inputs: { dims: "dims", xSet: "xSet", xScale: "xScale", yScale: "yScale", results: "results", colors: "colors", showPercentage: "showPercentage", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate" }, outputs: { hover: "hover" }, standalone: false, attrs: _c1$q, decls: 6, vars: 18, consts: [["defaultTooltipTemplate", ""], ["tooltipAnchor", ""], ["y", "0", 1, "tooltip-area", 2, "opacity", "0", "cursor", "'auto'", 3, "mousemove", "mouseleave"], ["y", "0", "ngx-tooltip", "", 1, "tooltip-anchor", 3, "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipSpacing", "tooltipTemplate", "tooltipContext", "tooltipImmediateExit"], [1, "area-tooltip-container"], ["class", "tooltip-item", 4, "ngFor", "ngForOf"], [1, "tooltip-item"], [1, "tooltip-item-color"]], template: function TooltipArea_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { dims: "dims", xSet: "xSet", xScale: "xScale", yScale: "yScale", results: "results", colors: "colors", showPercentage: "showPercentage", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate" }, outputs: { hover: "hover" }, standalone: false, attrs: _c1$r, decls: 6, vars: 18, consts: [["defaultTooltipTemplate", ""], ["tooltipAnchor", ""], ["y", "0", 1, "tooltip-area", 2, "opacity", "0", "cursor", "'auto'", 3, "mousemove", "mouseleave"], ["y", "0", "ngx-tooltip", "", 1, "tooltip-anchor", 3, "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipSpacing", "tooltipTemplate", "tooltipContext", "tooltipImmediateExit"], [1, "area-tooltip-container"], ["class", "tooltip-item", 4, "ngFor", "ngForOf"], [1, "tooltip-item"], [1, "tooltip-item-color"]], template: function TooltipArea_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g")(1, "rect", 2);
             i0.ɵɵlistener("mousemove", function TooltipArea_Template_rect_mousemove_1_listener($event) { return ctx.mouseMove($event); })("mouseleave", function TooltipArea_Template_rect_mouseleave_1_listener() { return ctx.hideTooltip(); });
@@ -4474,8 +4474,8 @@ class TooltipArea {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(TooltipArea, { className: "TooltipArea", filePath: "lib/common/tooltip-area.component.ts", lineNumber: 94 }); })();
 
-const _c0$M = ["ngx-charts-timeline", ""];
-const _c1$p = ["*"];
+const _c0$S = ["ngx-charts-timeline", ""];
+const _c1$q = ["*"];
 class Timeline {
     constructor(element, cd) {
         this.cd = cd;
@@ -4590,7 +4590,7 @@ class Timeline {
         return dims;
     }
     static { this.ɵfac = function Timeline_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || Timeline)(i0.ɵɵdirectiveInject(i0.ElementRef), i0.ɵɵdirectiveInject(i0.ChangeDetectorRef)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: Timeline, selectors: [["g", "ngx-charts-timeline", ""]], inputs: { view: "view", results: "results", scheme: "scheme", customColors: "customColors", legend: "legend", autoScale: "autoScale", scaleType: "scaleType", height: "height" }, outputs: { select: "select", onDomainChange: "onDomainChange" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$M, ngContentSelectors: _c1$p, decls: 7, vars: 4, consts: [[1, "timeline"], ["in", "SourceGraphic", "type", "matrix", "values", "0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0"], [1, "embedded-chart"], ["x", "0", "y", "0", 1, "brush-background"], [1, "brush"]], template: function Timeline_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: Timeline, selectors: [["g", "ngx-charts-timeline", ""]], inputs: { view: "view", results: "results", scheme: "scheme", customColors: "customColors", legend: "legend", autoScale: "autoScale", scaleType: "scaleType", height: "height" }, outputs: { select: "select", onDomainChange: "onDomainChange" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$S, ngContentSelectors: _c1$q, decls: 7, vars: 4, consts: [[1, "timeline"], ["in", "SourceGraphic", "type", "matrix", "values", "0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0"], [1, "embedded-chart"], ["x", "0", "y", "0", 1, "brush-background"], [1, "brush"]], template: function Timeline_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵprojectionDef();
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g", 0)(1, "filter");
@@ -5532,7 +5532,7 @@ function sortByTime(data, property, direction = 'asc') {
     });
 }
 
-const _c0$L = ["ngx-charts-area-series", ""];
+const _c0$R = ["ngx-charts-area-series", ""];
 class AreaSeriesComponent {
     constructor() {
         this.baseValue = 'auto';
@@ -5626,7 +5626,7 @@ class AreaSeriesComponent {
         return item === undefined;
     }
     static { this.ɵfac = function AreaSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || AreaSeriesComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AreaSeriesComponent, selectors: [["g", "ngx-charts-area-series", ""]], inputs: { data: "data", xScale: "xScale", yScale: "yScale", baseValue: "baseValue", colors: "colors", scaleType: "scaleType", stacked: "stacked", normalized: "normalized", gradient: "gradient", curve: "curve", activeEntries: "activeEntries", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$L, decls: 1, vars: 12, consts: [["ngx-charts-area", "", 1, "area-series", 3, "data", "path", "fill", "stops", "startingPath", "opacity", "gradient", "animations"]], template: function AreaSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AreaSeriesComponent, selectors: [["g", "ngx-charts-area-series", ""]], inputs: { data: "data", xScale: "xScale", yScale: "yScale", baseValue: "baseValue", colors: "colors", scaleType: "scaleType", stacked: "stacked", normalized: "normalized", gradient: "gradient", curve: "curve", activeEntries: "activeEntries", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$R, decls: 1, vars: 12, consts: [["ngx-charts-area", "", 1, "area-series", 3, "data", "path", "fill", "stops", "startingPath", "opacity", "gradient", "animations"]], template: function AreaSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelement(0, "g", 0);
         } if (rf & 2) {
@@ -5686,9 +5686,9 @@ class AreaSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(AreaSeriesComponent, { className: "AreaSeriesComponent", filePath: "lib/area-chart/area-series.component.ts", lineNumber: 38 }); })();
 
-const _c0$K = ["tooltipTemplate"];
-const _c1$o = ["seriesTooltipTemplate"];
-const _c2$7 = (a0, a1) => [a0, a1];
+const _c0$Q = ["tooltipTemplate"];
+const _c1$p = ["seriesTooltipTemplate"];
+const _c2$8 = (a0, a1) => [a0, a1];
 function AreaChartComponent__svg_g_5_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -5769,7 +5769,7 @@ function AreaChartComponent__svg_g_10_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementEnd();
 } if (rf & 2) {
     const ctx_r1 = i0.ɵɵnextContext();
-    i0.ɵɵproperty("results", ctx_r1.results)("view", i0.ɵɵpureFunction2(10, _c2$7, ctx_r1.timelineWidth, ctx_r1.height))("height", ctx_r1.timelineHeight)("scheme", ctx_r1.scheme)("customColors", ctx_r1.customColors)("legend", ctx_r1.legend)("scaleType", ctx_r1.scaleType);
+    i0.ɵɵproperty("results", ctx_r1.results)("view", i0.ɵɵpureFunction2(10, _c2$8, ctx_r1.timelineWidth, ctx_r1.height))("height", ctx_r1.timelineHeight)("scheme", ctx_r1.scheme)("customColors", ctx_r1.customColors)("legend", ctx_r1.legend)("scaleType", ctx_r1.scaleType);
     i0.ɵɵattribute("transform", ctx_r1.timelineTransform);
     i0.ɵɵadvance();
     i0.ɵɵproperty("ngForOf", ctx_r1.results)("ngForTrackBy", ctx_r1.trackBy);
@@ -6034,7 +6034,7 @@ class AreaChartComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵAreaChartComponent_BaseFactory; return function AreaChartComponent_Factory(__ngFactoryType__) { return (ɵAreaChartComponent_BaseFactory || (ɵAreaChartComponent_BaseFactory = i0.ɵɵgetInheritedFactory(AreaChartComponent)))(__ngFactoryType__ || AreaChartComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AreaChartComponent, selectors: [["ngx-charts-area-chart"]], contentQueries: function AreaChartComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$K, 5)(dirIndex, _c1$o, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$Q, 5)(dirIndex, _c1$p, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -6056,7 +6056,7 @@ class AreaChartComponent extends BaseChartComponent {
             i0.ɵɵtemplate(10, AreaChartComponent__svg_g_10_Template, 2, 13, "g", 6);
             i0.ɵɵelementEnd();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c2$7, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c2$8, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance(2);
             i0.ɵɵattribute("id", ctx.clipPathId);
             i0.ɵɵadvance();
@@ -6303,9 +6303,9 @@ class AreaChartComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(AreaChartComponent, { className: "AreaChartComponent", filePath: "lib/area-chart/area-chart.component.ts", lineNumber: 171 }); })();
 
-const _c0$J = ["tooltipTemplate"];
-const _c1$n = ["seriesTooltipTemplate"];
-const _c2$6 = (a0, a1) => [a0, a1];
+const _c0$P = ["tooltipTemplate"];
+const _c1$o = ["seriesTooltipTemplate"];
+const _c2$7 = (a0, a1) => [a0, a1];
 function AreaChartNormalizedComponent__svg_g_5_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -6386,7 +6386,7 @@ function AreaChartNormalizedComponent__svg_g_10_Template(rf, ctx) { if (rf & 1) 
     i0.ɵɵelementEnd();
 } if (rf & 2) {
     const ctx_r1 = i0.ɵɵnextContext();
-    i0.ɵɵproperty("results", ctx_r1.results)("view", i0.ɵɵpureFunction2(10, _c2$6, ctx_r1.timelineWidth, ctx_r1.height))("height", ctx_r1.timelineHeight)("scheme", ctx_r1.scheme)("customColors", ctx_r1.customColors)("legend", ctx_r1.legend)("scaleType", ctx_r1.scaleType);
+    i0.ɵɵproperty("results", ctx_r1.results)("view", i0.ɵɵpureFunction2(10, _c2$7, ctx_r1.timelineWidth, ctx_r1.height))("height", ctx_r1.timelineHeight)("scheme", ctx_r1.scheme)("customColors", ctx_r1.customColors)("legend", ctx_r1.legend)("scaleType", ctx_r1.scaleType);
     i0.ɵɵattribute("transform", ctx_r1.timelineTransform);
     i0.ɵɵadvance();
     i0.ɵɵproperty("ngForOf", ctx_r1.results)("ngForTrackBy", ctx_r1.trackBy);
@@ -6653,7 +6653,7 @@ class AreaChartNormalizedComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵAreaChartNormalizedComponent_BaseFactory; return function AreaChartNormalizedComponent_Factory(__ngFactoryType__) { return (ɵAreaChartNormalizedComponent_BaseFactory || (ɵAreaChartNormalizedComponent_BaseFactory = i0.ɵɵgetInheritedFactory(AreaChartNormalizedComponent)))(__ngFactoryType__ || AreaChartNormalizedComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AreaChartNormalizedComponent, selectors: [["ngx-charts-area-chart-normalized"]], contentQueries: function AreaChartNormalizedComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$J, 5)(dirIndex, _c1$n, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$P, 5)(dirIndex, _c1$o, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -6675,7 +6675,7 @@ class AreaChartNormalizedComponent extends BaseChartComponent {
             i0.ɵɵtemplate(10, AreaChartNormalizedComponent__svg_g_10_Template, 2, 13, "g", 6);
             i0.ɵɵelementEnd();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c2$6, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c2$7, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance(2);
             i0.ɵɵattribute("id", ctx.clipPathId);
             i0.ɵɵadvance();
@@ -6903,9 +6903,9 @@ class AreaChartNormalizedComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(AreaChartNormalizedComponent, { className: "AreaChartNormalizedComponent", filePath: "lib/area-chart/area-chart-normalized.component.ts", lineNumber: 169 }); })();
 
-const _c0$I = ["tooltipTemplate"];
-const _c1$m = ["seriesTooltipTemplate"];
-const _c2$5 = (a0, a1) => [a0, a1];
+const _c0$O = ["tooltipTemplate"];
+const _c1$n = ["seriesTooltipTemplate"];
+const _c2$6 = (a0, a1) => [a0, a1];
 function AreaChartStackedComponent__svg_g_5_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -6986,7 +6986,7 @@ function AreaChartStackedComponent__svg_g_10_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementEnd();
 } if (rf & 2) {
     const ctx_r1 = i0.ɵɵnextContext();
-    i0.ɵɵproperty("results", ctx_r1.results)("view", i0.ɵɵpureFunction2(10, _c2$5, ctx_r1.timelineWidth, ctx_r1.height))("height", ctx_r1.timelineHeight)("scheme", ctx_r1.scheme)("customColors", ctx_r1.customColors)("legend", ctx_r1.legend)("scaleType", ctx_r1.scaleType);
+    i0.ɵɵproperty("results", ctx_r1.results)("view", i0.ɵɵpureFunction2(10, _c2$6, ctx_r1.timelineWidth, ctx_r1.height))("height", ctx_r1.timelineHeight)("scheme", ctx_r1.scheme)("customColors", ctx_r1.customColors)("legend", ctx_r1.legend)("scaleType", ctx_r1.scaleType);
     i0.ɵɵattribute("transform", ctx_r1.timelineTransform);
     i0.ɵɵadvance();
     i0.ɵɵproperty("ngForOf", ctx_r1.results)("ngForTrackBy", ctx_r1.trackBy);
@@ -7260,7 +7260,7 @@ class AreaChartStackedComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵAreaChartStackedComponent_BaseFactory; return function AreaChartStackedComponent_Factory(__ngFactoryType__) { return (ɵAreaChartStackedComponent_BaseFactory || (ɵAreaChartStackedComponent_BaseFactory = i0.ɵɵgetInheritedFactory(AreaChartStackedComponent)))(__ngFactoryType__ || AreaChartStackedComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AreaChartStackedComponent, selectors: [["ngx-charts-area-chart-stacked"]], contentQueries: function AreaChartStackedComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$I, 5)(dirIndex, _c1$m, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$O, 5)(dirIndex, _c1$n, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -7282,7 +7282,7 @@ class AreaChartStackedComponent extends BaseChartComponent {
             i0.ɵɵtemplate(10, AreaChartStackedComponent__svg_g_10_Template, 2, 13, "g", 6);
             i0.ɵɵelementEnd();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c2$5, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c2$6, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance(2);
             i0.ɵɵattribute("id", ctx.clipPathId);
             i0.ɵɵadvance();
@@ -7532,7 +7532,7 @@ class AreaChartModule {
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(AreaChartModule, { declarations: [AreaChartComponent, AreaChartNormalizedComponent, AreaChartStackedComponent, AreaSeriesComponent], imports: [ChartCommonModule], exports: [AreaChartComponent, AreaChartNormalizedComponent, AreaChartStackedComponent, AreaSeriesComponent] }); })();
 
-const _c0$H = ["ngx-charts-bar", ""];
+const _c0$N = ["ngx-charts-bar", ""];
 function BarComponent__svg_defs_0_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementStart(0, "defs");
@@ -7704,7 +7704,7 @@ class BarComponent {
     static { this.ɵfac = function BarComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || BarComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarComponent, selectors: [["g", "ngx-charts-bar", ""]], hostBindings: function BarComponent_HostBindings(rf, ctx) { if (rf & 1) {
             i0.ɵɵlistener("mouseenter", function BarComponent_mouseenter_HostBindingHandler() { return ctx.onMouseEnter(); })("mouseleave", function BarComponent_mouseleave_HostBindingHandler() { return ctx.onMouseLeave(); });
-        } }, inputs: { fill: "fill", data: "data", width: "width", height: "height", x: "x", y: "y", orientation: "orientation", roundEdges: "roundEdges", gradient: "gradient", offset: "offset", isActive: "isActive", stops: "stops", animations: "animations", ariaLabel: "ariaLabel", noBarWhenZero: "noBarWhenZero" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$H, decls: 2, vars: 8, consts: [[4, "ngIf"], ["stroke", "none", "role", "img", "tabIndex", "-1", 1, "bar", 3, "click"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"]], template: function BarComponent_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { fill: "fill", data: "data", width: "width", height: "height", x: "x", y: "y", orientation: "orientation", roundEdges: "roundEdges", gradient: "gradient", offset: "offset", isActive: "isActive", stops: "stops", animations: "animations", ariaLabel: "ariaLabel", noBarWhenZero: "noBarWhenZero" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$N, decls: 2, vars: 8, consts: [[4, "ngIf"], ["stroke", "none", "role", "img", "tabIndex", "-1", 1, "bar", 3, "click"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"]], template: function BarComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, BarComponent__svg_defs_0_Template, 2, 3, "defs", 0);
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(1, "path", 1);
@@ -7799,7 +7799,7 @@ var D0Types;
     D0Types["negative"] = "negative";
 })(D0Types || (D0Types = {}));
 
-const _c0$G = ["ngx-charts-bar-label", ""];
+const _c0$M = ["ngx-charts-bar-label", ""];
 class BarLabelComponent {
     constructor(element) {
         this.dimensionsChanged = new EventEmitter();
@@ -7855,7 +7855,7 @@ class BarLabelComponent {
         }
     }
     static { this.ɵfac = function BarLabelComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || BarLabelComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarLabelComponent, selectors: [["g", "ngx-charts-bar-label", ""]], inputs: { value: "value", valueFormatting: "valueFormatting", barX: "barX", barY: "barY", barWidth: "barWidth", barHeight: "barHeight", orientation: "orientation" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$G, decls: 2, vars: 5, consts: [["alignment-baseline", "middle", 1, "textDataLabel"]], template: function BarLabelComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarLabelComponent, selectors: [["g", "ngx-charts-bar-label", ""]], inputs: { value: "value", valueFormatting: "valueFormatting", barX: "barX", barY: "barY", barWidth: "barWidth", barHeight: "barHeight", orientation: "orientation" }, outputs: { dimensionsChanged: "dimensionsChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$M, decls: 2, vars: 5, consts: [["alignment-baseline", "middle", 1, "textDataLabel"]], template: function BarLabelComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "text", 0);
             i0.ɵɵtext(1);
@@ -7899,7 +7899,7 @@ class BarLabelComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BarLabelComponent, { className: "BarLabelComponent", filePath: "lib/bar-chart/bar-label.component.ts", lineNumber: 32 }); })();
 
-const _c0$F = ["ngx-charts-series-horizontal", ""];
+const _c0$L = ["ngx-charts-series-horizontal", ""];
 function SeriesHorizontal__svg_g_0_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -8106,7 +8106,7 @@ class SeriesHorizontal {
         this.select.emit(data);
     }
     static { this.ɵfac = function SeriesHorizontal_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || SeriesHorizontal)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: SeriesHorizontal, selectors: [["g", "ngx-charts-series-horizontal", ""]], inputs: { dims: "dims", type: "type", series: "series", xScale: "xScale", yScale: "yScale", colors: "colors", tooltipDisabled: "tooltipDisabled", gradient: "gradient", activeEntries: "activeEntries", seriesName: "seriesName", tooltipTemplate: "tooltipTemplate", roundEdges: "roundEdges", animations: "animations", showDataLabel: "showDataLabel", dataLabelFormatting: "dataLabelFormatting", noBarWhenZero: "noBarWhenZero" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate", dataLabelWidthChanged: "dataLabelWidthChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$F, decls: 2, vars: 3, consts: [["ngx-charts-bar", "", "ngx-tooltip", "", 3, "width", "height", "x", "y", "fill", "stops", "data", "orientation", "roundEdges", "gradient", "isActive", "ariaLabel", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "noBarWhenZero", "select", "activate", "deactivate", 4, "ngFor", "ngForOf", "ngForTrackBy"], [4, "ngIf"], ["ngx-charts-bar", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "width", "height", "x", "y", "fill", "stops", "data", "orientation", "roundEdges", "gradient", "isActive", "ariaLabel", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "noBarWhenZero"], ["ngx-charts-bar-label", "", 3, "barX", "barY", "barWidth", "barHeight", "value", "valueFormatting", "orientation", "dimensionsChanged", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-bar-label", "", 3, "dimensionsChanged", "barX", "barY", "barWidth", "barHeight", "value", "valueFormatting", "orientation"]], template: function SeriesHorizontal_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: SeriesHorizontal, selectors: [["g", "ngx-charts-series-horizontal", ""]], inputs: { dims: "dims", type: "type", series: "series", xScale: "xScale", yScale: "yScale", colors: "colors", tooltipDisabled: "tooltipDisabled", gradient: "gradient", activeEntries: "activeEntries", seriesName: "seriesName", tooltipTemplate: "tooltipTemplate", roundEdges: "roundEdges", animations: "animations", showDataLabel: "showDataLabel", dataLabelFormatting: "dataLabelFormatting", noBarWhenZero: "noBarWhenZero" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate", dataLabelWidthChanged: "dataLabelWidthChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$L, decls: 2, vars: 3, consts: [["ngx-charts-bar", "", "ngx-tooltip", "", 3, "width", "height", "x", "y", "fill", "stops", "data", "orientation", "roundEdges", "gradient", "isActive", "ariaLabel", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "noBarWhenZero", "select", "activate", "deactivate", 4, "ngFor", "ngForOf", "ngForTrackBy"], [4, "ngIf"], ["ngx-charts-bar", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "width", "height", "x", "y", "fill", "stops", "data", "orientation", "roundEdges", "gradient", "isActive", "ariaLabel", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "noBarWhenZero"], ["ngx-charts-bar-label", "", 3, "barX", "barY", "barWidth", "barHeight", "value", "valueFormatting", "orientation", "dimensionsChanged", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-bar-label", "", 3, "dimensionsChanged", "barX", "barY", "barWidth", "barHeight", "value", "valueFormatting", "orientation"]], template: function SeriesHorizontal_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, SeriesHorizontal__svg_g_0_Template, 1, 21, "g", 0)(1, SeriesHorizontal__svg_g_1_Template, 2, 2, "g", 1);
         } if (rf & 2) {
             i0.ɵɵproperty("ngForOf", ctx.bars)("ngForTrackBy", ctx.trackBy);
@@ -8228,8 +8228,8 @@ class SeriesHorizontal {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(SeriesHorizontal, { className: "SeriesHorizontal", filePath: "lib/bar-chart/series-horizontal.component.ts", lineNumber: 75 }); })();
 
-const _c0$E = ["tooltipTemplate"];
-const _c1$l = (a0, a1) => [a0, a1];
+const _c0$K = ["tooltipTemplate"];
+const _c1$m = (a0, a1) => [a0, a1];
 function BarHorizontalComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -8420,7 +8420,7 @@ class BarHorizontalComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBarHorizontalComponent_BaseFactory; return function BarHorizontalComponent_Factory(__ngFactoryType__) { return (ɵBarHorizontalComponent_BaseFactory || (ɵBarHorizontalComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BarHorizontalComponent)))(__ngFactoryType__ || BarHorizontalComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarHorizontalComponent, selectors: [["ngx-charts-bar-horizontal"]], contentQueries: function BarHorizontalComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$E, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$K, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -8434,7 +8434,7 @@ class BarHorizontalComponent extends BaseChartComponent {
             i0.ɵɵlistener("select", function BarHorizontalComponent_Template_g_select_4_listener($event) { return ctx.onClick($event); })("activate", function BarHorizontalComponent_Template_g_activate_4_listener($event) { return ctx.onActivate($event); })("deactivate", function BarHorizontalComponent_Template_g_deactivate_4_listener($event) { return ctx.onDeactivate($event); })("dataLabelWidthChanged", function BarHorizontalComponent_Template_g_dataLabelWidthChanged_4_listener($event) { return ctx.onDataLabelMaxWidthChanged($event); });
             i0.ɵɵelementEnd()()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(22, _c1$l, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(22, _c1$m, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -8597,8 +8597,8 @@ class BarHorizontalComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BarHorizontalComponent, { className: "BarHorizontalComponent", filePath: "lib/bar-chart/bar-horizontal.component.ts", lineNumber: 98 }); })();
 
-const _c0$D = ["tooltipTemplate"];
-const _c1$k = (a0, a1) => [a0, a1];
+const _c0$J = ["tooltipTemplate"];
+const _c1$l = (a0, a1) => [a0, a1];
 function BarHorizontal2DComponent__svg_g_3_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -8881,7 +8881,7 @@ class BarHorizontal2DComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBarHorizontal2DComponent_BaseFactory; return function BarHorizontal2DComponent_Factory(__ngFactoryType__) { return (ɵBarHorizontal2DComponent_BaseFactory || (ɵBarHorizontal2DComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BarHorizontal2DComponent)))(__ngFactoryType__ || BarHorizontal2DComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarHorizontal2DComponent, selectors: [["ngx-charts-bar-horizontal-2d"]], contentQueries: function BarHorizontal2DComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$D, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$J, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -8894,7 +8894,7 @@ class BarHorizontal2DComponent extends BaseChartComponent {
             i0.ɵɵtemplate(3, BarHorizontal2DComponent__svg_g_3_Template, 1, 11, "g", 3)(4, BarHorizontal2DComponent__svg_g_4_Template, 1, 10, "g", 4)(5, BarHorizontal2DComponent__svg_g_5_Template, 2, 2, "g", 5)(6, BarHorizontal2DComponent__svg_g_6_Template, 2, 2, "g", 5);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(15, _c1$k, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(15, _c1$l, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -9119,8 +9119,8 @@ class BarHorizontal2DComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BarHorizontal2DComponent, { className: "BarHorizontal2DComponent", filePath: "lib/bar-chart/bar-horizontal-2d.component.ts", lineNumber: 159 }); })();
 
-const _c0$C = ["tooltipTemplate"];
-const _c1$j = (a0, a1) => [a0, a1];
+const _c0$I = ["tooltipTemplate"];
+const _c1$k = (a0, a1) => [a0, a1];
 function BarHorizontalNormalizedComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -9358,7 +9358,7 @@ class BarHorizontalNormalizedComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBarHorizontalNormalizedComponent_BaseFactory; return function BarHorizontalNormalizedComponent_Factory(__ngFactoryType__) { return (ɵBarHorizontalNormalizedComponent_BaseFactory || (ɵBarHorizontalNormalizedComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BarHorizontalNormalizedComponent)))(__ngFactoryType__ || BarHorizontalNormalizedComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarHorizontalNormalizedComponent, selectors: [["ngx-charts-bar-horizontal-normalized"]], contentQueries: function BarHorizontalNormalizedComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$C, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$I, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -9370,7 +9370,7 @@ class BarHorizontalNormalizedComponent extends BaseChartComponent {
             i0.ɵɵtemplate(2, BarHorizontalNormalizedComponent__svg_g_2_Template, 1, 11, "g", 2)(3, BarHorizontalNormalizedComponent__svg_g_3_Template, 1, 9, "g", 3)(4, BarHorizontalNormalizedComponent__svg_g_4_Template, 2, 2, "g", 4)(5, BarHorizontalNormalizedComponent__svg_g_5_Template, 2, 2, "g", 4);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c1$j, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c1$k, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -9564,8 +9564,8 @@ class BarHorizontalNormalizedComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BarHorizontalNormalizedComponent, { className: "BarHorizontalNormalizedComponent", filePath: "lib/bar-chart/bar-horizontal-normalized.component.ts", lineNumber: 140 }); })();
 
-const _c0$B = ["tooltipTemplate"];
-const _c1$i = (a0, a1) => [a0, a1];
+const _c0$H = ["tooltipTemplate"];
+const _c1$j = (a0, a1) => [a0, a1];
 function BarHorizontalStackedComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -9846,7 +9846,7 @@ class BarHorizontalStackedComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBarHorizontalStackedComponent_BaseFactory; return function BarHorizontalStackedComponent_Factory(__ngFactoryType__) { return (ɵBarHorizontalStackedComponent_BaseFactory || (ɵBarHorizontalStackedComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BarHorizontalStackedComponent)))(__ngFactoryType__ || BarHorizontalStackedComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarHorizontalStackedComponent, selectors: [["ngx-charts-bar-horizontal-stacked"]], contentQueries: function BarHorizontalStackedComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$B, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$H, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -9858,7 +9858,7 @@ class BarHorizontalStackedComponent extends BaseChartComponent {
             i0.ɵɵtemplate(2, BarHorizontalStackedComponent__svg_g_2_Template, 1, 11, "g", 2)(3, BarHorizontalStackedComponent__svg_g_3_Template, 1, 10, "g", 3)(4, BarHorizontalStackedComponent__svg_g_4_Template, 2, 2, "g", 4)(5, BarHorizontalStackedComponent__svg_g_5_Template, 2, 2, "g", 4);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c1$i, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c1$j, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -10068,7 +10068,7 @@ class BarHorizontalStackedComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BarHorizontalStackedComponent, { className: "BarHorizontalStackedComponent", filePath: "lib/bar-chart/bar-horizontal-stacked.component.ts", lineNumber: 149 }); })();
 
-const _c0$A = ["ngx-charts-series-vertical", ""];
+const _c0$G = ["ngx-charts-series-vertical", ""];
 function SeriesVerticalComponent__svg_g_0__svg_g_1_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -10319,7 +10319,7 @@ class SeriesVerticalComponent {
         return index + '#' + barLabel.series + '#' + barLabel.total;
     }
     static { this.ɵfac = function SeriesVerticalComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || SeriesVerticalComponent)(i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: SeriesVerticalComponent, selectors: [["g", "ngx-charts-series-vertical", ""]], inputs: { dims: "dims", type: "type", series: "series", xScale: "xScale", yScale: "yScale", colors: "colors", gradient: "gradient", activeEntries: "activeEntries", seriesName: "seriesName", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate", roundEdges: "roundEdges", animations: "animations", showDataLabel: "showDataLabel", dataLabelFormatting: "dataLabelFormatting", noBarWhenZero: "noBarWhenZero" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate", dataLabelHeightChanged: "dataLabelHeightChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$A, decls: 3, vars: 3, consts: [[4, "ngIf"], ["ngx-charts-bar", "", "ngx-tooltip", "", 3, "width", "height", "x", "y", "fill", "stops", "data", "orientation", "roundEdges", "gradient", "ariaLabel", "isActive", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "noBarWhenZero", "animations", "select", "activate", "deactivate", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-bar", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "width", "height", "x", "y", "fill", "stops", "data", "orientation", "roundEdges", "gradient", "ariaLabel", "isActive", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "noBarWhenZero", "animations"], ["ngx-charts-bar-label", "", 3, "barX", "barY", "barWidth", "barHeight", "value", "valueFormatting", "orientation", "dimensionsChanged", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-bar-label", "", 3, "dimensionsChanged", "barX", "barY", "barWidth", "barHeight", "value", "valueFormatting", "orientation"]], template: function SeriesVerticalComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: SeriesVerticalComponent, selectors: [["g", "ngx-charts-series-vertical", ""]], inputs: { dims: "dims", type: "type", series: "series", xScale: "xScale", yScale: "yScale", colors: "colors", gradient: "gradient", activeEntries: "activeEntries", seriesName: "seriesName", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate", roundEdges: "roundEdges", animations: "animations", showDataLabel: "showDataLabel", dataLabelFormatting: "dataLabelFormatting", noBarWhenZero: "noBarWhenZero" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate", dataLabelHeightChanged: "dataLabelHeightChanged" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$G, decls: 3, vars: 3, consts: [[4, "ngIf"], ["ngx-charts-bar", "", "ngx-tooltip", "", 3, "width", "height", "x", "y", "fill", "stops", "data", "orientation", "roundEdges", "gradient", "ariaLabel", "isActive", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "noBarWhenZero", "animations", "select", "activate", "deactivate", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-bar", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "width", "height", "x", "y", "fill", "stops", "data", "orientation", "roundEdges", "gradient", "ariaLabel", "isActive", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "noBarWhenZero", "animations"], ["ngx-charts-bar-label", "", 3, "barX", "barY", "barWidth", "barHeight", "value", "valueFormatting", "orientation", "dimensionsChanged", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-bar-label", "", 3, "dimensionsChanged", "barX", "barY", "barWidth", "barHeight", "value", "valueFormatting", "orientation"]], template: function SeriesVerticalComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, SeriesVerticalComponent__svg_g_0_Template, 2, 2, "g", 0)(1, SeriesVerticalComponent__svg_g_1_Template, 2, 2, "g", 0)(2, SeriesVerticalComponent__svg_g_2_Template, 2, 2, "g", 0);
         } if (rf & 2) {
             i0.ɵɵproperty("ngIf", !ctx.isSSR);
@@ -10479,8 +10479,8 @@ class SeriesVerticalComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(SeriesVerticalComponent, { className: "SeriesVerticalComponent", filePath: "lib/bar-chart/series-vertical.component.ts", lineNumber: 119 }); })();
 
-const _c0$z = ["tooltipTemplate"];
-const _c1$h = (a0, a1) => [a0, a1];
+const _c0$F = ["tooltipTemplate"];
+const _c1$i = (a0, a1) => [a0, a1];
 function BarVerticalComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -10678,7 +10678,7 @@ class BarVerticalComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBarVerticalComponent_BaseFactory; return function BarVerticalComponent_Factory(__ngFactoryType__) { return (ɵBarVerticalComponent_BaseFactory || (ɵBarVerticalComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BarVerticalComponent)))(__ngFactoryType__ || BarVerticalComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarVerticalComponent, selectors: [["ngx-charts-bar-vertical"]], contentQueries: function BarVerticalComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$z, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$F, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -10692,7 +10692,7 @@ class BarVerticalComponent extends BaseChartComponent {
             i0.ɵɵlistener("activate", function BarVerticalComponent_Template_g_activate_4_listener($event) { return ctx.onActivate($event); })("deactivate", function BarVerticalComponent_Template_g_deactivate_4_listener($event) { return ctx.onDeactivate($event); })("select", function BarVerticalComponent_Template_g_select_4_listener($event) { return ctx.onClick($event); })("dataLabelHeightChanged", function BarVerticalComponent_Template_g_dataLabelHeightChanged_4_listener($event) { return ctx.onDataLabelMaxHeightChanged($event); });
             i0.ɵɵelementEnd()()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(22, _c1$h, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(22, _c1$i, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -10856,8 +10856,8 @@ class BarVerticalComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BarVerticalComponent, { className: "BarVerticalComponent", filePath: "lib/bar-chart/bar-vertical.component.ts", lineNumber: 100 }); })();
 
-const _c0$y = ["tooltipTemplate"];
-const _c1$g = (a0, a1) => [a0, a1];
+const _c0$E = ["tooltipTemplate"];
+const _c1$h = (a0, a1) => [a0, a1];
 function BarVertical2DComponent__svg_g_3_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -11139,7 +11139,7 @@ class BarVertical2DComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBarVertical2DComponent_BaseFactory; return function BarVertical2DComponent_Factory(__ngFactoryType__) { return (ɵBarVertical2DComponent_BaseFactory || (ɵBarVertical2DComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BarVertical2DComponent)))(__ngFactoryType__ || BarVertical2DComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarVertical2DComponent, selectors: [["ngx-charts-bar-vertical-2d"]], contentQueries: function BarVertical2DComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$y, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$E, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -11152,7 +11152,7 @@ class BarVertical2DComponent extends BaseChartComponent {
             i0.ɵɵtemplate(3, BarVertical2DComponent__svg_g_3_Template, 1, 11, "g", 3)(4, BarVertical2DComponent__svg_g_4_Template, 1, 10, "g", 4)(5, BarVertical2DComponent__svg_g_5_Template, 2, 2, "g", 5)(6, BarVertical2DComponent__svg_g_6_Template, 2, 2, "g", 5);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(15, _c1$g, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(15, _c1$h, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -11372,8 +11372,8 @@ class BarVertical2DComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BarVertical2DComponent, { className: "BarVertical2DComponent", filePath: "lib/bar-chart/bar-vertical-2d.component.ts", lineNumber: 151 }); })();
 
-const _c0$x = ["tooltipTemplate"];
-const _c1$f = (a0, a1) => [a0, a1];
+const _c0$D = ["tooltipTemplate"];
+const _c1$g = (a0, a1) => [a0, a1];
 function BarVerticalNormalizedComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -11612,7 +11612,7 @@ class BarVerticalNormalizedComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBarVerticalNormalizedComponent_BaseFactory; return function BarVerticalNormalizedComponent_Factory(__ngFactoryType__) { return (ɵBarVerticalNormalizedComponent_BaseFactory || (ɵBarVerticalNormalizedComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BarVerticalNormalizedComponent)))(__ngFactoryType__ || BarVerticalNormalizedComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarVerticalNormalizedComponent, selectors: [["ngx-charts-bar-vertical-normalized"]], contentQueries: function BarVerticalNormalizedComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$x, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$D, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -11624,7 +11624,7 @@ class BarVerticalNormalizedComponent extends BaseChartComponent {
             i0.ɵɵtemplate(2, BarVerticalNormalizedComponent__svg_g_2_Template, 1, 10, "g", 2)(3, BarVerticalNormalizedComponent__svg_g_3_Template, 1, 10, "g", 3)(4, BarVerticalNormalizedComponent__svg_g_4_Template, 2, 2, "g", 4)(5, BarVerticalNormalizedComponent__svg_g_5_Template, 2, 2, "g", 4);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c1$f, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c1$g, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -11818,8 +11818,8 @@ class BarVerticalNormalizedComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BarVerticalNormalizedComponent, { className: "BarVerticalNormalizedComponent", filePath: "lib/bar-chart/bar-vertical-normalized.component.ts", lineNumber: 138 }); })();
 
-const _c0$w = ["tooltipTemplate"];
-const _c1$e = (a0, a1) => [a0, a1];
+const _c0$C = ["tooltipTemplate"];
+const _c1$f = (a0, a1) => [a0, a1];
 function BarVerticalStackedComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -12106,7 +12106,7 @@ class BarVerticalStackedComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBarVerticalStackedComponent_BaseFactory; return function BarVerticalStackedComponent_Factory(__ngFactoryType__) { return (ɵBarVerticalStackedComponent_BaseFactory || (ɵBarVerticalStackedComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BarVerticalStackedComponent)))(__ngFactoryType__ || BarVerticalStackedComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BarVerticalStackedComponent, selectors: [["ngx-charts-bar-vertical-stacked"]], contentQueries: function BarVerticalStackedComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$w, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$C, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -12118,7 +12118,7 @@ class BarVerticalStackedComponent extends BaseChartComponent {
             i0.ɵɵtemplate(2, BarVerticalStackedComponent__svg_g_2_Template, 1, 11, "g", 2)(3, BarVerticalStackedComponent__svg_g_3_Template, 1, 10, "g", 3)(4, BarVerticalStackedComponent__svg_g_4_Template, 2, 2, "g", 4)(5, BarVerticalStackedComponent__svg_g_5_Template, 2, 2, "g", 4);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c1$e, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c1$f, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -12391,7 +12391,7 @@ class BarChartModule {
         SeriesHorizontal,
         SeriesVerticalComponent] }); })();
 
-const _c0$v = ["ngx-charts-box", ""];
+const _c0$B = ["ngx-charts-box", ""];
 function BoxComponent__svg_g_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "g", 5);
@@ -12651,7 +12651,7 @@ class BoxComponent {
     static { this.ɵfac = function BoxComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || BoxComponent)(i0.ɵɵdirectiveInject(i0.ElementRef), i0.ɵɵdirectiveInject(i0.ChangeDetectorRef)); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BoxComponent, selectors: [["g", "ngx-charts-box", ""]], hostBindings: function BoxComponent_HostBindings(rf, ctx) { if (rf & 1) {
             i0.ɵɵlistener("mouseenter", function BoxComponent_mouseenter_HostBindingHandler() { return ctx.onMouseEnter(); })("mouseleave", function BoxComponent_mouseleave_HostBindingHandler() { return ctx.onMouseLeave(); });
-        } }, inputs: { strokeColor: "strokeColor", strokeWidth: "strokeWidth", fill: "fill", data: "data", width: "width", height: "height", x: "x", y: "y", lineCoordinates: "lineCoordinates", roundEdges: "roundEdges", gradient: "gradient", gradientStops: "gradientStops", offset: "offset", isActive: "isActive", animations: "animations", ariaLabel: "ariaLabel", noBarWhenZero: "noBarWhenZero" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$v, decls: 9, vars: 13, consts: [["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops", 4, "ngIf"], ["height", "100%", "width", "100%", "fill", "white", "fill-opacity", "1"], ["fill", "black", "fill-opacity", "1", 1, "bar"], ["role", "img", "tabIndex", "-1", 1, "bar", 3, "click"], ["class", "bar-line", "fill", "none", 3, "hidden", 4, "ngFor", "ngForOf"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"], ["fill", "none", 1, "bar-line"]], template: function BoxComponent_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { strokeColor: "strokeColor", strokeWidth: "strokeWidth", fill: "fill", data: "data", width: "width", height: "height", x: "x", y: "y", lineCoordinates: "lineCoordinates", roundEdges: "roundEdges", gradient: "gradient", gradientStops: "gradientStops", offset: "offset", isActive: "isActive", animations: "animations", ariaLabel: "ariaLabel", noBarWhenZero: "noBarWhenZero" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$B, decls: 9, vars: 13, consts: [["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops", 4, "ngIf"], ["height", "100%", "width", "100%", "fill", "white", "fill-opacity", "1"], ["fill", "black", "fill-opacity", "1", 1, "bar"], ["role", "img", "tabIndex", "-1", 1, "bar", 3, "click"], ["class", "bar-line", "fill", "none", 3, "hidden", 4, "ngFor", "ngForOf"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"], ["fill", "none", 1, "bar-line"]], template: function BoxComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "defs");
             i0.ɵɵtemplate(1, BoxComponent__svg_g_1_Template, 1, 3, "g", 0);
@@ -12778,7 +12778,7 @@ class BoxComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BoxComponent, { className: "BoxComponent", filePath: "lib/box-chart/box.component.ts", lineNumber: 108 }); })();
 
-const _c0$u = ["ngx-charts-box-series", ""];
+const _c0$A = ["ngx-charts-box-series", ""];
 class BoxSeriesComponent {
     constructor() {
         this.animations = true;
@@ -12888,7 +12888,7 @@ class BoxSeriesComponent {
         }
     }
     static { this.ɵfac = function BoxSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || BoxSeriesComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BoxSeriesComponent, selectors: [["g", "ngx-charts-box-series", ""]], inputs: { dims: "dims", series: "series", xScale: "xScale", yScale: "yScale", colors: "colors", animations: "animations", strokeColor: "strokeColor", strokeWidth: "strokeWidth", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate", tooltipPlacement: "tooltipPlacement", tooltipType: "tooltipType", roundEdges: "roundEdges", gradient: "gradient" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$u, decls: 1, vars: 22, consts: [["ngx-charts-box", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "width", "height", "x", "y", "roundEdges", "fill", "gradientStops", "strokeColor", "strokeWidth", "data", "lineCoordinates", "gradient", "ariaLabel", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "animations"]], template: function BoxSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BoxSeriesComponent, selectors: [["g", "ngx-charts-box-series", ""]], inputs: { dims: "dims", series: "series", xScale: "xScale", yScale: "yScale", colors: "colors", animations: "animations", strokeColor: "strokeColor", strokeWidth: "strokeWidth", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate", tooltipPlacement: "tooltipPlacement", tooltipType: "tooltipType", roundEdges: "roundEdges", gradient: "gradient" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$A, decls: 1, vars: 22, consts: [["ngx-charts-box", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "width", "height", "x", "y", "roundEdges", "fill", "gradientStops", "strokeColor", "strokeWidth", "data", "lineCoordinates", "gradient", "ariaLabel", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "animations"]], template: function BoxSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g", 0);
             i0.ɵɵlistener("select", function BoxSeriesComponent_Template_g_select_0_listener($event) { return ctx.onClick($event); })("activate", function BoxSeriesComponent_Template_g_activate_0_listener($event) { return ctx.activate.emit($event); })("deactivate", function BoxSeriesComponent_Template_g_deactivate_0_listener($event) { return ctx.deactivate.emit($event); });
@@ -12991,8 +12991,8 @@ class BoxSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BoxSeriesComponent, { className: "BoxSeriesComponent", filePath: "lib/box-chart/box-series.component.ts", lineNumber: 69 }); })();
 
-const _c0$t = ["tooltipTemplate"];
-const _c1$d = (a0, a1) => [a0, a1];
+const _c0$z = ["tooltipTemplate"];
+const _c1$e = (a0, a1) => [a0, a1];
 function BoxChartComponent__svg_g_5_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -13171,7 +13171,7 @@ class BoxChartComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBoxChartComponent_BaseFactory; return function BoxChartComponent_Factory(__ngFactoryType__) { return (ɵBoxChartComponent_BaseFactory || (ɵBoxChartComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BoxChartComponent)))(__ngFactoryType__ || BoxChartComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BoxChartComponent, selectors: [["ngx-charts-box-chart"]], contentQueries: function BoxChartComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$t, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$z, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -13189,7 +13189,7 @@ class BoxChartComponent extends BaseChartComponent {
             i0.ɵɵtemplate(5, BoxChartComponent__svg_g_5_Template, 2, 12, "g", 4);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(20, _c1$d, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(20, _c1$e, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -13361,7 +13361,7 @@ function getScale(domain, range, scaleType, roundDomains) {
     }
 }
 
-const _c0$s = ["ngx-charts-bubble-series", ""];
+const _c0$y = ["ngx-charts-bubble-series", ""];
 function BubbleSeriesComponent__svg_g_0__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -13522,7 +13522,7 @@ class BubbleSeriesComponent {
         return `${circle.data.series} ${circle.data.name}`;
     }
     static { this.ɵfac = function BubbleSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || BubbleSeriesComponent)(i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BubbleSeriesComponent, selectors: [["g", "ngx-charts-bubble-series", ""]], inputs: { data: "data", xScale: "xScale", yScale: "yScale", rScale: "rScale", xScaleType: "xScaleType", yScaleType: "yScaleType", colors: "colors", visibleValue: "visibleValue", activeEntries: "activeEntries", xAxisLabel: "xAxisLabel", yAxisLabel: "yAxisLabel", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$s, decls: 1, vars: 2, consts: [[4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-circle", "", "class", "circle", "ngx-tooltip", "", 3, "cx", "cy", "r", "fill", "opacity", "active", "pointerEvents", "data", "classNames", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "select", "activate", "deactivate", 4, "ngIf"], ["ngx-charts-circle", "", "ngx-tooltip", "", 1, "circle", 3, "select", "activate", "deactivate", "cx", "cy", "r", "fill", "pointerEvents", "data", "classNames", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function BubbleSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BubbleSeriesComponent, selectors: [["g", "ngx-charts-bubble-series", ""]], inputs: { data: "data", xScale: "xScale", yScale: "yScale", rScale: "rScale", xScaleType: "xScaleType", yScaleType: "yScaleType", colors: "colors", visibleValue: "visibleValue", activeEntries: "activeEntries", xAxisLabel: "xAxisLabel", yAxisLabel: "yAxisLabel", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$y, decls: 1, vars: 2, consts: [[4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-circle", "", "class", "circle", "ngx-tooltip", "", 3, "cx", "cy", "r", "fill", "opacity", "active", "pointerEvents", "data", "classNames", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "select", "activate", "deactivate", 4, "ngIf"], ["ngx-charts-circle", "", "ngx-tooltip", "", 1, "circle", 3, "select", "activate", "deactivate", "cx", "cy", "r", "fill", "pointerEvents", "data", "classNames", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function BubbleSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, BubbleSeriesComponent__svg_g_0_Template, 4, 3, "g", 0);
         } if (rf & 2) {
             i0.ɵɵproperty("ngForOf", ctx.circles)("ngForTrackBy", ctx.trackBy);
@@ -13649,8 +13649,8 @@ class BubbleSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(BubbleSeriesComponent, { className: "BubbleSeriesComponent", filePath: "lib/bubble-chart/bubble-series.component.ts", lineNumber: 94 }); })();
 
-const _c0$r = ["tooltipTemplate"];
-const _c1$c = (a0, a1) => [a0, a1];
+const _c0$x = ["tooltipTemplate"];
+const _c1$d = (a0, a1) => [a0, a1];
 function BubbleChartComponent__svg_g_5_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -13935,7 +13935,7 @@ class BubbleChartComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵBubbleChartComponent_BaseFactory; return function BubbleChartComponent_Factory(__ngFactoryType__) { return (ɵBubbleChartComponent_BaseFactory || (ɵBubbleChartComponent_BaseFactory = i0.ɵɵgetInheritedFactory(BubbleChartComponent)))(__ngFactoryType__ || BubbleChartComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: BubbleChartComponent, selectors: [["ngx-charts-bubble-chart"]], contentQueries: function BubbleChartComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$r, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$x, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -13956,7 +13956,7 @@ class BubbleChartComponent extends BaseChartComponent {
             i0.ɵɵtemplate(8, BubbleChartComponent__svg_g_8_Template, 2, 3, "g", 5)(9, BubbleChartComponent__svg_g_9_Template, 2, 3, "g", 5);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(16, _c1$c, ctx.width, ctx.height))("showLegend", ctx.legend)("activeEntries", ctx.activeEntries)("legendOptions", ctx.legendOptions)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(16, _c1$d, ctx.width, ctx.height))("showLegend", ctx.legend)("activeEntries", ctx.activeEntries)("legendOptions", ctx.legendOptions)("animations", ctx.animations);
             i0.ɵɵadvance(2);
             i0.ɵɵattribute("id", ctx.clipPathId);
             i0.ɵɵadvance();
@@ -14195,7 +14195,7 @@ class BubbleChartModule {
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(BubbleChartModule, { declarations: [BubbleChartComponent, BubbleSeriesComponent], imports: [ChartCommonModule], exports: [BubbleChartComponent, BubbleSeriesComponent] }); })();
 
-const _c0$q = ["ngx-charts-heat-map-cell", ""];
+const _c0$w = ["ngx-charts-heat-map-cell", ""];
 function HeatMapCellComponent__svg_defs_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementStart(0, "defs");
@@ -14261,7 +14261,7 @@ class HeatMapCellComponent {
     static { this.ɵfac = function HeatMapCellComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || HeatMapCellComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: HeatMapCellComponent, selectors: [["g", "ngx-charts-heat-map-cell", ""]], hostBindings: function HeatMapCellComponent_HostBindings(rf, ctx) { if (rf & 1) {
             i0.ɵɵlistener("mouseenter", function HeatMapCellComponent_mouseenter_HostBindingHandler() { return ctx.onMouseEnter(); })("mouseleave", function HeatMapCellComponent_mouseleave_HostBindingHandler() { return ctx.onMouseLeave(); });
-        } }, inputs: { fill: "fill", x: "x", y: "y", width: "width", height: "height", data: "data", gradient: "gradient", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$q, decls: 3, vars: 5, consts: [[1, "cell"], [4, "ngIf"], ["rx", "3", 1, "cell", 3, "click"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"]], template: function HeatMapCellComponent_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { fill: "fill", x: "x", y: "y", width: "width", height: "height", data: "data", gradient: "gradient", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$w, decls: 3, vars: 5, consts: [[1, "cell"], [4, "ngIf"], ["rx", "3", 1, "cell", 3, "click"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"]], template: function HeatMapCellComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g", 0);
             i0.ɵɵtemplate(1, HeatMapCellComponent__svg_defs_1_Template, 2, 3, "defs", 1);
@@ -14334,8 +14334,8 @@ class HeatMapCellComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(HeatMapCellComponent, { className: "HeatMapCellComponent", filePath: "lib/heat-map/heat-map-cell.component.ts", lineNumber: 43 }); })();
 
-const _c0$p = ["ngx-charts-heat-map-cell-series", ""];
-const _c1$b = (a0, a1, a2) => ({ series: a0, name: a1, value: a2 });
+const _c0$v = ["ngx-charts-heat-map-cell-series", ""];
+const _c1$c = (a0, a1, a2) => ({ series: a0, name: a1, value: a2 });
 function HeatCellSeriesComponent__svg_g_0_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -14345,7 +14345,7 @@ function HeatCellSeriesComponent__svg_g_0_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const c_r2 = ctx.$implicit;
     const ctx_r2 = i0.ɵɵnextContext();
-    i0.ɵɵproperty("x", c_r2.x)("y", c_r2.y)("width", c_r2.width)("height", c_r2.height)("fill", c_r2.fill)("data", c_r2.data)("gradient", ctx_r2.gradient)("animations", ctx_r2.animations)("tooltipDisabled", ctx_r2.tooltipDisabled)("tooltipPlacement", ctx_r2.placementTypes.Top)("tooltipType", ctx_r2.styleTypes.tooltip)("tooltipTitle", ctx_r2.tooltipTemplate ? undefined : ctx_r2.tooltipText(c_r2))("tooltipTemplate", ctx_r2.tooltipTemplate)("tooltipContext", i0.ɵɵpureFunction3(14, _c1$b, c_r2.series, c_r2.label, c_r2.data));
+    i0.ɵɵproperty("x", c_r2.x)("y", c_r2.y)("width", c_r2.width)("height", c_r2.height)("fill", c_r2.fill)("data", c_r2.data)("gradient", ctx_r2.gradient)("animations", ctx_r2.animations)("tooltipDisabled", ctx_r2.tooltipDisabled)("tooltipPlacement", ctx_r2.placementTypes.Top)("tooltipType", ctx_r2.styleTypes.tooltip)("tooltipTitle", ctx_r2.tooltipTemplate ? undefined : ctx_r2.tooltipText(c_r2))("tooltipTemplate", ctx_r2.tooltipTemplate)("tooltipContext", i0.ɵɵpureFunction3(14, _c1$c, c_r2.series, c_r2.label, c_r2.data));
 } }
 class HeatCellSeriesComponent {
     constructor() {
@@ -14403,7 +14403,7 @@ class HeatCellSeriesComponent {
         this.select.emit(data);
     }
     static { this.ɵfac = function HeatCellSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || HeatCellSeriesComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: HeatCellSeriesComponent, selectors: [["g", "ngx-charts-heat-map-cell-series", ""]], inputs: { data: "data", colors: "colors", xScale: "xScale", yScale: "yScale", gradient: "gradient", tooltipDisabled: "tooltipDisabled", tooltipText: "tooltipText", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$p, decls: 1, vars: 2, consts: [["ngx-charts-heat-map-cell", "", "ngx-tooltip", "", 3, "x", "y", "width", "height", "fill", "data", "gradient", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "select", "activate", "deactivate", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-heat-map-cell", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "x", "y", "width", "height", "fill", "data", "gradient", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function HeatCellSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: HeatCellSeriesComponent, selectors: [["g", "ngx-charts-heat-map-cell-series", ""]], inputs: { data: "data", colors: "colors", xScale: "xScale", yScale: "yScale", gradient: "gradient", tooltipDisabled: "tooltipDisabled", tooltipText: "tooltipText", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$v, decls: 1, vars: 2, consts: [["ngx-charts-heat-map-cell", "", "ngx-tooltip", "", 3, "x", "y", "width", "height", "fill", "data", "gradient", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "select", "activate", "deactivate", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-heat-map-cell", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "x", "y", "width", "height", "fill", "data", "gradient", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function HeatCellSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, HeatCellSeriesComponent__svg_g_0_Template, 1, 18, "g", 0);
         } if (rf & 2) {
             i0.ɵɵproperty("ngForOf", ctx.cells)("ngForTrackBy", ctx.trackBy);
@@ -14467,8 +14467,8 @@ class HeatCellSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(HeatCellSeriesComponent, { className: "HeatCellSeriesComponent", filePath: "lib/heat-map/heat-map-cell-series.component.ts", lineNumber: 58 }); })();
 
-const _c0$o = ["tooltipTemplate"];
-const _c1$a = (a0, a1) => [a0, a1];
+const _c0$u = ["tooltipTemplate"];
+const _c1$b = (a0, a1) => [a0, a1];
 function HeatMapComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -14703,7 +14703,7 @@ class HeatMapComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵHeatMapComponent_BaseFactory; return function HeatMapComponent_Factory(__ngFactoryType__) { return (ɵHeatMapComponent_BaseFactory || (ɵHeatMapComponent_BaseFactory = i0.ɵɵgetInheritedFactory(HeatMapComponent)))(__ngFactoryType__ || HeatMapComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: HeatMapComponent, selectors: [["ngx-charts-heat-map"]], contentQueries: function HeatMapComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$o, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$u, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -14717,7 +14717,7 @@ class HeatMapComponent extends BaseChartComponent {
             i0.ɵɵlistener("select", function HeatMapComponent_Template_g_select_5_listener($event) { return ctx.onClick($event); })("activate", function HeatMapComponent_Template_g_activate_5_listener($event) { return ctx.onActivate($event, undefined); })("deactivate", function HeatMapComponent_Template_g_deactivate_5_listener($event) { return ctx.onDeactivate($event, undefined); });
             i0.ɵɵelementEnd()()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c1$a, ctx.width, ctx.height))("showLegend", ctx.legend)("animations", ctx.animations)("legendOptions", ctx.legendOptions);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c1$b, ctx.width, ctx.height))("showLegend", ctx.legend)("animations", ctx.animations)("legendOptions", ctx.legendOptions);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -14874,7 +14874,7 @@ class HeatMapModule {
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(HeatMapModule, { declarations: [HeatMapCellComponent, HeatCellSeriesComponent, HeatMapComponent], imports: [ChartCommonModule], exports: [HeatMapCellComponent, HeatCellSeriesComponent, HeatMapComponent] }); })();
 
-const _c0$n = ["ngx-charts-line", ""];
+const _c0$t = ["ngx-charts-line", ""];
 function LineComponent__svg_g_0_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementStart(0, "g");
@@ -14930,7 +14930,7 @@ class LineComponent {
         }
     }
     static { this.ɵfac = function LineComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || LineComponent)(i0.ɵɵdirectiveInject(i0.ElementRef), i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LineComponent, selectors: [["g", "ngx-charts-line", ""]], inputs: { path: "path", stroke: "stroke", data: "data", fill: "fill", animations: "animations" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$n, decls: 2, vars: 2, consts: [[4, "ngIf"], ["stroke-width", "1.5px", 1, "line"]], template: function LineComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LineComponent, selectors: [["g", "ngx-charts-line", ""]], inputs: { path: "path", stroke: "stroke", data: "data", fill: "fill", animations: "animations" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$t, decls: 2, vars: 2, consts: [[4, "ngIf"], ["stroke-width", "1.5px", 1, "line"]], template: function LineComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, LineComponent__svg_g_0_Template, 2, 4, "g", 0)(1, LineComponent__svg_g_1_Template, 2, 3, "g", 0);
         } if (rf & 2) {
             i0.ɵɵproperty("ngIf", !ctx.isSSR);
@@ -15001,7 +15001,7 @@ class LineComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(LineComponent, { className: "LineComponent", filePath: "lib/line-chart/line.component.ts", lineNumber: 55 }); })();
 
-const _c0$m = ["ngx-charts-line-series", ""];
+const _c0$s = ["ngx-charts-line-series", ""];
 function LineSeriesComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "g", 5);
@@ -15199,7 +15199,7 @@ class LineSeriesComponent {
         return item === undefined;
     }
     static { this.ɵfac = function LineSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || LineSeriesComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LineSeriesComponent, selectors: [["g", "ngx-charts-line-series", ""]], inputs: { data: "data", xScale: "xScale", yScale: "yScale", colors: "colors", scaleType: "scaleType", curve: "curve", activeEntries: "activeEntries", rangeFillOpacity: "rangeFillOpacity", hasRange: "hasRange", animations: "animations", connectNull: "connectNull" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$m, decls: 7, vars: 23, consts: [["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops", 4, "ngIf"], ["ngx-charts-area", "", 1, "line-highlight", 3, "data", "path", "fill", "opacity", "startOpacity", "gradient", "stops", "animations"], ["ngx-charts-line", "", 1, "line-series", 3, "data", "path", "stroke", "animations"], ["ngx-charts-line", "", "class", "line-series-null", "stroke-dasharray", "5,5", 3, "data", "path", "stroke", "animations", "active", "inactive", 4, "ngIf"], ["ngx-charts-area", "", "class", "line-series-range", 3, "data", "path", "fill", "active", "inactive", "opacity", "animations", 4, "ngIf"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"], ["ngx-charts-line", "", "stroke-dasharray", "5,5", 1, "line-series-null", 3, "data", "path", "stroke", "animations"], ["ngx-charts-area", "", 1, "line-series-range", 3, "data", "path", "fill", "opacity", "animations"]], template: function LineSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LineSeriesComponent, selectors: [["g", "ngx-charts-line-series", ""]], inputs: { data: "data", xScale: "xScale", yScale: "yScale", colors: "colors", scaleType: "scaleType", curve: "curve", activeEntries: "activeEntries", rangeFillOpacity: "rangeFillOpacity", hasRange: "hasRange", animations: "animations", connectNull: "connectNull" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$s, decls: 7, vars: 23, consts: [["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops", 4, "ngIf"], ["ngx-charts-area", "", 1, "line-highlight", 3, "data", "path", "fill", "opacity", "startOpacity", "gradient", "stops", "animations"], ["ngx-charts-line", "", 1, "line-series", 3, "data", "path", "stroke", "animations"], ["ngx-charts-line", "", "class", "line-series-null", "stroke-dasharray", "5,5", 3, "data", "path", "stroke", "animations", "active", "inactive", 4, "ngIf"], ["ngx-charts-area", "", "class", "line-series-range", 3, "data", "path", "fill", "active", "inactive", "opacity", "animations", 4, "ngIf"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"], ["ngx-charts-line", "", "stroke-dasharray", "5,5", 1, "line-series-null", 3, "data", "path", "stroke", "animations"], ["ngx-charts-area", "", 1, "line-series-range", 3, "data", "path", "fill", "opacity", "animations"]], template: function LineSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g")(1, "defs");
             i0.ɵɵtemplate(2, LineSeriesComponent__svg_g_2_Template, 1, 3, "g", 0);
@@ -15315,9 +15315,9 @@ class LineSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(LineSeriesComponent, { className: "LineSeriesComponent", filePath: "lib/line-chart/line-series.component.ts", lineNumber: 78 }); })();
 
-const _c0$l = ["tooltipTemplate"];
-const _c1$9 = ["seriesTooltipTemplate"];
-const _c2$4 = (a0, a1) => [a0, a1];
+const _c0$r = ["tooltipTemplate"];
+const _c1$a = ["seriesTooltipTemplate"];
+const _c2$5 = (a0, a1) => [a0, a1];
 function LineChartComponent__svg_g_5_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -15430,7 +15430,7 @@ function LineChartComponent__svg_g_11_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementEnd();
 } if (rf & 2) {
     const ctx_r1 = i0.ɵɵnextContext();
-    i0.ɵɵproperty("results", ctx_r1.results)("view", i0.ɵɵpureFunction2(10, _c2$4, ctx_r1.timelineWidth, ctx_r1.height))("height", ctx_r1.timelineHeight)("scheme", ctx_r1.scheme)("customColors", ctx_r1.customColors)("scaleType", ctx_r1.scaleType)("legend", ctx_r1.legend);
+    i0.ɵɵproperty("results", ctx_r1.results)("view", i0.ɵɵpureFunction2(10, _c2$5, ctx_r1.timelineWidth, ctx_r1.height))("height", ctx_r1.timelineHeight)("scheme", ctx_r1.scheme)("customColors", ctx_r1.customColors)("scaleType", ctx_r1.scaleType)("legend", ctx_r1.legend);
     i0.ɵɵattribute("transform", ctx_r1.timelineTransform);
     i0.ɵɵadvance();
     i0.ɵɵproperty("ngForOf", ctx_r1.results)("ngForTrackBy", ctx_r1.trackBy);
@@ -15691,7 +15691,7 @@ class LineChartComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵLineChartComponent_BaseFactory; return function LineChartComponent_Factory(__ngFactoryType__) { return (ɵLineChartComponent_BaseFactory || (ɵLineChartComponent_BaseFactory = i0.ɵɵgetInheritedFactory(LineChartComponent)))(__ngFactoryType__ || LineChartComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LineChartComponent, selectors: [["ngx-charts-line-chart"]], contentQueries: function LineChartComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$l, 5)(dirIndex, _c1$9, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$r, 5)(dirIndex, _c1$a, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -15713,7 +15713,7 @@ class LineChartComponent extends BaseChartComponent {
             i0.ɵɵtemplate(11, LineChartComponent__svg_g_11_Template, 2, 13, "g", 6);
             i0.ɵɵelementEnd();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c2$4, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c2$5, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance(2);
             i0.ɵɵattribute("id", ctx.clipPathId);
             i0.ɵɵadvance();
@@ -16021,7 +16021,7 @@ class LineChartModule {
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(LineChartModule, { declarations: [LineComponent, LineChartComponent, LineSeriesComponent], imports: [ChartCommonModule], exports: [LineComponent, LineChartComponent, LineSeriesComponent] }); })();
 
-const _c0$k = ["ngx-charts-pie-label", ""];
+const _c0$q = ["ngx-charts-pie-label", ""];
 class PieLabelComponent {
     constructor(platformId) {
         this.platformId = platformId;
@@ -16075,7 +16075,7 @@ class PieLabelComponent {
         return d.startAngle + (d.endAngle - d.startAngle) / 2;
     }
     static { this.ɵfac = function PieLabelComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || PieLabelComponent)(i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieLabelComponent, selectors: [["g", "ngx-charts-pie-label", ""]], inputs: { data: "data", radius: "radius", label: "label", color: "color", max: "max", value: "value", explodeSlices: "explodeSlices", animations: "animations", labelTrim: "labelTrim", labelTrimSize: "labelTrimSize" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$k, decls: 6, vars: 17, consts: [["dy", ".35em", 1, "pie-label"], ["fill", "none", 1, "pie-label-line", "line"]], template: function PieLabelComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieLabelComponent, selectors: [["g", "ngx-charts-pie-label", ""]], inputs: { data: "data", radius: "radius", label: "label", color: "color", max: "max", value: "value", explodeSlices: "explodeSlices", animations: "animations", labelTrim: "labelTrim", labelTrimSize: "labelTrimSize" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$q, decls: 6, vars: 17, consts: [["dy", ".35em", 1, "pie-label"], ["fill", "none", 1, "pie-label-line", "line"]], template: function PieLabelComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵelementStart(0, "title");
             i0.ɵɵtext(1);
             i0.ɵɵelementEnd();
@@ -16154,7 +16154,7 @@ class PieLabelComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(PieLabelComponent, { className: "PieLabelComponent", filePath: "lib/pie-chart/pie-label.component.ts", lineNumber: 50 }); })();
 
-const _c0$j = ["ngx-charts-polar-series", ""];
+const _c0$p = ["ngx-charts-polar-series", ""];
 function PolarSeriesComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "g", 4);
@@ -16290,7 +16290,7 @@ class PolarSeriesComponent {
         }
     }
     static { this.ɵfac = function PolarSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || PolarSeriesComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PolarSeriesComponent, selectors: [["g", "ngx-charts-polar-series", ""]], inputs: { name: "name", data: "data", xScale: "xScale", yScale: "yScale", colors: "colors", scaleType: "scaleType", curve: "curve", activeEntries: "activeEntries", rangeFillOpacity: "rangeFillOpacity", tooltipDisabled: "tooltipDisabled", tooltipText: "tooltipText", gradient: "gradient", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$j, decls: 5, vars: 11, consts: [[1, "polar-charts-series"], ["ngx-charts-svg-radial-gradient", "", 3, "color", "name", "startOpacity", "endOpacity", "stops", 4, "ngIf"], ["ngx-charts-line", "", 1, "polar-series-path", 3, "path", "stroke", "fill", "animations"], ["ngx-charts-circle", "", "class", "circle", "ngx-tooltip", "", 3, "cx", "cy", "r", "fill", "opacity", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "select", "activate", "deactivate", 4, "ngFor", "ngForOf"], ["ngx-charts-svg-radial-gradient", "", 3, "color", "name", "startOpacity", "endOpacity", "stops"], ["ngx-charts-circle", "", "ngx-tooltip", "", 1, "circle", 3, "select", "activate", "deactivate", "cx", "cy", "r", "fill", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function PolarSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PolarSeriesComponent, selectors: [["g", "ngx-charts-polar-series", ""]], inputs: { name: "name", data: "data", xScale: "xScale", yScale: "yScale", colors: "colors", scaleType: "scaleType", curve: "curve", activeEntries: "activeEntries", rangeFillOpacity: "rangeFillOpacity", tooltipDisabled: "tooltipDisabled", tooltipText: "tooltipText", gradient: "gradient", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$p, decls: 5, vars: 11, consts: [[1, "polar-charts-series"], ["ngx-charts-svg-radial-gradient", "", 3, "color", "name", "startOpacity", "endOpacity", "stops", 4, "ngIf"], ["ngx-charts-line", "", 1, "polar-series-path", 3, "path", "stroke", "fill", "animations"], ["ngx-charts-circle", "", "class", "circle", "ngx-tooltip", "", 3, "cx", "cy", "r", "fill", "opacity", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "select", "activate", "deactivate", 4, "ngFor", "ngForOf"], ["ngx-charts-svg-radial-gradient", "", 3, "color", "name", "startOpacity", "endOpacity", "stops"], ["ngx-charts-circle", "", "ngx-tooltip", "", 1, "circle", 3, "select", "activate", "deactivate", "cx", "cy", "r", "fill", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function PolarSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g", 0)(1, "defs");
             i0.ɵɵtemplate(2, PolarSeriesComponent__svg_g_2_Template, 1, 5, "g", 1);
@@ -16399,8 +16399,8 @@ class PolarSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(PolarSeriesComponent, { className: "PolarSeriesComponent", filePath: "lib/polar-chart/polar-series.component.ts", lineNumber: 82 }); })();
 
-const _c0$i = ["tooltipTemplate"];
-const _c1$8 = (a0, a1) => [a0, a1];
+const _c0$o = ["tooltipTemplate"];
+const _c1$9 = (a0, a1) => [a0, a1];
 function PolarChartComponent__svg_g_4__svg_circle_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "circle", 7);
@@ -16642,9 +16642,9 @@ class PolarChartComponent extends BaseChartComponent {
         const values = [];
         for (const results of this.results) {
             for (const d of results.series) {
-                if (!values.includes(d.name)) {
-                    values.push(d.name);
-                }
+                // madrija fork: keep repeated x-values (do not dedupe) so series with
+                // duplicate dates render every point.
+                values.push(d.name);
             }
         }
         return values;
@@ -16781,7 +16781,7 @@ class PolarChartComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵPolarChartComponent_BaseFactory; return function PolarChartComponent_Factory(__ngFactoryType__) { return (ɵPolarChartComponent_BaseFactory || (ɵPolarChartComponent_BaseFactory = i0.ɵɵgetInheritedFactory(PolarChartComponent)))(__ngFactoryType__ || PolarChartComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PolarChartComponent, selectors: [["ngx-charts-polar-chart"]], contentQueries: function PolarChartComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$i, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$o, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -16796,7 +16796,7 @@ class PolarChartComponent extends BaseChartComponent {
             i0.ɵɵtemplate(6, PolarChartComponent__svg_g_6_Template, 1, 10, "g", 4)(7, PolarChartComponent__svg_g_7_Template, 1, 5, "g", 5)(8, PolarChartComponent__svg_g_8_Template, 2, 3, "g", 3)(9, PolarChartComponent__svg_g_9_Template, 2, 3, "g", 3);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(14, _c1$8, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(14, _c1$9, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -17015,7 +17015,7 @@ class PolarChartComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(PolarChartComponent, { className: "PolarChartComponent", filePath: "lib/polar-chart/polar-chart.component.ts", lineNumber: 165 }); })();
 
-const _c0$h = ["ngx-charts-pie-arc", ""];
+const _c0$n = ["ngx-charts-pie-arc", ""];
 function PieArcComponent__svg_defs_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementStart(0, "defs");
@@ -17137,7 +17137,7 @@ class PieArcComponent {
         });
     }
     static { this.ɵfac = function PieArcComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || PieArcComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieArcComponent, selectors: [["g", "ngx-charts-pie-arc", ""]], inputs: { fill: "fill", startAngle: "startAngle", endAngle: "endAngle", innerRadius: "innerRadius", outerRadius: "outerRadius", cornerRadius: "cornerRadius", value: "value", max: "max", data: "data", explodeSlices: "explodeSlices", gradient: "gradient", animate: "animate", pointerEvents: "pointerEvents", isActive: "isActive" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate", dblclick: "dblclick" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$h, decls: 3, vars: 7, consts: [[1, "arc-group"], [4, "ngIf"], [1, "arc", 3, "click", "dblclick", "mouseenter", "mouseleave"], ["ngx-charts-svg-radial-gradient", "", 3, "color", "name", "startOpacity"]], template: function PieArcComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieArcComponent, selectors: [["g", "ngx-charts-pie-arc", ""]], inputs: { fill: "fill", startAngle: "startAngle", endAngle: "endAngle", innerRadius: "innerRadius", outerRadius: "outerRadius", cornerRadius: "cornerRadius", value: "value", max: "max", data: "data", explodeSlices: "explodeSlices", gradient: "gradient", animate: "animate", pointerEvents: "pointerEvents", isActive: "isActive" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate", dblclick: "dblclick" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$n, decls: 3, vars: 7, consts: [[1, "arc-group"], [4, "ngIf"], [1, "arc", 3, "click", "dblclick", "mouseenter", "mouseleave"], ["ngx-charts-svg-radial-gradient", "", 3, "color", "name", "startOpacity"]], template: function PieArcComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g", 0);
             i0.ɵɵtemplate(1, PieArcComponent__svg_defs_1_Template, 2, 3, "defs", 1);
@@ -17217,7 +17217,7 @@ class PieArcComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(PieArcComponent, { className: "PieArcComponent", filePath: "lib/pie-chart/pie-arc.component.ts", lineNumber: 41 }); })();
 
-const _c0$g = ["ngx-charts-pie-series", ""];
+const _c0$m = ["ngx-charts-pie-series", ""];
 function PieSeriesComponent__svg_g_0__svg_g_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "g", 3);
@@ -17353,7 +17353,7 @@ class PieSeriesComponent {
         return item !== undefined;
     }
     static { this.ɵfac = function PieSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || PieSeriesComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieSeriesComponent, selectors: [["g", "ngx-charts-pie-series", ""]], inputs: { colors: "colors", series: "series", dims: "dims", innerRadius: "innerRadius", outerRadius: "outerRadius", explodeSlices: "explodeSlices", showLabels: "showLabels", gradient: "gradient", activeEntries: "activeEntries", labelFormatting: "labelFormatting", trimLabels: "trimLabels", maxLabelLength: "maxLabelLength", tooltipText: "tooltipText", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate", dblclick: "dblclick" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$g, decls: 1, vars: 2, consts: [[4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-pie-label", "", 3, "data", "radius", "color", "label", "labelTrim", "labelTrimSize", "max", "value", "explodeSlices", "animations", 4, "ngIf"], ["ngx-charts-pie-arc", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "dblclick", "startAngle", "endAngle", "innerRadius", "outerRadius", "fill", "value", "gradient", "data", "max", "explodeSlices", "isActive", "animate", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"], ["ngx-charts-pie-label", "", 3, "data", "radius", "color", "label", "labelTrim", "labelTrimSize", "max", "value", "explodeSlices", "animations"]], template: function PieSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieSeriesComponent, selectors: [["g", "ngx-charts-pie-series", ""]], inputs: { colors: "colors", series: "series", dims: "dims", innerRadius: "innerRadius", outerRadius: "outerRadius", explodeSlices: "explodeSlices", showLabels: "showLabels", gradient: "gradient", activeEntries: "activeEntries", labelFormatting: "labelFormatting", trimLabels: "trimLabels", maxLabelLength: "maxLabelLength", tooltipText: "tooltipText", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate", dblclick: "dblclick" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$m, decls: 1, vars: 2, consts: [[4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-pie-label", "", 3, "data", "radius", "color", "label", "labelTrim", "labelTrimSize", "max", "value", "explodeSlices", "animations", 4, "ngIf"], ["ngx-charts-pie-arc", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "dblclick", "startAngle", "endAngle", "innerRadius", "outerRadius", "fill", "value", "gradient", "data", "max", "explodeSlices", "isActive", "animate", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"], ["ngx-charts-pie-label", "", 3, "data", "radius", "color", "label", "labelTrim", "labelTrimSize", "max", "value", "explodeSlices", "animations"]], template: function PieSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, PieSeriesComponent__svg_g_0_Template, 3, 19, "g", 0);
         } if (rf & 2) {
             i0.ɵɵproperty("ngForOf", ctx.data)("ngForTrackBy", ctx.trackBy);
@@ -17453,8 +17453,8 @@ class PieSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(PieSeriesComponent, { className: "PieSeriesComponent", filePath: "lib/pie-chart/pie-series.component.ts", lineNumber: 71 }); })();
 
-const _c0$f = ["tooltipTemplate"];
-const _c1$7 = (a0, a1) => [a0, a1];
+const _c0$l = ["tooltipTemplate"];
+const _c1$8 = (a0, a1) => [a0, a1];
 class AdvancedPieChartComponent extends BaseChartComponent {
     constructor() {
         super(...arguments);
@@ -17530,7 +17530,7 @@ class AdvancedPieChartComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵAdvancedPieChartComponent_BaseFactory; return function AdvancedPieChartComponent_Factory(__ngFactoryType__) { return (ɵAdvancedPieChartComponent_BaseFactory || (ɵAdvancedPieChartComponent_BaseFactory = i0.ɵɵgetInheritedFactory(AdvancedPieChartComponent)))(__ngFactoryType__ || AdvancedPieChartComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AdvancedPieChartComponent, selectors: [["ngx-charts-advanced-pie-chart"]], contentQueries: function AdvancedPieChartComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$f, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$l, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -17549,7 +17549,7 @@ class AdvancedPieChartComponent extends BaseChartComponent {
             i0.ɵɵadvance();
             i0.ɵɵstyleProp("width", ctx.dims.width, "px")("height", ctx.dims.height, "px");
             i0.ɵɵadvance();
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(34, _c1$7, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(34, _c1$8, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -17630,8 +17630,8 @@ class AdvancedPieChartComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(AdvancedPieChartComponent, { className: "AdvancedPieChartComponent", filePath: "lib/pie-chart/advanced-pie-chart.component.ts", lineNumber: 68 }); })();
 
-const _c0$e = ["tooltipTemplate"];
-const _c1$6 = (a0, a1) => [a0, a1];
+const _c0$k = ["tooltipTemplate"];
+const _c1$7 = (a0, a1) => [a0, a1];
 class PieChartComponent extends BaseChartComponent {
     constructor() {
         super(...arguments);
@@ -17751,7 +17751,7 @@ class PieChartComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵPieChartComponent_BaseFactory; return function PieChartComponent_Factory(__ngFactoryType__) { return (ɵPieChartComponent_BaseFactory || (ɵPieChartComponent_BaseFactory = i0.ɵɵgetInheritedFactory(PieChartComponent)))(__ngFactoryType__ || PieChartComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieChartComponent, selectors: [["ngx-charts-pie-chart"]], contentQueries: function PieChartComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$e, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$k, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -17763,7 +17763,7 @@ class PieChartComponent extends BaseChartComponent {
             i0.ɵɵlistener("dblclick", function PieChartComponent_Template_g_dblclick_2_listener($event) { return ctx.dblclick.emit($event); })("select", function PieChartComponent_Template_g_select_2_listener($event) { return ctx.onClick($event); })("activate", function PieChartComponent_Template_g_activate_2_listener($event) { return ctx.onActivate($event); })("deactivate", function PieChartComponent_Template_g_deactivate_2_listener($event) { return ctx.onDeactivate($event); });
             i0.ɵɵelementEnd()()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(21, _c1$6, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(21, _c1$7, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.translation);
             i0.ɵɵadvance();
@@ -17908,7 +17908,7 @@ function getTotal(results) {
     return results.map(d => (d ? d.value : 0)).reduce((sum, val) => sum + val, 0);
 }
 
-const _c0$d = ["ngx-charts-pie-grid-series", ""];
+const _c0$j = ["ngx-charts-pie-grid-series", ""];
 function PieGridSeriesComponent__svg_g_1_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -17972,7 +17972,7 @@ class PieGridSeriesComponent {
         return this.colors(this.label(arc));
     }
     static { this.ɵfac = function PieGridSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || PieGridSeriesComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieGridSeriesComponent, selectors: [["g", "ngx-charts-pie-grid-series", ""]], inputs: { colors: "colors", data: "data", innerRadius: "innerRadius", outerRadius: "outerRadius", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$d, decls: 2, vars: 2, consts: [[1, "pie-grid-arcs"], ["ngx-charts-pie-arc", "", 3, "startAngle", "endAngle", "innerRadius", "outerRadius", "fill", "value", "data", "gradient", "pointerEvents", "animate", "select", "activate", "deactivate", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-pie-arc", "", 3, "select", "activate", "deactivate", "startAngle", "endAngle", "innerRadius", "outerRadius", "fill", "value", "data", "gradient", "pointerEvents", "animate"]], template: function PieGridSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieGridSeriesComponent, selectors: [["g", "ngx-charts-pie-grid-series", ""]], inputs: { colors: "colors", data: "data", innerRadius: "innerRadius", outerRadius: "outerRadius", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$j, decls: 2, vars: 2, consts: [[1, "pie-grid-arcs"], ["ngx-charts-pie-arc", "", 3, "startAngle", "endAngle", "innerRadius", "outerRadius", "fill", "value", "data", "gradient", "pointerEvents", "animate", "select", "activate", "deactivate", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-pie-arc", "", 3, "select", "activate", "deactivate", "startAngle", "endAngle", "innerRadius", "outerRadius", "fill", "value", "data", "gradient", "pointerEvents", "animate"]], template: function PieGridSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g", 0);
             i0.ɵɵtemplate(1, PieGridSeriesComponent__svg_g_1_Template, 1, 11, "g", 1);
@@ -18030,9 +18030,9 @@ class PieGridSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(PieGridSeriesComponent, { className: "PieGridSeriesComponent", filePath: "lib/pie-chart/pie-grid-series.component.ts", lineNumber: 51 }); })();
 
-const _c0$c = ["tooltipTemplate"];
-const _c1$5 = (a0, a1) => [a0, a1];
-const _c2$3 = a0 => ({ data: a0 });
+const _c0$i = ["tooltipTemplate"];
+const _c1$6 = (a0, a1) => [a0, a1];
+const _c2$4 = a0 => ({ data: a0 });
 function PieGridComponent__svg_g_2__svg_text_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "text", 10);
@@ -18088,7 +18088,7 @@ function PieGridComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const ctx_r1 = i0.ɵɵnextContext();
     i0.ɵɵattribute("transform", series_r3.transform);
     i0.ɵɵadvance();
-    i0.ɵɵproperty("colors", series_r3.colors)("data", series_r3.data)("innerRadius", series_r3.innerRadius)("outerRadius", series_r3.outerRadius)("animations", ctx_r1.animations)("tooltipDisabled", ctx_r1.tooltipDisabled)("tooltipPlacement", ctx_r1.placementTypes.Top)("tooltipType", ctx_r1.styleTypes.tooltip)("tooltipTitle", ctx_r1.tooltipTemplate ? undefined : ctx_r1.tooltipText(i0.ɵɵpureFunction1(17, _c2$3, series_r3)))("tooltipTemplate", ctx_r1.tooltipTemplate)("tooltipContext", series_r3.data[0].data);
+    i0.ɵɵproperty("colors", series_r3.colors)("data", series_r3.data)("innerRadius", series_r3.innerRadius)("outerRadius", series_r3.outerRadius)("animations", ctx_r1.animations)("tooltipDisabled", ctx_r1.tooltipDisabled)("tooltipPlacement", ctx_r1.placementTypes.Top)("tooltipType", ctx_r1.styleTypes.tooltip)("tooltipTitle", ctx_r1.tooltipTemplate ? undefined : ctx_r1.tooltipText(i0.ɵɵpureFunction1(17, _c2$4, series_r3)))("tooltipTemplate", ctx_r1.tooltipTemplate)("tooltipContext", series_r3.data[0].data);
     i0.ɵɵadvance();
     i0.ɵɵproperty("ngIf", ctx_r1.animations);
     i0.ɵɵadvance();
@@ -18232,7 +18232,7 @@ class PieGridComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵPieGridComponent_BaseFactory; return function PieGridComponent_Factory(__ngFactoryType__) { return (ɵPieGridComponent_BaseFactory || (ɵPieGridComponent_BaseFactory = i0.ɵɵgetInheritedFactory(PieGridComponent)))(__ngFactoryType__ || PieGridComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: PieGridComponent, selectors: [["ngx-charts-pie-grid"]], contentQueries: function PieGridComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$c, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$i, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -18243,7 +18243,7 @@ class PieGridComponent extends BaseChartComponent {
             i0.ɵɵtemplate(2, PieGridComponent__svg_g_2_Template, 8, 19, "g", 2);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(5, _c1$5, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(5, _c1$6, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -18492,8 +18492,8 @@ const VERDANA_FONT_WIDTHS_16_PX = {
     '>': 13
 };
 
-const _c0$b = ["textEl"];
-const _c1$4 = ["ngx-charts-card", ""];
+const _c0$h = ["textEl"];
+const _c1$5 = ["ngx-charts-card", ""];
 function CardComponent__svg_path_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "path", 7);
@@ -18626,11 +18626,11 @@ class CardComponent {
     }
     static { this.ɵfac = function CardComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || CardComponent)(i0.ɵɵdirectiveInject(i0.ElementRef), i0.ɵɵdirectiveInject(i0.ChangeDetectorRef), i0.ɵɵdirectiveInject(i0.NgZone), i0.ɵɵdirectiveInject(PLATFORM_ID)); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: CardComponent, selectors: [["g", "ngx-charts-card", ""]], viewQuery: function CardComponent_Query(rf, ctx) { if (rf & 1) {
-            i0.ɵɵviewQuery(_c0$b, 5);
+            i0.ɵɵviewQuery(_c0$h, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.textEl = _t.first);
-        } }, inputs: { color: "color", bandColor: "bandColor", textColor: "textColor", x: "x", y: "y", width: "width", height: "height", label: "label", data: "data", medianSize: "medianSize", valueFormatting: "valueFormatting", labelFormatting: "labelFormatting", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c1$4, decls: 10, vars: 25, consts: [["textEl", ""], [1, "cell", 3, "click"], ["rx", "3", "ry", "3", 1, "card"], ["class", "card-band", "stroke", "none", 4, "ngIf"], ["x", "5", "alignment-baseline", "hanging", 1, "trimmed-label"], [3, "innerHTML"], ["text-anchor", "start", "alignment-baseline", "hanging", 1, "value-text"], ["stroke", "none", 1, "card-band"]], template: function CardComponent_Template(rf, ctx) { if (rf & 1) {
+        } }, inputs: { color: "color", bandColor: "bandColor", textColor: "textColor", x: "x", y: "y", width: "width", height: "height", label: "label", data: "data", medianSize: "medianSize", valueFormatting: "valueFormatting", labelFormatting: "labelFormatting", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c1$5, decls: 10, vars: 25, consts: [["textEl", ""], [1, "cell", 3, "click"], ["rx", "3", "ry", "3", 1, "card"], ["class", "card-band", "stroke", "none", 4, "ngIf"], ["x", "5", "alignment-baseline", "hanging", 1, "trimmed-label"], [3, "innerHTML"], ["text-anchor", "start", "alignment-baseline", "hanging", 1, "value-text"], ["stroke", "none", 1, "card-band"]], template: function CardComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g", 1);
             i0.ɵɵlistener("click", function CardComponent_Template_g_click_0_listener() { return ctx.onClick(); });
@@ -18796,7 +18796,7 @@ function shadeRGBColor({ r, g, b }, percent) {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
-const _c0$a = ["ngx-charts-card-series", ""];
+const _c0$g = ["ngx-charts-card-series", ""];
 function CardSeriesComponent__svg_rect_0_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelement(0, "rect", 2);
@@ -18884,7 +18884,7 @@ class CardSeriesComponent {
         this.select.emit(data);
     }
     static { this.ɵfac = function CardSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || CardSeriesComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: CardSeriesComponent, selectors: [["g", "ngx-charts-card-series", ""]], inputs: { data: "data", dims: "dims", colors: "colors", innerPadding: "innerPadding", cardColor: "cardColor", bandColor: "bandColor", emptyColor: "emptyColor", textColor: "textColor", valueFormatting: "valueFormatting", labelFormatting: "labelFormatting", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$a, decls: 2, vars: 4, consts: [["class", "card-empty", "rx", "3", "ry", "3", 3, "fill", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-card", "", 3, "x", "y", "width", "height", "color", "bandColor", "textColor", "data", "label", "medianSize", "valueFormatting", "labelFormatting", "animations", "select", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["rx", "3", "ry", "3", 1, "card-empty"], ["ngx-charts-card", "", 3, "select", "x", "y", "width", "height", "color", "bandColor", "textColor", "data", "label", "medianSize", "valueFormatting", "labelFormatting", "animations"]], template: function CardSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: CardSeriesComponent, selectors: [["g", "ngx-charts-card-series", ""]], inputs: { data: "data", dims: "dims", colors: "colors", innerPadding: "innerPadding", cardColor: "cardColor", bandColor: "bandColor", emptyColor: "emptyColor", textColor: "textColor", valueFormatting: "valueFormatting", labelFormatting: "labelFormatting", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$g, decls: 2, vars: 4, consts: [["class", "card-empty", "rx", "3", "ry", "3", 3, "fill", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-card", "", 3, "x", "y", "width", "height", "color", "bandColor", "textColor", "data", "label", "medianSize", "valueFormatting", "labelFormatting", "animations", "select", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["rx", "3", "ry", "3", 1, "card-empty"], ["ngx-charts-card", "", 3, "select", "x", "y", "width", "height", "color", "bandColor", "textColor", "data", "label", "medianSize", "valueFormatting", "labelFormatting", "animations"]], template: function CardSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, CardSeriesComponent__svg_rect_0_Template, 1, 6, "rect", 0)(1, CardSeriesComponent__svg_g_1_Template, 1, 13, "g", 1);
         } if (rf & 2) {
             i0.ɵɵproperty("ngForOf", ctx.emptySlots)("ngForTrackBy", ctx.trackBy);
@@ -18957,7 +18957,7 @@ class CardSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(CardSeriesComponent, { className: "CardSeriesComponent", filePath: "lib/number-card/card-series.component.ts", lineNumber: 59 }); })();
 
-const _c0$9 = (a0, a1) => [a0, a1];
+const _c0$f = (a0, a1) => [a0, a1];
 class NumberCardComponent extends BaseChartComponent {
     constructor() {
         super(...arguments);
@@ -19007,7 +19007,7 @@ class NumberCardComponent extends BaseChartComponent {
             i0.ɵɵlistener("select", function NumberCardComponent_Template_g_select_2_listener($event) { return ctx.onClick($event); });
             i0.ɵɵelementEnd()()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c0$9, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(17, _c0$f, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵclassProp("clickable", ctx.clickable);
             i0.ɵɵattribute("transform", ctx.transform);
@@ -19072,7 +19072,7 @@ class NumberCardModule {
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(NumberCardModule, { declarations: [CardComponent, CardSeriesComponent, NumberCardComponent], imports: [ChartCommonModule], exports: [CardComponent, CardSeriesComponent, NumberCardComponent] }); })();
 
-const _c0$8 = ["ngx-charts-tree-map-cell", ""];
+const _c0$e = ["ngx-charts-tree-map-cell", ""];
 function TreeMapCellComponent__svg_defs_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementStart(0, "defs");
@@ -19196,7 +19196,7 @@ class TreeMapCellComponent {
         ];
     }
     static { this.ɵfac = function TreeMapCellComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || TreeMapCellComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: TreeMapCellComponent, selectors: [["g", "ngx-charts-tree-map-cell", ""]], inputs: { data: "data", fill: "fill", x: "x", y: "y", width: "width", height: "height", label: "label", value: "value", valueFormatting: "valueFormatting", labelFormatting: "labelFormatting", gradient: "gradient", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$8, decls: 4, vars: 7, consts: [[4, "ngIf"], [1, "cell", 3, "click"], ["class", "treemap-label", 3, "pointer-events", 4, "ngIf"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"], [1, "treemap-label"], [1, "treemap-label", 3, "innerHTML"], ["class", "treemap-val", "ngx-charts-count-up", "", 3, "countTo", "valueFormatting", 4, "ngIf"], ["class", "treemap-val", 4, "ngIf"], ["ngx-charts-count-up", "", 1, "treemap-val", 3, "countTo", "valueFormatting"], [1, "treemap-val"]], template: function TreeMapCellComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: TreeMapCellComponent, selectors: [["g", "ngx-charts-tree-map-cell", ""]], inputs: { data: "data", fill: "fill", x: "x", y: "y", width: "width", height: "height", label: "label", value: "value", valueFormatting: "valueFormatting", labelFormatting: "labelFormatting", gradient: "gradient", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$e, decls: 4, vars: 7, consts: [[4, "ngIf"], [1, "cell", 3, "click"], ["class", "treemap-label", 3, "pointer-events", 4, "ngIf"], ["ngx-charts-svg-linear-gradient", "", 3, "orientation", "name", "stops"], [1, "treemap-label"], [1, "treemap-label", 3, "innerHTML"], ["class", "treemap-val", "ngx-charts-count-up", "", 3, "countTo", "valueFormatting", 4, "ngIf"], ["class", "treemap-val", 4, "ngIf"], ["ngx-charts-count-up", "", 1, "treemap-val", 3, "countTo", "valueFormatting"], [1, "treemap-val"]], template: function TreeMapCellComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g");
             i0.ɵɵtemplate(1, TreeMapCellComponent__svg_defs_1_Template, 2, 3, "defs", 0);
@@ -19296,7 +19296,7 @@ class TreeMapCellComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(TreeMapCellComponent, { className: "TreeMapCellComponent", filePath: "lib/tree-map/tree-map-cell.component.ts", lineNumber: 62 }); })();
 
-const _c0$7 = ["ngx-charts-tree-map-cell-series", ""];
+const _c0$d = ["ngx-charts-tree-map-cell-series", ""];
 function TreeMapCellSeriesComponent__svg_g_0_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -19352,7 +19352,7 @@ class TreeMapCellSeriesComponent {
         return item.label;
     }
     static { this.ɵfac = function TreeMapCellSeriesComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || TreeMapCellSeriesComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: TreeMapCellSeriesComponent, selectors: [["g", "ngx-charts-tree-map-cell-series", ""]], inputs: { data: "data", dims: "dims", colors: "colors", valueFormatting: "valueFormatting", labelFormatting: "labelFormatting", gradient: "gradient", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$7, decls: 1, vars: 2, consts: [["ngx-charts-tree-map-cell", "", "ngx-tooltip", "", 3, "data", "x", "y", "width", "height", "fill", "label", "value", "valueFormatting", "labelFormatting", "gradient", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "select", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-tree-map-cell", "", "ngx-tooltip", "", 3, "select", "data", "x", "y", "width", "height", "fill", "label", "value", "valueFormatting", "labelFormatting", "gradient", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function TreeMapCellSeriesComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: TreeMapCellSeriesComponent, selectors: [["g", "ngx-charts-tree-map-cell-series", ""]], inputs: { data: "data", dims: "dims", colors: "colors", valueFormatting: "valueFormatting", labelFormatting: "labelFormatting", gradient: "gradient", tooltipDisabled: "tooltipDisabled", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$d, decls: 1, vars: 2, consts: [["ngx-charts-tree-map-cell", "", "ngx-tooltip", "", 3, "data", "x", "y", "width", "height", "fill", "label", "value", "valueFormatting", "labelFormatting", "gradient", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext", "select", 4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-charts-tree-map-cell", "", "ngx-tooltip", "", 3, "select", "data", "x", "y", "width", "height", "fill", "label", "value", "valueFormatting", "labelFormatting", "gradient", "animations", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function TreeMapCellSeriesComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵtemplate(0, TreeMapCellSeriesComponent__svg_g_0_Template, 1, 18, "g", 0);
         } if (rf & 2) {
             i0.ɵɵproperty("ngForOf", ctx.cells)("ngForTrackBy", ctx.trackBy);
@@ -19414,8 +19414,8 @@ class TreeMapCellSeriesComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(TreeMapCellSeriesComponent, { className: "TreeMapCellSeriesComponent", filePath: "lib/tree-map/tree-map-cell-series.component.ts", lineNumber: 60 }); })();
 
-const _c0$6 = ["tooltipTemplate"];
-const _c1$3 = (a0, a1) => [a0, a1];
+const _c0$c = ["tooltipTemplate"];
+const _c1$4 = (a0, a1) => [a0, a1];
 class TreeMapComponent extends BaseChartComponent {
     constructor() {
         super(...arguments);
@@ -19469,7 +19469,7 @@ class TreeMapComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵTreeMapComponent_BaseFactory; return function TreeMapComponent_Factory(__ngFactoryType__) { return (ɵTreeMapComponent_BaseFactory || (ɵTreeMapComponent_BaseFactory = i0.ɵɵgetInheritedFactory(TreeMapComponent)))(__ngFactoryType__ || TreeMapComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: TreeMapComponent, selectors: [["ngx-charts-tree-map"]], contentQueries: function TreeMapComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$6, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$c, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
@@ -19480,7 +19480,7 @@ class TreeMapComponent extends BaseChartComponent {
             i0.ɵɵlistener("select", function TreeMapComponent_Template_g_select_2_listener($event) { return ctx.onClick($event); });
             i0.ɵɵelementEnd()()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(13, _c1$3, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(13, _c1$4, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -19541,9 +19541,9 @@ class TreeMapModule {
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(TreeMapModule, { declarations: [TreeMapCellComponent, TreeMapCellSeriesComponent, TreeMapComponent], imports: [ChartCommonModule], exports: [TreeMapCellComponent, TreeMapCellSeriesComponent, TreeMapComponent] }); })();
 
-const _c0$5 = ["valueTextEl"];
-const _c1$2 = ["unitsTextEl"];
-const _c2$2 = (a0, a1) => [a0, a1];
+const _c0$b = ["valueTextEl"];
+const _c1$3 = ["unitsTextEl"];
+const _c2$3 = (a0, a1) => [a0, a1];
 const _c3 = () => ({});
 function LinearGaugeComponent__svg_line_4_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
@@ -19702,7 +19702,7 @@ class LinearGaugeComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵLinearGaugeComponent_BaseFactory; return function LinearGaugeComponent_Factory(__ngFactoryType__) { return (ɵLinearGaugeComponent_BaseFactory || (ɵLinearGaugeComponent_BaseFactory = i0.ɵɵgetInheritedFactory(LinearGaugeComponent)))(__ngFactoryType__ || LinearGaugeComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LinearGaugeComponent, selectors: [["ngx-charts-linear-gauge"]], viewQuery: function LinearGaugeComponent_Query(rf, ctx) { if (rf & 1) {
-            i0.ɵɵviewQuery(_c0$5, 5)(_c1$2, 5);
+            i0.ɵɵviewQuery(_c0$b, 5)(_c1$3, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.valueTextEl = _t.first);
@@ -19721,7 +19721,7 @@ class LinearGaugeComponent extends BaseChartComponent {
             i0.ɵɵtext(14);
             i0.ɵɵelementEnd()()()()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(33, _c2$2, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(33, _c2$3, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
             i0.ɵɵadvance(2);
             i0.ɵɵproperty("width", ctx.dims.width)("height", 3)("x", ctx.margin[3])("y", ctx.dims.height / 2 + ctx.margin[0] - 2)("data", i0.ɵɵpureFunction0(36, _c3))("orientation", ctx.barOrientation.Horizontal)("roundEdges", true)("animations", ctx.animations);
             i0.ɵɵadvance();
@@ -19847,7 +19847,7 @@ class LinearGaugeComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(LinearGaugeComponent, { className: "LinearGaugeComponent", filePath: "lib/gauge/linear-gauge.component.ts", lineNumber: 110 }); })();
 
-const _c0$4 = ["ngx-charts-gauge-arc", ""];
+const _c0$a = ["ngx-charts-gauge-arc", ""];
 class GaugeArcComponent {
     constructor() {
         this.isActive = false;
@@ -19874,7 +19874,7 @@ class GaugeArcComponent {
     `;
     }
     static { this.ɵfac = function GaugeArcComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || GaugeArcComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: GaugeArcComponent, selectors: [["g", "ngx-charts-gauge-arc", ""]], inputs: { backgroundArc: "backgroundArc", valueArc: "valueArc", cornerRadius: "cornerRadius", colors: "colors", isActive: "isActive", tooltipDisabled: "tooltipDisabled", valueFormatting: "valueFormatting", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, attrs: _c0$4, decls: 2, vars: 23, consts: [["ngx-charts-pie-arc", "", 1, "background-arc", 3, "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "data", "animate", "pointerEvents"], ["ngx-charts-pie-arc", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "fill", "data", "animate", "isActive", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function GaugeArcComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: GaugeArcComponent, selectors: [["g", "ngx-charts-gauge-arc", ""]], inputs: { backgroundArc: "backgroundArc", valueArc: "valueArc", cornerRadius: "cornerRadius", colors: "colors", isActive: "isActive", tooltipDisabled: "tooltipDisabled", valueFormatting: "valueFormatting", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, attrs: _c0$a, decls: 2, vars: 23, consts: [["ngx-charts-pie-arc", "", 1, "background-arc", 3, "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "data", "animate", "pointerEvents"], ["ngx-charts-pie-arc", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "fill", "data", "animate", "isActive", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function GaugeArcComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelement(0, "g", 0);
             i0.ɵɵelementStart(1, "g", 1);
@@ -19956,7 +19956,7 @@ class GaugeArcComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(GaugeArcComponent, { className: "GaugeArcComponent", filePath: "lib/gauge/gauge-arc.component.ts", lineNumber: 56 }); })();
 
-const _c0$3 = ["ngx-charts-gauge-axis", ""];
+const _c0$9 = ["ngx-charts-gauge-axis", ""];
 function GaugeAxisComponent__svg_g_1_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementStart(0, "g", 2);
@@ -20077,7 +20077,7 @@ class GaugeAxisComponent {
         return lineGenerator(points);
     }
     static { this.ɵfac = function GaugeAxisComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || GaugeAxisComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: GaugeAxisComponent, selectors: [["g", "ngx-charts-gauge-axis", ""]], inputs: { bigSegments: "bigSegments", smallSegments: "smallSegments", min: "min", max: "max", angleSpan: "angleSpan", startAngle: "startAngle", radius: "radius", valueScale: "valueScale", tickFormatting: "tickFormatting" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$3, decls: 4, vars: 4, consts: [["class", "gauge-tick gauge-tick-large", 4, "ngFor", "ngForOf"], ["class", "gauge-tick gauge-tick-small", 4, "ngFor", "ngForOf"], [1, "gauge-tick", "gauge-tick-large"], ["alignment-baseline", "central"], [1, "gauge-tick", "gauge-tick-small"]], template: function GaugeAxisComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: GaugeAxisComponent, selectors: [["g", "ngx-charts-gauge-axis", ""]], inputs: { bigSegments: "bigSegments", smallSegments: "smallSegments", min: "min", max: "max", angleSpan: "angleSpan", startAngle: "startAngle", radius: "radius", valueScale: "valueScale", tickFormatting: "tickFormatting" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$9, decls: 4, vars: 4, consts: [["class", "gauge-tick gauge-tick-large", 4, "ngFor", "ngForOf"], ["class", "gauge-tick gauge-tick-small", 4, "ngFor", "ngForOf"], [1, "gauge-tick", "gauge-tick-large"], ["alignment-baseline", "central"], [1, "gauge-tick", "gauge-tick-small"]], template: function GaugeAxisComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵnamespaceSVG();
             i0.ɵɵelementStart(0, "g");
             i0.ɵɵtemplate(1, GaugeAxisComponent__svg_g_1_Template, 2, 1, "g", 0)(2, GaugeAxisComponent__svg_g_2_Template, 3, 4, "g", 0)(3, GaugeAxisComponent__svg_g_3_Template, 2, 1, "g", 1);
@@ -20139,9 +20139,9 @@ class GaugeAxisComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(GaugeAxisComponent, { className: "GaugeAxisComponent", filePath: "lib/gauge/gauge-axis.component.ts", lineNumber: 41 }); })();
 
-const _c0$2 = ["tooltipTemplate"];
-const _c1$1 = ["textEl"];
-const _c2$1 = (a0, a1) => [a0, a1];
+const _c0$8 = ["tooltipTemplate"];
+const _c1$2 = ["textEl"];
+const _c2$2 = (a0, a1) => [a0, a1];
 function GaugeComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
     const _r1 = i0.ɵɵgetCurrentView();
     i0.ɵɵnamespaceSVG();
@@ -20386,12 +20386,12 @@ class GaugeComponent extends BaseChartComponent {
     }
     static { this.ɵfac = /*@__PURE__*/ (() => { let ɵGaugeComponent_BaseFactory; return function GaugeComponent_Factory(__ngFactoryType__) { return (ɵGaugeComponent_BaseFactory || (ɵGaugeComponent_BaseFactory = i0.ɵɵgetInheritedFactory(GaugeComponent)))(__ngFactoryType__ || GaugeComponent); }; })(); }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: GaugeComponent, selectors: [["ngx-charts-gauge"]], contentQueries: function GaugeComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-            i0.ɵɵcontentQuery(dirIndex, _c0$2, 5);
+            i0.ɵɵcontentQuery(dirIndex, _c0$8, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
         } }, viewQuery: function GaugeComponent_Query(rf, ctx) { if (rf & 1) {
-            i0.ɵɵviewQuery(_c1$1, 5);
+            i0.ɵɵviewQuery(_c1$2, 5);
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.textEl = _t.first);
@@ -20403,7 +20403,7 @@ class GaugeComponent extends BaseChartComponent {
             i0.ɵɵtemplate(2, GaugeComponent__svg_g_2_Template, 2, 10, "g", 3)(3, GaugeComponent__svg_g_3_Template, 1, 9, "g", 4)(4, GaugeComponent__svg_text_4_Template, 6, 5, "text", 5);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c2$1, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(10, _c2$2, ctx.width, ctx.height))("showLegend", ctx.legend)("legendOptions", ctx.legendOptions)("activeEntries", ctx.activeEntries)("animations", ctx.animations);
             i0.ɵɵadvance();
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -20524,7 +20524,7 @@ class GaugeComponent extends BaseChartComponent {
         }] }); })();
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(GaugeComponent, { className: "GaugeComponent", filePath: "lib/gauge/gauge.component.ts", lineNumber: 93 }); })();
 
-const _c0$1 = (a0, a1) => [a0, a1];
+const _c0$7 = (a0, a1) => [a0, a1];
 function PercentGaugeComponent__svg_g_10_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵnamespaceSVG();
     i0.ɵɵelementStart(0, "g");
@@ -20678,7 +20678,7 @@ class PercentGaugeComponent extends BaseChartComponent {
             i0.ɵɵtemplate(19, PercentGaugeComponent__svg_g_19_Template, 3, 2, "g", 10);
             i0.ɵɵelementEnd()();
         } if (rf & 2) {
-            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(37, _c0$1, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(37, _c0$7, ctx.width, ctx.height))("showLegend", false)("animations", ctx.animations);
             i0.ɵɵadvance(2);
             i0.ɵɵattribute("transform", ctx.transform);
             i0.ɵɵadvance();
@@ -20844,6 +20844,1102 @@ class GaugeModule {
             }]
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(GaugeModule, { declarations: [LinearGaugeComponent, GaugeComponent, GaugeArcComponent, GaugeAxisComponent, PercentGaugeComponent], imports: [ChartCommonModule, PieChartModule, BarChartModule], exports: [LinearGaugeComponent, GaugeComponent, GaugeArcComponent, GaugeAxisComponent, PercentGaugeComponent] }); })();
+
+const _c0$6 = ["ngx-m-charts-gauge-axis", ""];
+function MGaugeAxisComponent__svg_g_1_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵnamespaceSVG();
+    i0.ɵɵelementStart(0, "g", 1)(1, "text", 2);
+    i0.ɵɵtext(2);
+    i0.ɵɵelementEnd()();
+} if (rf & 2) {
+    const tick_r1 = ctx.$implicit;
+    i0.ɵɵadvance();
+    i0.ɵɵstyleProp("text-anchor", tick_r1.textAnchor);
+    i0.ɵɵattribute("transform", tick_r1.textTransform);
+    i0.ɵɵadvance();
+    i0.ɵɵtextInterpolate1(" ", tick_r1.text, " ");
+} }
+class MGaugeAxisComponent {
+    constructor() {
+        this.rotate = '';
+    }
+    ngOnChanges(changes) {
+        this.update();
+    }
+    update() {
+        this.rotationAngle = -90 + this.startAngle;
+        this.rotate = `rotate(${this.rotationAngle})`;
+        this.ticks = this.getTicks();
+    }
+    getTicks() {
+        const bigTickSegment = this.angleSpan / this.bigSegments;
+        const smallTickSegment = bigTickSegment / this.smallSegments;
+        const tickLength = 20;
+        const ticks = {
+            big: [],
+            small: []
+        };
+        const startDistance = this.radius;
+        const textDist = startDistance + tickLength - 25;
+        for (let i = 0; i <= this.bigSegments; i++) {
+            const angleDeg = i * bigTickSegment;
+            const angle = (angleDeg * Math.PI) / 180;
+            const textAnchor = this.getTextAnchor(angleDeg);
+            let skip = false;
+            if (i === 0 && this.angleSpan === 360) {
+                skip = true;
+            }
+            if (!skip) {
+                let text = Number.parseFloat(this.valueScale.invert(angleDeg).toString()).toLocaleString();
+                if (this.tickFormatting) {
+                    text = this.tickFormatting(text);
+                }
+                ticks.big.push({
+                    line: this.getTickPath(startDistance, tickLength, angle),
+                    textAnchor,
+                    text,
+                    textTransform: `
+            translate(${textDist * Math.cos(angle)}, ${textDist * Math.sin(angle) - 20}) rotate(${-this.rotationAngle})
+          `
+                });
+            }
+            if (i === this.bigSegments) {
+                continue;
+            }
+            for (let j = 1; j <= this.smallSegments; j++) {
+                const smallAngleDeg = angleDeg + j * smallTickSegment;
+                const smallAngle = (smallAngleDeg * Math.PI) / 180;
+                ticks.small.push({
+                    line: this.getTickPath(startDistance, tickLength / 2, smallAngle)
+                });
+            }
+        }
+        return ticks;
+    }
+    getTextAnchor(angle) {
+        // [0, 45] = 'middle';
+        // [46, 135] = 'start';
+        // [136, 225] = 'middle';
+        // [226, 315] = 'end';
+        angle = (this.startAngle + angle) % 360;
+        let textAnchor = TextAnchor.Middle;
+        if (angle > 45 && angle <= 135) {
+            textAnchor = TextAnchor.End;
+        }
+        else if (angle > 225 && angle <= 315) {
+            textAnchor = TextAnchor.Start;
+        }
+        return textAnchor;
+    }
+    getTickPath(startDistance, tickLength, angle) {
+        const y1 = startDistance * Math.sin(angle);
+        const y2 = (startDistance + tickLength) * Math.sin(angle);
+        const x1 = startDistance * Math.cos(angle);
+        const x2 = (startDistance + tickLength) * Math.cos(angle);
+        const points = [
+            { x: x1, y: y1 },
+            { x: x2, y: y2 }
+        ];
+        const lineGenerator = line()
+            .x(d => d.x)
+            .y(d => d.y);
+        return lineGenerator(points);
+    }
+    static { this.ɵfac = function MGaugeAxisComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || MGaugeAxisComponent)(); }; }
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: MGaugeAxisComponent, selectors: [["g", "ngx-m-charts-gauge-axis", ""]], inputs: { bigSegments: "bigSegments", smallSegments: "smallSegments", min: "min", max: "max", angleSpan: "angleSpan", startAngle: "startAngle", radius: "radius", valueScale: "valueScale", tickFormatting: "tickFormatting" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$6, decls: 2, vars: 2, consts: [["class", "gauge-tick gauge-tick-large", 4, "ngFor", "ngForOf"], [1, "gauge-tick", "gauge-tick-large"], ["alignment-baseline", "central"]], template: function MGaugeAxisComponent_Template(rf, ctx) { if (rf & 1) {
+            i0.ɵɵnamespaceSVG();
+            i0.ɵɵelementStart(0, "g");
+            i0.ɵɵtemplate(1, MGaugeAxisComponent__svg_g_1_Template, 3, 4, "g", 0);
+            i0.ɵɵelementEnd();
+        } if (rf & 2) {
+            i0.ɵɵattribute("transform", ctx.rotate);
+            i0.ɵɵadvance();
+            i0.ɵɵproperty("ngForOf", ctx.ticks.big);
+        } }, dependencies: [i1.NgForOf], encapsulation: 2, changeDetection: 0 }); }
+}
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(MGaugeAxisComponent, [{
+        type: Component,
+        args: [{
+                standalone: false,
+                selector: 'g[ngx-m-charts-gauge-axis]',
+                template: `
+    <svg:g [attr.transform]="rotate">
+      
+      <svg:g *ngFor="let tick of ticks.big" class="gauge-tick gauge-tick-large">
+        <svg:text
+          [style.textAnchor]="tick.textAnchor"
+          [attr.transform]="tick.textTransform"
+          alignment-baseline="central"
+        >
+          {{ tick.text }}
+        </svg:text>
+      </svg:g>
+      
+    </svg:g>
+  `,
+                changeDetection: ChangeDetectionStrategy.OnPush
+            }]
+    }], null, { bigSegments: [{
+            type: Input
+        }], smallSegments: [{
+            type: Input
+        }], min: [{
+            type: Input
+        }], max: [{
+            type: Input
+        }], angleSpan: [{
+            type: Input
+        }], startAngle: [{
+            type: Input
+        }], radius: [{
+            type: Input
+        }], valueScale: [{
+            type: Input
+        }], tickFormatting: [{
+            type: Input
+        }] }); })();
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(MGaugeAxisComponent, { className: "MGaugeAxisComponent", filePath: "lib/m-gauge/m-gauge-axis.component.ts", lineNumber: 37 }); })();
+
+const _c0$5 = ["ngx-m-charts-pie-arc", ""];
+function MPieArcComponent__svg_defs_1_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵnamespaceSVG();
+    i0.ɵɵelementStart(0, "defs");
+    i0.ɵɵelement(1, "g", 3);
+    i0.ɵɵelementEnd();
+} if (rf & 2) {
+    const ctx_r0 = i0.ɵɵnextContext();
+    i0.ɵɵadvance();
+    i0.ɵɵproperty("color", ctx_r0.fill)("name", ctx_r0.radialGradientId)("startOpacity", ctx_r0.startOpacity);
+} }
+class MPieArcComponent {
+    constructor(element) {
+        this.startAngle = 0;
+        this.endAngle = Math.PI * 2;
+        this.cornerRadius = 0;
+        this.explodeSlices = false;
+        this.gradient = false;
+        this.animate = false;
+        this.pointerEvents = true;
+        this.isActive = false;
+        this.tooltipDisabled = true;
+        this.select = new EventEmitter();
+        this.activate = new EventEmitter();
+        this.deactivate = new EventEmitter();
+        this.dblclick = new EventEmitter();
+        this.barOrientation = BarOrientation;
+        this.initialized = false;
+        this.element = element.nativeElement;
+    }
+    ngOnChanges(changes) {
+        this.update();
+    }
+    getGradient() {
+        return this.gradient ? this.gradientFill : this.fill;
+    }
+    getPointerEvents() {
+        return this.pointerEvents ? 'auto' : 'none';
+    }
+    update() {
+        const calc = this.calculateArc();
+        this.startOpacity = 0.5;
+        this.radialGradientId = 'linearGrad' + id().toString();
+        this.gradientFill = `url(#${this.radialGradientId})`;
+        if (this.animate) {
+            if (this.initialized) {
+                this.updateAnimation();
+            }
+            else {
+                this.loadAnimation();
+                this.initialized = true;
+            }
+        }
+        else {
+            this.path = calc.startAngle(this.startAngle).endAngle(this.endAngle)();
+        }
+    }
+    calculateArc() {
+        let outerRadius = this.outerRadius;
+        if (this.explodeSlices && this.innerRadius === 0) {
+            outerRadius = (this.outerRadius * this.value) / this.max;
+        }
+        return arc().innerRadius(this.innerRadius).outerRadius(outerRadius).cornerRadius(this.cornerRadius);
+    }
+    loadAnimation() {
+        const node = select(this.element)
+            .selectAll('.arc')
+            .data([{ startAngle: this.startAngle, endAngle: this.endAngle }]);
+        const calc = this.calculateArc();
+        node
+            .transition()
+            .attrTween('d', function (d) {
+            this._current = this._current || d;
+            const copyOfD = Object.assign({}, d);
+            copyOfD.endAngle = copyOfD.startAngle;
+            const interpolater = interpolate(copyOfD, copyOfD);
+            this._current = interpolater(0);
+            return function (t) {
+                return calc(interpolater(t));
+            };
+        })
+            .transition()
+            .duration(750)
+            .attrTween('d', function (d) {
+            this._current = this._current || d;
+            const interpolater = interpolate(this._current, d);
+            this._current = interpolater(0);
+            return function (t) {
+                return calc(interpolater(t));
+            };
+        });
+    }
+    updateAnimation() {
+        const node = select(this.element)
+            .selectAll('.arc')
+            .data([{ startAngle: this.startAngle, endAngle: this.endAngle }]);
+        const calc = this.calculateArc();
+        node
+            .transition()
+            .duration(750)
+            .attrTween('d', function (d) {
+            this._current = this._current || d;
+            const interpolater = interpolate(this._current, d);
+            this._current = interpolater(0);
+            return function (t) {
+                return calc(interpolater(t));
+            };
+        });
+    }
+    onClick() {
+        clearTimeout(this._timeout);
+        this._timeout = setTimeout(() => this.select.emit(this.data), 200);
+    }
+    onDblClick(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        clearTimeout(this._timeout);
+        this.dblclick.emit({
+            data: this.data,
+            nativeEvent: event
+        });
+    }
+    static { this.ɵfac = function MPieArcComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || MPieArcComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: MPieArcComponent, selectors: [["g", "ngx-m-charts-pie-arc", ""]], inputs: { fill: "fill", startAngle: "startAngle", endAngle: "endAngle", innerRadius: "innerRadius", outerRadius: "outerRadius", cornerRadius: "cornerRadius", value: "value", max: "max", data: "data", explodeSlices: "explodeSlices", gradient: "gradient", animate: "animate", pointerEvents: "pointerEvents", isActive: "isActive", tooltipDisabled: "tooltipDisabled" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate", dblclick: "dblclick" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$5, decls: 3, vars: 9, consts: [[1, "arc-group"], [4, "ngIf"], ["ngx-tooltip", "", 1, "arc", 3, "tooltipDisabled", "tooltipTitle"], ["ngx-charts-svg-radial-gradient", "", 3, "color", "name", "startOpacity"]], template: function MPieArcComponent_Template(rf, ctx) { if (rf & 1) {
+            i0.ɵɵnamespaceSVG();
+            i0.ɵɵelementStart(0, "g", 0);
+            i0.ɵɵtemplate(1, MPieArcComponent__svg_defs_1_Template, 2, 3, "defs", 1);
+            i0.ɵɵelement(2, "path", 2);
+            i0.ɵɵelementEnd();
+        } if (rf & 2) {
+            i0.ɵɵadvance();
+            i0.ɵɵproperty("ngIf", ctx.gradient);
+            i0.ɵɵadvance();
+            i0.ɵɵstyleProp("pointer-events", ctx.getPointerEvents());
+            i0.ɵɵclassProp("active", ctx.isActive);
+            i0.ɵɵproperty("tooltipDisabled", ctx.tooltipDisabled)("tooltipTitle", "Min: " + ctx.data.value);
+            i0.ɵɵattribute("d", ctx.path)("fill", ctx.getGradient());
+        } }, dependencies: [i1.NgIf, TooltipDirective, SvgRadialGradientComponent], encapsulation: 2, changeDetection: 0 }); }
+}
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(MPieArcComponent, [{
+        type: Component,
+        args: [{
+                standalone: false,
+                selector: 'g[ngx-m-charts-pie-arc]',
+                template: `
+    <svg:g class="arc-group">
+      <svg:defs *ngIf="gradient">
+        <svg:g ngx-charts-svg-radial-gradient [color]="fill" [name]="radialGradientId" [startOpacity]="startOpacity" />
+      </svg:defs>
+      <svg:path
+        [attr.d]="path"
+        class="arc"
+        [class.active]="isActive"
+        [attr.fill]="getGradient()"
+        [style.pointer-events]="getPointerEvents()"
+        ngx-tooltip
+        [tooltipDisabled]="tooltipDisabled"
+        [tooltipTitle]="'Min: ' + data.value" 
+      />
+    </svg:g>
+  `,
+                changeDetection: ChangeDetectionStrategy.OnPush
+            }]
+    }], () => [{ type: i0.ElementRef }], { fill: [{
+            type: Input
+        }], startAngle: [{
+            type: Input
+        }], endAngle: [{
+            type: Input
+        }], innerRadius: [{
+            type: Input
+        }], outerRadius: [{
+            type: Input
+        }], cornerRadius: [{
+            type: Input
+        }], value: [{
+            type: Input
+        }], max: [{
+            type: Input
+        }], data: [{
+            type: Input
+        }], explodeSlices: [{
+            type: Input
+        }], gradient: [{
+            type: Input
+        }], animate: [{
+            type: Input
+        }], pointerEvents: [{
+            type: Input
+        }], isActive: [{
+            type: Input
+        }], tooltipDisabled: [{
+            type: Input
+        }], select: [{
+            type: Output
+        }], activate: [{
+            type: Output
+        }], deactivate: [{
+            type: Output
+        }], dblclick: [{
+            type: Output
+        }] }); })();
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(MPieArcComponent, { className: "MPieArcComponent", filePath: "lib/m-gauge/m-pie-arc.component.ts", lineNumber: 40 }); })();
+
+const _c0$4 = ["ngx-m-charts-gauge-arcReference", ""];
+class MGaugeArcComponentRef {
+    constructor() {
+        this.refBarColors = [];
+        this.isActive = false;
+        this.tooltipDisabled = false;
+        this.animations = true;
+        this.select = new EventEmitter();
+        this.activate = new EventEmitter();
+        this.deactivate = new EventEmitter();
+        this.placementTypes = PlacementTypes;
+        this.styleTypes = StyleTypes;
+    }
+    // getColor(arc: ArcItemRef): any {
+    //   const VALOR = arc.data.value;
+    //   let color = this.refBarColors.find((item) => VALOR >= item.min && VALOR <= item.max);
+    //   return color.color;
+    // }
+    getColorMarker() {
+        return "#ff0000";
+    }
+    tooltipText(arc) {
+        const label = formatLabel(arc.data.name);
+        let val;
+        if (this.valueFormatting) {
+            val = this.valueFormatting(arc.data.value);
+        }
+        else {
+            val = formatLabel(arc.data.value);
+        }
+        return `
+      <span class="tooltip-label">${escapeLabel(label)}</span>
+      <span class="tooltip-val">${val}</span>
+    `;
+    }
+    static { this.ɵfac = function MGaugeArcComponentRef_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || MGaugeArcComponentRef)(); }; }
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: MGaugeArcComponentRef, selectors: [["g", "ngx-m-charts-gauge-arcReference", ""]], inputs: { backgroundArc: "backgroundArc", valueArc: "valueArc", cornerRadius: "cornerRadius", colors: "colors", refBarColors: "refBarColors", isActive: "isActive", tooltipDisabled: "tooltipDisabled", valueFormatting: "valueFormatting", getColor: "getColor", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, attrs: _c0$4, decls: 2, vars: 16, consts: [["ngx-m-charts-pie-arc", "", 1, "background-arc", 3, "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "data", "animate", "pointerEvents"], ["ngx-m-charts-pie-arc", "", 3, "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "fill", "data", "animate"]], template: function MGaugeArcComponentRef_Template(rf, ctx) { if (rf & 1) {
+            i0.ɵɵnamespaceSVG();
+            i0.ɵɵelement(0, "g", 0)(1, "g", 1);
+        } if (rf & 2) {
+            i0.ɵɵproperty("startAngle", 0)("endAngle", ctx.backgroundArc.endAngle)("innerRadius", ctx.backgroundArc.innerRadius)("outerRadius", ctx.backgroundArc.outerRadius)("cornerRadius", ctx.cornerRadius)("data", ctx.backgroundArc.data)("animate", false)("pointerEvents", false);
+            i0.ɵɵadvance();
+            i0.ɵɵproperty("startAngle", 0)("endAngle", ctx.valueArc.endAngle - 0.02)("innerRadius", ctx.valueArc.innerRadius)("outerRadius", ctx.valueArc.outerRadius)("cornerRadius", ctx.cornerRadius)("fill", ctx.getColor(ctx.valueArc.data.value))("data", ctx.valueArc.data)("animate", ctx.animations);
+        } }, dependencies: [MPieArcComponent], encapsulation: 2, changeDetection: 0 }); }
+}
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(MGaugeArcComponentRef, [{
+        type: Component,
+        args: [{
+                standalone: false,
+                selector: 'g[ngx-m-charts-gauge-arcReference]',
+                template: `
+    <svg:g
+      ngx-m-charts-pie-arc
+      class="background-arc"
+      [startAngle]="0"
+      [endAngle]="backgroundArc.endAngle"
+      [innerRadius]="backgroundArc.innerRadius"
+      [outerRadius]="backgroundArc.outerRadius"
+      [cornerRadius]="cornerRadius"
+      [data]="backgroundArc.data"
+      [animate]="false"
+      [pointerEvents]="false"
+    ></svg:g>
+    <svg:g
+      ngx-m-charts-pie-arc
+      [startAngle]="0"
+      [endAngle]="valueArc.endAngle - 0.02"
+      [innerRadius]="valueArc.innerRadius"
+      [outerRadius]="valueArc.outerRadius"
+      [cornerRadius]="cornerRadius"
+      [fill]="this.getColor(valueArc.data.value)"
+      [data]="valueArc.data"
+      [animate]="animations"
+    ></svg:g>
+  `,
+                changeDetection: ChangeDetectionStrategy.OnPush
+            }]
+    }], null, { backgroundArc: [{
+            type: Input
+        }], valueArc: [{
+            type: Input
+        }], cornerRadius: [{
+            type: Input
+        }], colors: [{
+            type: Input
+        }], refBarColors: [{
+            type: Input
+        }], isActive: [{
+            type: Input
+        }], tooltipDisabled: [{
+            type: Input
+        }], valueFormatting: [{
+            type: Input
+        }], getColor: [{
+            type: Input
+        }], tooltipTemplate: [{
+            type: Input
+        }], animations: [{
+            type: Input
+        }], select: [{
+            type: Output
+        }], activate: [{
+            type: Output
+        }], deactivate: [{
+            type: Output
+        }] }); })();
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(MGaugeArcComponentRef, { className: "MGaugeArcComponentRef", filePath: "lib/m-gauge/m-gauge-arcreference.component.ts", lineNumber: 45 }); })();
+
+const _c0$3 = ["ngx-m-charts-pie-arcArrow", ""];
+class MPieArcArrowComponent {
+    constructor(element) {
+        this.scale = 1;
+        this.rotation = 'rotate(0deg)';
+        this.animation = 'animation: rotate 1s';
+        this.element = element.nativeElement;
+    }
+    ngOnChanges(changes) {
+        this.update();
+    }
+    update() {
+        this.animation = 'none';
+        const val = (this.data.value - this.min) * 180 / (this.max - this.min);
+        this.rotation = `rotate(${val > 180 ? 180 : val}deg)`;
+        this.element.style.setProperty('--rotation', this.rotation);
+        this.element.style.setProperty('--scale', `scale(${(this.scale / 150)})`);
+        this.animation = 'animation: rotate 1s';
+    }
+    static { this.ɵfac = function MPieArcArrowComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || MPieArcArrowComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); }; }
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: MPieArcArrowComponent, selectors: [["g", "ngx-m-charts-pie-arcArrow", ""]], inputs: { fill: "fill", max: "max", min: "min", data: "data", scale: "scale" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], attrs: _c0$3, decls: 3, vars: 8, consts: [[1, "arc-group"], [2, "transform", ""], [2, "transform", "translate(-9px, 8px)"]], template: function MPieArcArrowComponent_Template(rf, ctx) { if (rf & 1) {
+            i0.ɵɵnamespaceSVG();
+            i0.ɵɵelementStart(0, "g", 0);
+            i0.ɵɵelement(1, "path", 1)(2, "path", 2);
+            i0.ɵɵelementEnd();
+        } if (rf & 2) {
+            i0.ɵɵstyleMap(i0.ɵɵinterpolate2("transform: ", ctx.rotation, " translateY(-1.5%) var(--scale) ; ", ctx.animation));
+            i0.ɵɵadvance();
+            i0.ɵɵattribute("d", "M -8 8 L -150 8 L -150 0 L -8 0 Z")("fill", "#000");
+            i0.ɵɵadvance();
+            i0.ɵɵattribute("d", "M -1 -4 A 1 1 0 0 0 16 -4 A 1 1 0 0 0 -1 -4 Z")("fill", "#000");
+        } }, styles: ["@keyframes _ngcontent-%COMP%_rotate{0%{transform:rotate(0) var(--scale) translateY(-1.5%)}to{transform:var(--rotation) var(--scale) translateY(-1.5%)}}"], changeDetection: 0 }); }
+}
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(MPieArcArrowComponent, [{
+        type: Component,
+        args: [{ standalone: false, selector: 'g[ngx-m-charts-pie-arcArrow]', template: `
+      <svg:g class="arc-group" style="transform: {{rotation}} translateY(-1.5%) var(--scale) ; {{animation}}">
+        <svg:path
+          style="transform: ;"
+          [attr.d]="'M -8 8 L -150 8 L -150 0 L -8 0 Z'"
+          [attr.fill]="'#000'"
+        />
+        <svg:path
+          style="transform:  translate(-9px, 8px);"
+          [attr.d]="'M -1 -4 A 1 1 0 0 0 16 -4 A 1 1 0 0 0 -1 -4 Z'"
+          [attr.fill]="'#000'"
+        />
+      </svg:g>
+  `, changeDetection: ChangeDetectionStrategy.OnPush, styles: ["@keyframes rotate{0%{transform:rotate(0) var(--scale) translateY(-1.5%)}to{transform:var(--rotation) var(--scale) translateY(-1.5%)}}\n"] }]
+    }], () => [{ type: i0.ElementRef }], { fill: [{
+            type: Input
+        }], max: [{
+            type: Input
+        }], min: [{
+            type: Input
+        }], data: [{
+            type: Input
+        }], scale: [{
+            type: Input
+        }] }); })();
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(MPieArcArrowComponent, { className: "MPieArcArrowComponent", filePath: "lib/m-gauge/m-pie-arcarrow.component.ts", lineNumber: 40 }); })();
+
+const _c0$2 = ["tooltipTemplate"];
+const _c1$1 = ["textEl"];
+const _c2$1 = (a0, a1) => [a0, a1];
+function MGaugeComponent__svg_g_2__svg_g_1_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵnamespaceSVG();
+    i0.ɵɵelement(0, "g", 7);
+} if (rf & 2) {
+    const valueArc_r1 = ctx.$implicit;
+    const ctx_r1 = i0.ɵɵnextContext(2);
+    i0.ɵɵproperty("startAngle", valueArc_r1.startAngle)("endAngle", valueArc_r1.endAngle)("innerRadius", valueArc_r1.innerRadius - 5)("outerRadius", valueArc_r1.outerRadius - 5)("cornerRadius", 0)("fill", valueArc_r1.data.color)("data", valueArc_r1.data)("isActive", ctx_r1.isActive)("tooltipDisabled", false);
+} }
+function MGaugeComponent__svg_g_2_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵnamespaceSVG();
+    i0.ɵɵelementStart(0, "g");
+    i0.ɵɵtemplate(1, MGaugeComponent__svg_g_2__svg_g_1_Template, 1, 9, "g", 6);
+    i0.ɵɵelementEnd();
+} if (rf & 2) {
+    const ctx_r1 = i0.ɵɵnextContext();
+    i0.ɵɵattribute("transform", ctx_r1.rotation);
+    i0.ɵɵadvance();
+    i0.ɵɵproperty("ngForOf", ctx_r1.refArcs.colorArcs);
+} }
+function MGaugeComponent__svg_g_3_Template(rf, ctx) { if (rf & 1) {
+    const _r3 = i0.ɵɵgetCurrentView();
+    i0.ɵɵnamespaceSVG();
+    i0.ɵɵelementStart(0, "g")(1, "g", 8);
+    i0.ɵɵlistener("select", function MGaugeComponent__svg_g_3_Template_g_select_1_listener($event) { i0.ɵɵrestoreView(_r3); const ctx_r1 = i0.ɵɵnextContext(); return i0.ɵɵresetView(ctx_r1.onClick($event)); })("activate", function MGaugeComponent__svg_g_3_Template_g_activate_1_listener($event) { i0.ɵɵrestoreView(_r3); const ctx_r1 = i0.ɵɵnextContext(); return i0.ɵɵresetView(ctx_r1.onActivate($event)); })("deactivate", function MGaugeComponent__svg_g_3_Template_g_deactivate_1_listener($event) { i0.ɵɵrestoreView(_r3); const ctx_r1 = i0.ɵɵnextContext(); return i0.ɵɵresetView(ctx_r1.onDeactivate($event)); });
+    i0.ɵɵelementEnd();
+    i0.ɵɵelement(2, "g", 9);
+    i0.ɵɵelementEnd();
+} if (rf & 2) {
+    const arc_r4 = ctx.$implicit;
+    const ctx_r1 = i0.ɵɵnextContext();
+    i0.ɵɵadvance();
+    i0.ɵɵproperty("backgroundArc", arc_r4.backgroundArc)("valueArc", arc_r4.valueArc)("cornerRadius", 0)("colors", ctx_r1.colors)("refBarColors", ctx_r1.refBarColors)("isActive", ctx_r1.isActive(arc_r4.valueArc.data))("tooltipDisabled", true)("tooltipTemplate", ctx_r1.tooltipTemplate)("valueFormatting", ctx_r1.valueFormatting)("getColor", ctx_r1.getColor)("animations", ctx_r1.animations);
+    i0.ɵɵattribute("transform", ctx_r1.rotation);
+    i0.ɵɵadvance();
+    i0.ɵɵproperty("fill", "#000000")("data", arc_r4.valueArc.data)("max", ctx_r1.max)("min", ctx_r1.min)("scale", arc_r4.valueArc.outerRadius);
+} }
+function MGaugeComponent__svg_g_4_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵnamespaceSVG();
+    i0.ɵɵelement(0, "g", 10);
+} if (rf & 2) {
+    const ctx_r1 = i0.ɵɵnextContext();
+    i0.ɵɵproperty("bigSegments", 1)("smallSegments", 0)("min", ctx_r1.min)("max", ctx_r1.max)("radius", ctx_r1.outerRadius)("angleSpan", ctx_r1.angleSpan)("valueScale", ctx_r1.valueScale)("startAngle", ctx_r1.startAngle)("tickFormatting", ctx_r1.valueFormatting);
+} }
+function MGaugeComponent_div_5_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵelementStart(0, "div", 11)(1, "div", 12);
+    i0.ɵɵtext(2);
+    i0.ɵɵelementEnd();
+    i0.ɵɵelementStart(3, "div");
+    i0.ɵɵtext(4);
+    i0.ɵɵelementEnd()();
+} if (rf & 2) {
+    const ctx_r1 = i0.ɵɵnextContext();
+    i0.ɵɵadvance(2);
+    i0.ɵɵtextInterpolate1("", ctx_r1.getPercentage(), "%");
+    i0.ɵɵadvance();
+    i0.ɵɵstyleProp("color", ctx_r1.getColor(ctx_r1.arcs[0].valueArc.data.value));
+    i0.ɵɵadvance();
+    i0.ɵɵtextInterpolate(ctx_r1.displayValue);
+} }
+// ngx-tooltip
+// [tooltipDisabled]="tooltipDisabled"
+// [tooltipPlacement]="placementTypes.Top"
+// [tooltipType]="styleTypes.tooltip"
+// [tooltipTitle]="tooltipTemplate ? undefined : tooltipText(valueArc)"
+// [tooltipTemplate]="tooltipTemplate"
+// [tooltipContext]="valueArc.data"
+class MGaugeComponent extends BaseChartComponent {
+    constructor() {
+        super(...arguments);
+        this.min = 0;
+        this.max = 100;
+        this.showAxis = true;
+        this.startAngle = -90;
+        this.angleSpan = 180;
+        this.activeEntries = [];
+        this.tooltipDisabled = false;
+        this.showText = true;
+        this.refBarColors = [];
+        this.activate = new EventEmitter();
+        this.deactivate = new EventEmitter();
+        this.resizeScale = 1;
+        this.rotation = '';
+        this.textTransform = 'scale(1, 1)';
+        this.cornerRadius = 10;
+        this.Number = Number;
+    }
+    ngAfterViewInit() {
+        super.ngAfterViewInit();
+    }
+    update() {
+        super.update();
+        if (!this.showAxis) {
+            if (!this.margin) {
+                this.margin = [10, 20, 10, 20];
+            }
+        }
+        else {
+            if (!this.margin) {
+                this.margin = [60, 100, 60, 100];
+            }
+        }
+        // make the starting angle positive
+        if (this.startAngle < 0) {
+            this.startAngle = (this.startAngle % 360) + 360;
+        }
+        this.angleSpan = Math.min(this.angleSpan, 360);
+        this.dims = calculateViewDimensions({
+            width: this.width,
+            height: this.height,
+            margins: this.margin
+        });
+        this.domain = this.getDomain();
+        this.valueDomain = this.getValueDomain();
+        this.valueScale = this.getValueScale();
+        this.displayValue = this.getDisplayValue();
+        this.outerRadius = Math.min(this.dims.width, this.dims.height) / 2;
+        this.outerRadiusRef = Math.min(this.dims.width, this.dims.height) / 1;
+        this.arcs = this.getArcs();
+        this.refArcs = this.getRefArcs();
+        this.setColors();
+        const xOffset = this.margin[3] + this.dims.width / 2;
+        const yOffset = this.margin[0] + this.dims.height / 2;
+        this.transform = `translate(50%, 70%)`;
+        this.rotation = `rotate(${this.startAngle})`;
+    }
+    getArcs() {
+        const arcs = [];
+        const availableRadius = this.outerRadius * 0.7;
+        const radiusPerArc = Math.min(availableRadius / this.results.length, 25);
+        const arcWidth = radiusPerArc * 2;
+        this.textRadius = this.outerRadius - this.results.length * radiusPerArc;
+        // redondeo de bordes
+        this.cornerRadius = Math.floor(arcWidth / 2);
+        let i = 0;
+        for (const d of this.results) {
+            const outerRadius = this.outerRadius - i * radiusPerArc;
+            const innerRadius = outerRadius - arcWidth;
+            const backgroundArc = {
+                endAngle: (this.angleSpan * Math.PI) / 180,
+                innerRadius,
+                outerRadius,
+                data: {
+                    value: this.max,
+                    name: d.name
+                }
+            };
+            const endAngle = (Math.min(this.valueScale(d.value), this.angleSpan) * Math.PI) / 180;
+            const valueArc = {
+                endAngle: endAngle < 0 ? 0 : endAngle,
+                innerRadius,
+                outerRadius,
+                data: {
+                    value: d.value < this.min ? this.min : d.value,
+                    name: d.name
+                }
+            };
+            const arc = {
+                backgroundArc,
+                valueArc
+            };
+            arcs.push(arc);
+            i++;
+        }
+        return arcs;
+    }
+    getRefArcs() {
+        const availableRadius = this.outerRadius + 22;
+        const radiusPerArc = Math.min(availableRadius, 10);
+        const arcWidth = radiusPerArc * 1;
+        this.textRadius = this.outerRadius - this.results.length * radiusPerArc;
+        // redondeo de bordes
+        this.cornerRadius = Math.floor(arcWidth / 2);
+        const backgroundArc = {
+            endAngle: (this.angleSpan * Math.PI) / 180,
+            innerRadius: availableRadius - arcWidth,
+            outerRadius: availableRadius,
+            data: {
+                value: this.max,
+                name: ''
+            }
+        };
+        let i = 0;
+        const colorArcs = [];
+        for (const color of this.refBarColors) {
+            const endAngle = (Math.min(this.valueScale(color.maxValue), this.angleSpan) * Math.PI) / 180;
+            const startAngle = (Math.min(this.valueScale(color.minValue), this.angleSpan) * Math.PI) / 180;
+            const maxEnd = (Math.min(this.valueScale(this.max), this.angleSpan) * Math.PI);
+            const maxStart = (Math.min(this.valueScale(this.min), this.angleSpan) * Math.PI);
+            const valueArc = {
+                endAngle: endAngle > maxEnd ? maxEnd : endAngle,
+                innerRadius: availableRadius - arcWidth,
+                outerRadius: availableRadius,
+                startAngle: startAngle < maxStart ? maxStart : startAngle,
+                data: {
+                    value: (color.minValue < this.min) ? this.min : color.minValue,
+                    color: color.color,
+                    name: color.color
+                }
+            };
+            colorArcs.push(valueArc);
+            i++;
+        }
+        const refArcs = {
+            backgroundArc: backgroundArc,
+            colorArcs: colorArcs
+        };
+        return refArcs;
+    }
+    getColor(value) {
+        let maxRange = { val: this.max, i: 0 };
+        let minRange = { val: this.min, i: 0 };
+        // const VALOR = arc.data.value;
+        if (this.refBarColors.length > 0) {
+            const color = this.refBarColors.find((item, i) => {
+                if (item.minValue < minRange.val)
+                    minRange = { val: item.minValue, i };
+                if (item.maxValue > maxRange.val)
+                    maxRange = { val: item.maxValue, i };
+                return value >= item.minValue && value <= item.maxValue;
+            });
+            if (!color) {
+                return '#8f8f8f';
+            }
+            return color.color;
+        }
+        return '#8f8f8f';
+    }
+    getDomain() {
+        return this.results.map(d => d.name);
+    }
+    getValueDomain() {
+        const values = this.results.map(d => d.value);
+        const dataMin = Math.min(...values);
+        const dataMax = Math.max(...values);
+        if (this.min === undefined) {
+            this.min = dataMin;
+        }
+        if (this.max === undefined) {
+            this.max = dataMax;
+        }
+        return [this.min, this.max];
+    }
+    getValueScale() {
+        return scaleLinear().range([0, this.angleSpan]).nice().domain(this.valueDomain);
+    }
+    getDisplayValue() {
+        const value = this.results.map(d => d.value).reduce((a, b) => a + b, 0);
+        if (this.textValue && 0 !== this.textValue.length) {
+            return this.textValue.toLocaleString();
+        }
+        if (this.valueFormatting) {
+            return this.valueFormatting(value);
+        }
+        return value.toLocaleString();
+    }
+    onClick(data) {
+        this.select.emit(data);
+    }
+    setColors() {
+        this.colors = new ColorHelper(this.scheme, ScaleType.Ordinal, this.domain, this.customColors);
+    }
+    onActivate(item) {
+        const idx = this.activeEntries.findIndex(d => {
+            return d.name === item.name && d.value === item.value;
+        });
+        if (idx > -1) {
+            return;
+        }
+        this.activeEntries = [item, ...this.activeEntries];
+        this.activate.emit({ value: item, entries: this.activeEntries });
+    }
+    onDeactivate(item) {
+        const idx = this.activeEntries.findIndex(d => {
+            return d.name === item.name && d.value === item.value;
+        });
+        this.activeEntries.splice(idx, 1);
+        this.activeEntries = [...this.activeEntries];
+        this.deactivate.emit({ value: item, entries: this.activeEntries });
+    }
+    isActive(entry) {
+        if (!this.activeEntries)
+            return false;
+        const item = this.activeEntries.find(d => {
+            return entry.name === d.name && entry.series === d.series;
+        });
+        return item !== undefined;
+    }
+    trackBy(index, item) {
+        return item.valueArc.data.name;
+    }
+    getPercentage() {
+        const value = this.results.map(d => d.value).reduce((a, b) => a + b, 0);
+        const percentage = ((value - this.min) * 100 / (this.max - this.min));
+        return this.valueFormatting ? this.valueFormatting(percentage) : percentage;
+    }
+    static { this.ɵfac = /*@__PURE__*/ (() => { let ɵMGaugeComponent_BaseFactory; return function MGaugeComponent_Factory(__ngFactoryType__) { return (ɵMGaugeComponent_BaseFactory || (ɵMGaugeComponent_BaseFactory = i0.ɵɵgetInheritedFactory(MGaugeComponent)))(__ngFactoryType__ || MGaugeComponent); }; })(); }
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: MGaugeComponent, selectors: [["ngx-m-charts-gauge"]], contentQueries: function MGaugeComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
+            i0.ɵɵcontentQuery(dirIndex, _c0$2, 5);
+        } if (rf & 2) {
+            let _t;
+            i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.tooltipTemplate = _t.first);
+        } }, viewQuery: function MGaugeComponent_Query(rf, ctx) { if (rf & 1) {
+            i0.ɵɵviewQuery(_c1$1, 5);
+        } if (rf & 2) {
+            let _t;
+            i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.textEl = _t.first);
+        } }, inputs: { min: "min", max: "max", textValue: "textValue", results: "results", showAxis: "showAxis", activeEntries: "activeEntries", tooltipDisabled: "tooltipDisabled", valueFormatting: "valueFormatting", showText: "showText", refBarColors: "refBarColors", margin: "margin" }, outputs: { activate: "activate", deactivate: "deactivate" }, standalone: false, features: [i0.ɵɵInheritDefinitionFeature], decls: 6, vars: 14, consts: [[3, "view", "activeEntries", "animations"], [1, "gauge", "chart"], [4, "ngIf"], [4, "ngFor", "ngForOf", "ngForTrackBy"], ["ngx-m-charts-gauge-axis", "", 3, "bigSegments", "smallSegments", "min", "max", "radius", "angleSpan", "valueScale", "startAngle", "tickFormatting", 4, "ngIf"], ["class", "valueContainer", 4, "ngIf"], ["ngx-m-charts-pie-arc", "", 3, "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "fill", "data", "isActive", "tooltipDisabled", 4, "ngFor", "ngForOf"], ["ngx-m-charts-pie-arc", "", 3, "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "fill", "data", "isActive", "tooltipDisabled"], ["ngx-m-charts-gauge-arcReference", "", 3, "select", "activate", "deactivate", "backgroundArc", "valueArc", "cornerRadius", "colors", "refBarColors", "isActive", "tooltipDisabled", "tooltipTemplate", "valueFormatting", "getColor", "animations"], ["ngx-m-charts-pie-arcArrow", "", "id", "flecha", 3, "fill", "data", "max", "min", "scale"], ["ngx-m-charts-gauge-axis", "", 3, "bigSegments", "smallSegments", "min", "max", "radius", "angleSpan", "valueScale", "startAngle", "tickFormatting"], [1, "valueContainer"], [1, "displayValue", 2, "color", "#a0aabe"]], template: function MGaugeComponent_Template(rf, ctx) { if (rf & 1) {
+            i0.ɵɵelementStart(0, "ngx-charts-chart", 0);
+            i0.ɵɵnamespaceSVG();
+            i0.ɵɵelementStart(1, "g", 1);
+            i0.ɵɵtemplate(2, MGaugeComponent__svg_g_2_Template, 2, 2, "g", 2)(3, MGaugeComponent__svg_g_3_Template, 3, 17, "g", 3)(4, MGaugeComponent__svg_g_4_Template, 1, 9, "g", 4);
+            i0.ɵɵelementEnd()();
+            i0.ɵɵtemplate(5, MGaugeComponent_div_5_Template, 5, 4, "div", 5);
+        } if (rf & 2) {
+            i0.ɵɵproperty("view", i0.ɵɵpureFunction2(11, _c2$1, ctx.width, ctx.height))("activeEntries", ctx.activeEntries)("animations", ctx.animations);
+            i0.ɵɵadvance();
+            i0.ɵɵstyleMap(i0.ɵɵinterpolate1("transform: ", ctx.transform));
+            i0.ɵɵadvance();
+            i0.ɵɵproperty("ngIf", ctx.refArcs.colorArcs.length > 0);
+            i0.ɵɵadvance();
+            i0.ɵɵproperty("ngForOf", ctx.arcs)("ngForTrackBy", ctx.trackBy);
+            i0.ɵɵadvance();
+            i0.ɵɵproperty("ngIf", ctx.showAxis);
+            i0.ɵɵadvance();
+            i0.ɵɵproperty("ngIf", ctx.showText);
+        } }, dependencies: [i1.NgForOf, i1.NgIf, ChartComponent, MGaugeAxisComponent, MGaugeArcComponentRef, MPieArcArrowComponent, MPieArcComponent], styles: [".ngx-charts-outer{animation:chartFadeIn linear .6s}@keyframes chartFadeIn{0%{opacity:0}20%{opacity:0}to{opacity:1}}.ngx-charts{float:left;overflow:visible}.ngx-charts .circle,.ngx-charts .cell,.ngx-charts .bar,.ngx-charts .node,.ngx-charts .link,.ngx-charts .arc{cursor:pointer}.ngx-charts .bar.active,.ngx-charts .bar:hover,.ngx-charts .cell.active,.ngx-charts .cell:hover,.ngx-charts .arc.active,.ngx-charts .arc:hover,.ngx-charts .node.active,.ngx-charts .node:hover,.ngx-charts .link.active,.ngx-charts .link:hover,.ngx-charts .card.active,.ngx-charts .card:hover{opacity:.8;transition:opacity .1s ease-in-out}.ngx-charts .bar:focus,.ngx-charts .cell:focus,.ngx-charts .arc:focus,.ngx-charts .node:focus,.ngx-charts .link:focus,.ngx-charts .card:focus{outline:none}.ngx-charts .bar.hidden,.ngx-charts .cell.hidden,.ngx-charts .arc.hidden,.ngx-charts .node.hidden,.ngx-charts .link.hidden,.ngx-charts .card.hidden{display:none}.ngx-charts g:focus{outline:none}.ngx-charts .line-series.inactive,.ngx-charts .line-series-range.inactive,.ngx-charts .polar-series-path.inactive,.ngx-charts .polar-series-area.inactive,.ngx-charts .area-series.inactive{transition:opacity .1s ease-in-out;opacity:.2}.ngx-charts .line-highlight{display:none}.ngx-charts .line-highlight.active{display:block}.ngx-charts .area{opacity:.6}.ngx-charts .circle:hover{cursor:pointer}.ngx-charts .label{font-size:12px;font-weight:400}.ngx-charts .tooltip-anchor{fill:#000}.ngx-charts .gridline-path{stroke:#ddd;stroke-width:1;fill:none}.ngx-charts .refline-path{stroke:#a8b2c7;stroke-width:1;stroke-dasharray:5;stroke-dashoffset:5}.ngx-charts .refline-label{font-size:9px}.ngx-charts .reference-area{fill-opacity:.05;fill:#000}.ngx-charts .gridline-path-dotted{stroke:#ddd;stroke-width:1;fill:none;stroke-dasharray:1,20;stroke-dashoffset:3}.ngx-charts .grid-panel rect{fill:none}.ngx-charts .grid-panel.odd rect{fill:#0000000d}\n", ".gauge *{cursor:auto}.gauge .background-arc path{fill:#0000000d}.gauge .gauge-tick path{stroke:#666}.gauge .gauge-tick text{font-size:17px;fill:#666;font-weight:700}.gauge .gauge-tick-large path{stroke-width:2px}.gauge .gauge-tick-small path{stroke-width:1px}.valueContainer{position:absolute;width:100%;top:75%;text-align:center}\n"], encapsulation: 2, changeDetection: 0 }); }
+}
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(MGaugeComponent, [{
+        type: Component,
+        args: [{ standalone: false, selector: 'ngx-m-charts-gauge', template: `
+    <ngx-charts-chart
+      [view]="[width, height]"
+      [activeEntries]="activeEntries"
+      [animations]="animations"
+    >
+      <svg:g style="transform: {{transform}}" class="gauge chart">
+
+        <svg:g [attr.transform]="rotation" *ngIf="refArcs.colorArcs.length > 0">
+        
+          <!-- frag#1 ? --> 
+          <!-- Arco superior de la referencia -->
+          <svg:g *ngFor="let valueArc of refArcs.colorArcs;"
+            ngx-m-charts-pie-arc
+            [startAngle]="valueArc.startAngle"
+            [endAngle]="valueArc.endAngle"
+            [innerRadius]="valueArc.innerRadius -5"
+            [outerRadius]="valueArc.outerRadius - 5"
+            [cornerRadius]="0"
+            [fill]="valueArc.data.color"
+            [data]="valueArc.data"
+            [isActive]="isActive" 
+            [tooltipDisabled]="false"
+          ></svg:g>
+        </svg:g>
+
+        <svg:g *ngFor="let arc of arcs; trackBy: trackBy">
+          <svg:g [attr.transform]="rotation"
+            ngx-m-charts-gauge-arcReference
+            [backgroundArc]="arc.backgroundArc"
+            [valueArc]="arc.valueArc"
+            [cornerRadius]="0"
+            [colors]="colors"
+            [refBarColors]="refBarColors"
+            [isActive]="isActive(arc.valueArc.data)"
+            [tooltipDisabled]="true"
+            [tooltipTemplate]="tooltipTemplate"
+            [valueFormatting]="valueFormatting"
+            [getColor]="getColor"
+            [animations]="animations"
+            (select)="onClick($event)"
+            (activate)="onActivate($event)"
+            (deactivate)="onDeactivate($event)"
+          ></svg:g>
+
+          <svg:g
+            ngx-m-charts-pie-arcArrow
+            id="flecha"
+            [fill]="'#000000'"
+            [data]="arc.valueArc.data"
+            [max]="max"
+            [min]="min"
+            [scale]="arc.valueArc.outerRadius"
+          ></svg:g>
+        </svg:g>
+
+        <svg:g
+          ngx-m-charts-gauge-axis
+          *ngIf="showAxis"
+          [bigSegments]="1"
+          [smallSegments]="0"
+          [min]="min"
+          [max]="max"
+          [radius]="outerRadius"
+          [angleSpan]="angleSpan"
+          [valueScale]="valueScale"
+          [startAngle]="startAngle"
+          [tickFormatting]="valueFormatting"
+        ></svg:g>
+      </svg:g>
+    </ngx-charts-chart>
+    <div class="valueContainer" *ngIf="showText">
+      <div class="displayValue" style="color: #a0aabe;">{{getPercentage()}}%</div>
+      <div [style.color]="getColor(arcs[0].valueArc.data.value)">{{displayValue}}</div>
+    </div>
+  `, encapsulation: ViewEncapsulation.None, changeDetection: ChangeDetectionStrategy.OnPush, styles: [".ngx-charts-outer{animation:chartFadeIn linear .6s}@keyframes chartFadeIn{0%{opacity:0}20%{opacity:0}to{opacity:1}}.ngx-charts{float:left;overflow:visible}.ngx-charts .circle,.ngx-charts .cell,.ngx-charts .bar,.ngx-charts .node,.ngx-charts .link,.ngx-charts .arc{cursor:pointer}.ngx-charts .bar.active,.ngx-charts .bar:hover,.ngx-charts .cell.active,.ngx-charts .cell:hover,.ngx-charts .arc.active,.ngx-charts .arc:hover,.ngx-charts .node.active,.ngx-charts .node:hover,.ngx-charts .link.active,.ngx-charts .link:hover,.ngx-charts .card.active,.ngx-charts .card:hover{opacity:.8;transition:opacity .1s ease-in-out}.ngx-charts .bar:focus,.ngx-charts .cell:focus,.ngx-charts .arc:focus,.ngx-charts .node:focus,.ngx-charts .link:focus,.ngx-charts .card:focus{outline:none}.ngx-charts .bar.hidden,.ngx-charts .cell.hidden,.ngx-charts .arc.hidden,.ngx-charts .node.hidden,.ngx-charts .link.hidden,.ngx-charts .card.hidden{display:none}.ngx-charts g:focus{outline:none}.ngx-charts .line-series.inactive,.ngx-charts .line-series-range.inactive,.ngx-charts .polar-series-path.inactive,.ngx-charts .polar-series-area.inactive,.ngx-charts .area-series.inactive{transition:opacity .1s ease-in-out;opacity:.2}.ngx-charts .line-highlight{display:none}.ngx-charts .line-highlight.active{display:block}.ngx-charts .area{opacity:.6}.ngx-charts .circle:hover{cursor:pointer}.ngx-charts .label{font-size:12px;font-weight:400}.ngx-charts .tooltip-anchor{fill:#000}.ngx-charts .gridline-path{stroke:#ddd;stroke-width:1;fill:none}.ngx-charts .refline-path{stroke:#a8b2c7;stroke-width:1;stroke-dasharray:5;stroke-dashoffset:5}.ngx-charts .refline-label{font-size:9px}.ngx-charts .reference-area{fill-opacity:.05;fill:#000}.ngx-charts .gridline-path-dotted{stroke:#ddd;stroke-width:1;fill:none;stroke-dasharray:1,20;stroke-dashoffset:3}.ngx-charts .grid-panel rect{fill:none}.ngx-charts .grid-panel.odd rect{fill:#0000000d}\n", ".gauge *{cursor:auto}.gauge .background-arc path{fill:#0000000d}.gauge .gauge-tick path{stroke:#666}.gauge .gauge-tick text{font-size:17px;fill:#666;font-weight:700}.gauge .gauge-tick-large path{stroke-width:2px}.gauge .gauge-tick-small path{stroke-width:1px}.valueContainer{position:absolute;width:100%;top:75%;text-align:center}\n"] }]
+    }], null, { min: [{
+            type: Input
+        }], max: [{
+            type: Input
+        }], textValue: [{
+            type: Input
+        }], results: [{
+            type: Input
+        }], showAxis: [{
+            type: Input
+        }], activeEntries: [{
+            type: Input
+        }], tooltipDisabled: [{
+            type: Input
+        }], valueFormatting: [{
+            type: Input
+        }], showText: [{
+            type: Input
+        }], refBarColors: [{
+            type: Input
+        }], margin: [{
+            type: Input
+        }], activate: [{
+            type: Output
+        }], deactivate: [{
+            type: Output
+        }], tooltipTemplate: [{
+            type: ContentChild,
+            args: ['tooltipTemplate']
+        }], textEl: [{
+            type: ViewChild,
+            args: ['textEl']
+        }] }); })();
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(MGaugeComponent, { className: "MGaugeComponent", filePath: "lib/m-gauge/m-gauge.component.ts", lineNumber: 130 }); })();
+
+const _c0$1 = ["ngx-m-charts-gauge-arc", ""];
+class MGaugeArcComponent {
+    constructor() {
+        this.isActive = false;
+        this.tooltipDisabled = false;
+        this.animations = true;
+        this.select = new EventEmitter();
+        this.activate = new EventEmitter();
+        this.deactivate = new EventEmitter();
+        this.placementTypes = PlacementTypes;
+        this.styleTypes = StyleTypes;
+    }
+    tooltipText(arc) {
+        const label = formatLabel(arc.data.name);
+        let val;
+        if (this.valueFormatting) {
+            val = this.valueFormatting(arc.data.value);
+        }
+        else {
+            val = formatLabel(arc.data.value);
+        }
+        return `
+      <span class="tooltip-label">${escapeLabel(label)}</span>
+      <span class="tooltip-val">${val}</span>
+    `;
+    }
+    static { this.ɵfac = function MGaugeArcComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || MGaugeArcComponent)(); }; }
+    static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: MGaugeArcComponent, selectors: [["g", "ngx-m-charts-gauge-arc", ""]], inputs: { backgroundArc: "backgroundArc", valueArc: "valueArc", cornerRadius: "cornerRadius", colors: "colors", isActive: "isActive", tooltipDisabled: "tooltipDisabled", valueFormatting: "valueFormatting", tooltipTemplate: "tooltipTemplate", animations: "animations" }, outputs: { select: "select", activate: "activate", deactivate: "deactivate" }, standalone: false, attrs: _c0$1, decls: 2, vars: 23, consts: [["ngx-m-charts-pie-arc", "", 1, "background-arc", 3, "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "data", "animate", "pointerEvents"], ["ngx-m-charts-pie-arc", "", "ngx-tooltip", "", 3, "select", "activate", "deactivate", "startAngle", "endAngle", "innerRadius", "outerRadius", "cornerRadius", "fill", "data", "animate", "isActive", "tooltipDisabled", "tooltipPlacement", "tooltipType", "tooltipTitle", "tooltipTemplate", "tooltipContext"]], template: function MGaugeArcComponent_Template(rf, ctx) { if (rf & 1) {
+            i0.ɵɵnamespaceSVG();
+            i0.ɵɵelement(0, "g", 0);
+            i0.ɵɵelementStart(1, "g", 1);
+            i0.ɵɵlistener("select", function MGaugeArcComponent_Template_g_select_1_listener($event) { return ctx.select.emit($event); })("activate", function MGaugeArcComponent_Template_g_activate_1_listener($event) { return ctx.activate.emit($event); })("deactivate", function MGaugeArcComponent_Template_g_deactivate_1_listener($event) { return ctx.deactivate.emit($event); });
+            i0.ɵɵelementEnd();
+        } if (rf & 2) {
+            i0.ɵɵproperty("startAngle", 0)("endAngle", ctx.backgroundArc.endAngle)("innerRadius", ctx.backgroundArc.innerRadius)("outerRadius", ctx.backgroundArc.outerRadius)("cornerRadius", ctx.cornerRadius)("data", ctx.backgroundArc.data)("animate", false)("pointerEvents", false);
+            i0.ɵɵadvance();
+            i0.ɵɵproperty("startAngle", 0)("endAngle", ctx.valueArc.endAngle)("innerRadius", ctx.valueArc.innerRadius)("outerRadius", ctx.valueArc.outerRadius)("cornerRadius", ctx.cornerRadius)("fill", ctx.colors.getColor(ctx.valueArc.data.name))("data", ctx.valueArc.data)("animate", ctx.animations)("isActive", ctx.isActive)("tooltipDisabled", ctx.tooltipDisabled)("tooltipPlacement", ctx.placementTypes.Top)("tooltipType", ctx.styleTypes.tooltip)("tooltipTitle", ctx.tooltipTemplate ? undefined : ctx.tooltipText(ctx.valueArc))("tooltipTemplate", ctx.tooltipTemplate)("tooltipContext", ctx.valueArc.data);
+        } }, dependencies: [TooltipDirective, MPieArcComponent], encapsulation: 2, changeDetection: 0 }); }
+}
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(MGaugeArcComponent, [{
+        type: Component,
+        args: [{
+                standalone: false,
+                selector: 'g[ngx-m-charts-gauge-arc]',
+                template: `
+    <svg:g
+      ngx-m-charts-pie-arc
+      class="background-arc"
+      [startAngle]="0"
+      [endAngle]="backgroundArc.endAngle"
+      [innerRadius]="backgroundArc.innerRadius"
+      [outerRadius]="backgroundArc.outerRadius"
+      [cornerRadius]="cornerRadius"
+      [data]="backgroundArc.data"
+      [animate]="false"
+      [pointerEvents]="false"
+    ></svg:g>
+    <svg:g
+      ngx-m-charts-pie-arc
+      [startAngle]="0"
+      [endAngle]="valueArc.endAngle"
+      [innerRadius]="valueArc.innerRadius"
+      [outerRadius]="valueArc.outerRadius"
+      [cornerRadius]="cornerRadius"
+      [fill]="colors.getColor(valueArc.data.name)"
+      [data]="valueArc.data"
+      [animate]="animations"
+      [isActive]="isActive"
+      (select)="select.emit($event)"
+      (activate)="activate.emit($event)"
+      (deactivate)="deactivate.emit($event)"
+      ngx-tooltip
+      [tooltipDisabled]="tooltipDisabled"
+      [tooltipPlacement]="placementTypes.Top"
+      [tooltipType]="styleTypes.tooltip"
+      [tooltipTitle]="tooltipTemplate ? undefined : tooltipText(valueArc)"
+      [tooltipTemplate]="tooltipTemplate"
+      [tooltipContext]="valueArc.data"
+    ></svg:g>
+  `,
+                changeDetection: ChangeDetectionStrategy.OnPush
+            }]
+    }], null, { backgroundArc: [{
+            type: Input
+        }], valueArc: [{
+            type: Input
+        }], cornerRadius: [{
+            type: Input
+        }], colors: [{
+            type: Input
+        }], isActive: [{
+            type: Input
+        }], tooltipDisabled: [{
+            type: Input
+        }], valueFormatting: [{
+            type: Input
+        }], tooltipTemplate: [{
+            type: Input
+        }], animations: [{
+            type: Input
+        }], select: [{
+            type: Output
+        }], activate: [{
+            type: Output
+        }], deactivate: [{
+            type: Output
+        }] }); })();
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(MGaugeArcComponent, { className: "MGaugeArcComponent", filePath: "lib/m-gauge/m-gauge-arc.component.ts", lineNumber: 49 }); })();
+
+class MGaugeModule {
+    static { this.ɵfac = function MGaugeModule_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || MGaugeModule)(); }; }
+    static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: MGaugeModule }); }
+    static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [ChartCommonModule, BarChartModule] }); }
+}
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(MGaugeModule, [{
+        type: NgModule,
+        args: [{
+                imports: [ChartCommonModule, BarChartModule],
+                declarations: [MGaugeComponent, MGaugeArcComponent, MGaugeAxisComponent, MGaugeArcComponentRef, MPieArcArrowComponent, MPieArcComponent],
+                exports: [MGaugeComponent, MGaugeArcComponent, MGaugeAxisComponent, MGaugeArcComponentRef, MPieArcArrowComponent, MPieArcComponent]
+            }]
+    }], null, null); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(MGaugeModule, { declarations: [MGaugeComponent, MGaugeArcComponent, MGaugeAxisComponent, MGaugeArcComponentRef, MPieArcArrowComponent, MPieArcComponent], imports: [ChartCommonModule, BarChartModule], exports: [MGaugeComponent, MGaugeArcComponent, MGaugeAxisComponent, MGaugeArcComponentRef, MPieArcArrowComponent, MPieArcComponent] }); })();
 
 // The export is needed here to generate a valid polyfills.metadata.json file
 function ngxChartsPolyfills() {
@@ -21372,7 +22468,8 @@ class NgxChartsModule {
             NumberCardModule,
             PieChartModule,
             TreeMapModule,
-            GaugeModule] }); }
+            GaugeModule,
+            MGaugeModule] }); }
 }
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxChartsModule, [{
         type: NgModule,
@@ -21390,7 +22487,8 @@ class NgxChartsModule {
                     NumberCardModule,
                     PieChartModule,
                     TreeMapModule,
-                    GaugeModule
+                    GaugeModule,
+                    MGaugeModule
                 ]
             }]
     }], () => [], null); })();
@@ -21406,7 +22504,8 @@ class NgxChartsModule {
         NumberCardModule,
         PieChartModule,
         TreeMapModule,
-        GaugeModule] }); })();
+        GaugeModule,
+        MGaugeModule] }); })();
 
 function tickFormat(fieldType, groupByType) {
     return function (label) {
@@ -21431,5 +22530,5 @@ function tickFormat(fieldType, groupByType) {
  * Generated bundle index. Do not edit.
  */
 
-export { AdvancedLegendComponent, AdvancedPieChartComponent, AreaChartComponent, AreaChartModule, AreaChartNormalizedComponent, AreaChartStackedComponent, AreaComponent, AreaSeriesComponent, AxesModule, AxisLabelComponent, BarChartModule, BarChartType, BarComponent, BarHorizontal2DComponent, BarHorizontalComponent, BarHorizontalNormalizedComponent, BarHorizontalStackedComponent, BarLabelComponent, BarOrientation, BarVertical2DComponent, BarVerticalComponent, BarVerticalNormalizedComponent, BarVerticalStackedComponent, BaseChartComponent, BoxChartComponent, BoxChartModule, BoxComponent, BoxSeriesComponent, BubbleChartComponent, BubbleChartModule, BubbleSeriesComponent, CardComponent, CardSeriesComponent, ChartCommonModule, ChartComponent, CircleComponent, CircleSeriesComponent, ColorHelper, CountUpDirective, D0Types, GaugeArcComponent, GaugeAxisComponent, GaugeComponent, GaugeModule, GridPanelComponent, GridPanelSeriesComponent, HeatCellSeriesComponent, HeatMapCellComponent, HeatMapComponent, HeatMapModule, LegendComponent, LegendEntryComponent, LegendPosition, LegendType, LineChartComponent, LineChartModule, LineComponent, LineSeriesComponent, LinearGaugeComponent, NgxChartsModule, NumberCardComponent, NumberCardModule, Orientation, PercentGaugeComponent, PieArcComponent, PieChartComponent, PieChartModule, PieGridComponent, PieGridSeriesComponent, PieLabelComponent, PieSeriesComponent, PlacementTypes, PolarChartComponent, PolarChartModule, PolarSeriesComponent, SankeyComponent, SankeyModule, ScaleLegendComponent, ScaleType, SeriesHorizontal, SeriesType, SeriesVerticalComponent, ShowTypes, StyleTypes, SvgLinearGradientComponent, SvgRadialGradientComponent, TextAnchor, Timeline, TooltipArea, TooltipContentComponent, TooltipDirective, TooltipModule, TooltipService, TreeMapCellComponent, TreeMapCellSeriesComponent, TreeMapComponent, TreeMapModule, VisibilityObserver, XAxisComponent, XAxisTicksComponent, YAxisComponent, YAxisTicksComponent, calculateViewDimensions, cloneLineCoordinates, clonePoint, cloneVector2d, colorSets, count, decimalChecker, escapeLabel, formatLabel, getDomain, getScale, getScaleType, getTickLines, getUniqueXDomainValues, getXDomainArray, gridLayout, gridSize, hexToRgb, id, invertColor, reduceTicks, shadeRGBColor, sortByDomain, sortByTime, sortLinear, throttle, throttleable, tickFormat, trimLabel };
+export { AdvancedLegendComponent, AdvancedPieChartComponent, AreaChartComponent, AreaChartModule, AreaChartNormalizedComponent, AreaChartStackedComponent, AreaComponent, AreaSeriesComponent, AxesModule, AxisLabelComponent, BarChartModule, BarChartType, BarComponent, BarHorizontal2DComponent, BarHorizontalComponent, BarHorizontalNormalizedComponent, BarHorizontalStackedComponent, BarLabelComponent, BarOrientation, BarVertical2DComponent, BarVerticalComponent, BarVerticalNormalizedComponent, BarVerticalStackedComponent, BaseChartComponent, BoxChartComponent, BoxChartModule, BoxComponent, BoxSeriesComponent, BubbleChartComponent, BubbleChartModule, BubbleSeriesComponent, CardComponent, CardSeriesComponent, ChartCommonModule, ChartComponent, CircleComponent, CircleSeriesComponent, ColorHelper, CountUpDirective, D0Types, GaugeArcComponent, GaugeAxisComponent, GaugeComponent, GaugeModule, GridPanelComponent, GridPanelSeriesComponent, HeatCellSeriesComponent, HeatMapCellComponent, HeatMapComponent, HeatMapModule, LegendComponent, LegendEntryComponent, LegendPosition, LegendType, LineChartComponent, LineChartModule, LineComponent, LineSeriesComponent, LinearGaugeComponent, MGaugeArcComponent, MGaugeArcComponentRef, MGaugeAxisComponent, MGaugeComponent, MGaugeModule, MPieArcArrowComponent, MPieArcComponent, NgxChartsModule, NumberCardComponent, NumberCardModule, Orientation, PercentGaugeComponent, PieArcComponent, PieChartComponent, PieChartModule, PieGridComponent, PieGridSeriesComponent, PieLabelComponent, PieSeriesComponent, PlacementTypes, PolarChartComponent, PolarChartModule, PolarSeriesComponent, SankeyComponent, SankeyModule, ScaleLegendComponent, ScaleType, SeriesHorizontal, SeriesType, SeriesVerticalComponent, ShowTypes, StyleTypes, SvgLinearGradientComponent, SvgRadialGradientComponent, TextAnchor, Timeline, TooltipArea, TooltipContentComponent, TooltipDirective, TooltipModule, TooltipService, TreeMapCellComponent, TreeMapCellSeriesComponent, TreeMapComponent, TreeMapModule, VisibilityObserver, XAxisComponent, XAxisTicksComponent, YAxisComponent, YAxisTicksComponent, calculateViewDimensions, cloneLineCoordinates, clonePoint, cloneVector2d, colorSets, count, decimalChecker, escapeLabel, formatLabel, getDomain, getScale, getScaleType, getTickLines, getUniqueXDomainValues, getXDomainArray, gridLayout, gridSize, hexToRgb, id, invertColor, reduceTicks, shadeRGBColor, sortByDomain, sortByTime, sortLinear, throttle, throttleable, tickFormat, trimLabel };
 //# sourceMappingURL=swimlane-ngx-charts.mjs.map

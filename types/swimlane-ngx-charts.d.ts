@@ -3656,7 +3656,7 @@ declare class GaugeArcComponent {
     static ɵcmp: i0.ɵɵComponentDeclaration<GaugeArcComponent, "g[ngx-charts-gauge-arc]", never, { "backgroundArc": { "alias": "backgroundArc"; "required": false; }; "valueArc": { "alias": "valueArc"; "required": false; }; "cornerRadius": { "alias": "cornerRadius"; "required": false; }; "colors": { "alias": "colors"; "required": false; }; "isActive": { "alias": "isActive"; "required": false; }; "tooltipDisabled": { "alias": "tooltipDisabled"; "required": false; }; "valueFormatting": { "alias": "valueFormatting"; "required": false; }; "tooltipTemplate": { "alias": "tooltipTemplate"; "required": false; }; "animations": { "alias": "animations"; "required": false; }; }, { "select": "select"; "activate": "activate"; "deactivate": "deactivate"; }, never, never, false, never>;
 }
 
-interface Arcs {
+interface Arcs$1 {
     backgroundArc: ArcItem;
     valueArc: ArcItem;
 }
@@ -3696,7 +3696,7 @@ declare class GaugeComponent extends BaseChartComponent implements AfterViewInit
     rotation: string;
     textTransform: string;
     cornerRadius: number;
-    arcs: Arcs[];
+    arcs: Arcs$1[];
     displayValue: string;
     legendOptions: LegendOptions;
     ngOnChanges(): void;
@@ -3714,19 +3714,19 @@ declare class GaugeComponent extends BaseChartComponent implements AfterViewInit
     onActivate(item: any): void;
     onDeactivate(item: any): void;
     isActive(entry: any): boolean;
-    trackBy(index: number, item: Arcs): any;
+    trackBy(index: number, item: Arcs$1): any;
     static ɵfac: i0.ɵɵFactoryDeclaration<GaugeComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<GaugeComponent, "ngx-charts-gauge", never, { "legend": { "alias": "legend"; "required": false; }; "legendTitle": { "alias": "legendTitle"; "required": false; }; "legendPosition": { "alias": "legendPosition"; "required": false; }; "min": { "alias": "min"; "required": false; }; "max": { "alias": "max"; "required": false; }; "textValue": { "alias": "textValue"; "required": false; }; "units": { "alias": "units"; "required": false; }; "bigSegments": { "alias": "bigSegments"; "required": false; }; "smallSegments": { "alias": "smallSegments"; "required": false; }; "results": { "alias": "results"; "required": false; }; "showAxis": { "alias": "showAxis"; "required": false; }; "startAngle": { "alias": "startAngle"; "required": false; }; "angleSpan": { "alias": "angleSpan"; "required": false; }; "activeEntries": { "alias": "activeEntries"; "required": false; }; "axisTickFormatting": { "alias": "axisTickFormatting"; "required": false; }; "tooltipDisabled": { "alias": "tooltipDisabled"; "required": false; }; "valueFormatting": { "alias": "valueFormatting"; "required": false; }; "showText": { "alias": "showText"; "required": false; }; "margin": { "alias": "margin"; "required": false; }; }, { "activate": "activate"; "deactivate": "deactivate"; }, ["tooltipTemplate"], never, false, never>;
 }
 
-interface Big {
+interface Big$1 {
     line: string;
     text: string;
     textAnchor: string;
     textTransform: string;
 }
-interface Ticks {
-    big: Big[];
+interface Ticks$1 {
+    big: Big$1[];
     small: Array<{
         line: string;
     }>;
@@ -3741,12 +3741,12 @@ declare class GaugeAxisComponent implements OnChanges {
     radius: number;
     valueScale: any;
     tickFormatting: any;
-    ticks: Ticks;
+    ticks: Ticks$1;
     rotationAngle: number;
     rotate: string;
     ngOnChanges(changes: SimpleChanges): void;
     update(): void;
-    getTicks(): Ticks;
+    getTicks(): Ticks$1;
     getTextAnchor(angle: number): TextAnchor;
     getTickPath(startDistance: number, tickLength: number, angle: number): any;
     static ɵfac: i0.ɵɵFactoryDeclaration<GaugeAxisComponent, never>;
@@ -3803,10 +3803,225 @@ declare class GaugeModule {
     static ɵinj: i0.ɵɵInjectorDeclaration<GaugeModule>;
 }
 
+interface Arcs {
+    backgroundArc: ArcItem;
+    valueArc: ArcItem;
+}
+interface RefArcs {
+    backgroundArc: ArcItem;
+    colorArcs: ArcItem[];
+}
+interface GraphicRange {
+    minValue: number | null;
+    maxValue: number | null;
+    color: string | null;
+}
+declare class MGaugeComponent extends BaseChartComponent implements AfterViewInit {
+    min: number;
+    max: number;
+    textValue: string;
+    results: any[];
+    showAxis: boolean;
+    startAngle: number;
+    angleSpan: number;
+    activeEntries: any[];
+    tooltipDisabled: boolean;
+    valueFormatting: (value: any) => string;
+    showText: boolean;
+    refBarColors: GraphicRange[];
+    margin: number[];
+    activate: EventEmitter<any>;
+    deactivate: EventEmitter<any>;
+    tooltipTemplate: TemplateRef<any>;
+    textEl: ElementRef;
+    dims: ViewDimensions;
+    domain: any[];
+    valueDomain: [number, number];
+    valueScale: any;
+    colors: ColorHelper;
+    transform: string;
+    outerRadius: number;
+    outerRadiusRef: number;
+    textRadius: number;
+    resizeScale: number;
+    rotation: string;
+    textTransform: string;
+    cornerRadius: number;
+    arcs: Arcs[];
+    refArcs: RefArcs;
+    Number: NumberConstructor;
+    displayValue: string;
+    ngAfterViewInit(): void;
+    update(): void;
+    getArcs(): any[];
+    getRefArcs(): RefArcs;
+    getColor(value: number): any;
+    getDomain(): string[];
+    getValueDomain(): [number, number];
+    getValueScale(): any;
+    getDisplayValue(): string;
+    onClick(data: any): void;
+    setColors(): void;
+    onActivate(item: any): void;
+    onDeactivate(item: any): void;
+    isActive(entry: any): boolean;
+    trackBy(index: number, item: Arcs): any;
+    getPercentage(): string | number;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MGaugeComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MGaugeComponent, "ngx-m-charts-gauge", never, { "min": { "alias": "min"; "required": false; }; "max": { "alias": "max"; "required": false; }; "textValue": { "alias": "textValue"; "required": false; }; "results": { "alias": "results"; "required": false; }; "showAxis": { "alias": "showAxis"; "required": false; }; "activeEntries": { "alias": "activeEntries"; "required": false; }; "tooltipDisabled": { "alias": "tooltipDisabled"; "required": false; }; "valueFormatting": { "alias": "valueFormatting"; "required": false; }; "showText": { "alias": "showText"; "required": false; }; "refBarColors": { "alias": "refBarColors"; "required": false; }; "margin": { "alias": "margin"; "required": false; }; }, { "activate": "activate"; "deactivate": "deactivate"; }, ["tooltipTemplate"], never, false, never>;
+}
+
+declare class MGaugeArcComponent {
+    backgroundArc: ArcItem;
+    valueArc: ArcItem;
+    cornerRadius: number;
+    colors: ColorHelper;
+    isActive: boolean;
+    tooltipDisabled: boolean;
+    valueFormatting: (value: any) => string;
+    tooltipTemplate: TemplateRef<any>;
+    animations: boolean;
+    select: EventEmitter<any>;
+    activate: EventEmitter<any>;
+    deactivate: EventEmitter<any>;
+    placementTypes: typeof PlacementTypes;
+    styleTypes: typeof StyleTypes;
+    tooltipText(arc: ArcItem): string;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MGaugeArcComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MGaugeArcComponent, "g[ngx-m-charts-gauge-arc]", never, { "backgroundArc": { "alias": "backgroundArc"; "required": false; }; "valueArc": { "alias": "valueArc"; "required": false; }; "cornerRadius": { "alias": "cornerRadius"; "required": false; }; "colors": { "alias": "colors"; "required": false; }; "isActive": { "alias": "isActive"; "required": false; }; "tooltipDisabled": { "alias": "tooltipDisabled"; "required": false; }; "valueFormatting": { "alias": "valueFormatting"; "required": false; }; "tooltipTemplate": { "alias": "tooltipTemplate"; "required": false; }; "animations": { "alias": "animations"; "required": false; }; }, { "select": "select"; "activate": "activate"; "deactivate": "deactivate"; }, never, never, false, never>;
+}
+
+interface Big {
+    line: string;
+    text: string;
+    textAnchor: string;
+    textTransform: string;
+}
+interface Ticks {
+    big: Big[];
+    small: Array<{
+        line: string;
+    }>;
+}
+declare class MGaugeAxisComponent implements OnChanges {
+    bigSegments: number;
+    smallSegments: number;
+    min: number;
+    max: number;
+    angleSpan: number;
+    startAngle: number;
+    radius: number;
+    valueScale: any;
+    tickFormatting: any;
+    ticks: Ticks;
+    rotationAngle: number;
+    rotate: string;
+    ngOnChanges(changes: SimpleChanges): void;
+    update(): void;
+    getTicks(): Ticks;
+    getTextAnchor(angle: number): TextAnchor;
+    getTickPath(startDistance: number, tickLength: number, angle: number): any;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MGaugeAxisComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MGaugeAxisComponent, "g[ngx-m-charts-gauge-axis]", never, { "bigSegments": { "alias": "bigSegments"; "required": false; }; "smallSegments": { "alias": "smallSegments"; "required": false; }; "min": { "alias": "min"; "required": false; }; "max": { "alias": "max"; "required": false; }; "angleSpan": { "alias": "angleSpan"; "required": false; }; "startAngle": { "alias": "startAngle"; "required": false; }; "radius": { "alias": "radius"; "required": false; }; "valueScale": { "alias": "valueScale"; "required": false; }; "tickFormatting": { "alias": "tickFormatting"; "required": false; }; }, {}, never, never, false, never>;
+}
+
+interface ArcItemRef {
+    data: DataItem;
+    endAngle: number;
+    innerRadius: number;
+    outerRadius: number;
+}
+declare class MGaugeArcComponentRef {
+    backgroundArc: ArcItemRef;
+    valueArc: ArcItemRef;
+    cornerRadius: number;
+    colors: ColorHelper;
+    refBarColors: any[];
+    isActive: boolean;
+    tooltipDisabled: boolean;
+    valueFormatting: (value: any) => string;
+    getColor: (arc: number) => string;
+    tooltipTemplate: TemplateRef<any>;
+    animations: boolean;
+    select: EventEmitter<any>;
+    activate: EventEmitter<any>;
+    deactivate: EventEmitter<any>;
+    placementTypes: typeof PlacementTypes;
+    styleTypes: typeof StyleTypes;
+    getColorMarker(): any;
+    tooltipText(arc: ArcItemRef): string;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MGaugeArcComponentRef, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MGaugeArcComponentRef, "g[ngx-m-charts-gauge-arcReference]", never, { "backgroundArc": { "alias": "backgroundArc"; "required": false; }; "valueArc": { "alias": "valueArc"; "required": false; }; "cornerRadius": { "alias": "cornerRadius"; "required": false; }; "colors": { "alias": "colors"; "required": false; }; "refBarColors": { "alias": "refBarColors"; "required": false; }; "isActive": { "alias": "isActive"; "required": false; }; "tooltipDisabled": { "alias": "tooltipDisabled"; "required": false; }; "valueFormatting": { "alias": "valueFormatting"; "required": false; }; "getColor": { "alias": "getColor"; "required": false; }; "tooltipTemplate": { "alias": "tooltipTemplate"; "required": false; }; "animations": { "alias": "animations"; "required": false; }; }, { "select": "select"; "activate": "activate"; "deactivate": "deactivate"; }, never, never, false, never>;
+}
+
+declare class MPieArcArrowComponent implements OnChanges {
+    fill: string;
+    max: number;
+    min: number;
+    data: DataItem;
+    scale: number;
+    element: HTMLElement;
+    rotation: string;
+    animation: string;
+    constructor(element: ElementRef);
+    ngOnChanges(changes: SimpleChanges): void;
+    update(): void;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MPieArcArrowComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MPieArcArrowComponent, "g[ngx-m-charts-pie-arcArrow]", never, { "fill": { "alias": "fill"; "required": false; }; "max": { "alias": "max"; "required": false; }; "min": { "alias": "min"; "required": false; }; "data": { "alias": "data"; "required": false; }; "scale": { "alias": "scale"; "required": false; }; }, {}, never, never, false, never>;
+}
+
+declare class MPieArcComponent implements OnChanges {
+    fill: string;
+    startAngle: number;
+    endAngle: number;
+    innerRadius: number;
+    outerRadius: number;
+    cornerRadius: number;
+    value: number;
+    max: number;
+    data: DataItem;
+    explodeSlices: boolean;
+    gradient: boolean;
+    animate: boolean;
+    pointerEvents: boolean;
+    isActive: boolean;
+    tooltipDisabled: boolean;
+    select: EventEmitter<any>;
+    activate: EventEmitter<any>;
+    deactivate: EventEmitter<any>;
+    dblclick: EventEmitter<any>;
+    barOrientation: typeof BarOrientation;
+    element: HTMLElement;
+    path: any;
+    startOpacity: number;
+    radialGradientId: string;
+    gradientFill: string;
+    initialized: boolean;
+    private _timeout;
+    constructor(element: ElementRef);
+    ngOnChanges(changes: SimpleChanges): void;
+    getGradient(): string;
+    getPointerEvents(): string;
+    update(): void;
+    calculateArc(): any;
+    loadAnimation(): void;
+    updateAnimation(): void;
+    onClick(): void;
+    onDblClick(event: MouseEvent): void;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MPieArcComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MPieArcComponent, "g[ngx-m-charts-pie-arc]", never, { "fill": { "alias": "fill"; "required": false; }; "startAngle": { "alias": "startAngle"; "required": false; }; "endAngle": { "alias": "endAngle"; "required": false; }; "innerRadius": { "alias": "innerRadius"; "required": false; }; "outerRadius": { "alias": "outerRadius"; "required": false; }; "cornerRadius": { "alias": "cornerRadius"; "required": false; }; "value": { "alias": "value"; "required": false; }; "max": { "alias": "max"; "required": false; }; "data": { "alias": "data"; "required": false; }; "explodeSlices": { "alias": "explodeSlices"; "required": false; }; "gradient": { "alias": "gradient"; "required": false; }; "animate": { "alias": "animate"; "required": false; }; "pointerEvents": { "alias": "pointerEvents"; "required": false; }; "isActive": { "alias": "isActive"; "required": false; }; "tooltipDisabled": { "alias": "tooltipDisabled"; "required": false; }; }, { "select": "select"; "activate": "activate"; "deactivate": "deactivate"; "dblclick": "dblclick"; }, never, never, false, never>;
+}
+
+declare class MGaugeModule {
+    static ɵfac: i0.ɵɵFactoryDeclaration<MGaugeModule, never>;
+    static ɵmod: i0.ɵɵNgModuleDeclaration<MGaugeModule, [typeof MGaugeComponent, typeof MGaugeArcComponent, typeof MGaugeAxisComponent, typeof MGaugeArcComponentRef, typeof MPieArcArrowComponent, typeof MPieArcComponent], [typeof ChartCommonModule, typeof BarChartModule], [typeof MGaugeComponent, typeof MGaugeArcComponent, typeof MGaugeAxisComponent, typeof MGaugeArcComponentRef, typeof MPieArcArrowComponent, typeof MPieArcComponent]>;
+    static ɵinj: i0.ɵɵInjectorDeclaration<MGaugeModule>;
+}
+
 declare class NgxChartsModule {
     constructor();
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxChartsModule, never>;
-    static ɵmod: i0.ɵɵNgModuleDeclaration<NgxChartsModule, never, never, [typeof ChartCommonModule, typeof AreaChartModule, typeof BarChartModule, typeof BoxChartModule, typeof BubbleChartModule, typeof HeatMapModule, typeof SankeyModule, typeof LineChartModule, typeof PolarChartModule, typeof NumberCardModule, typeof PieChartModule, typeof TreeMapModule, typeof GaugeModule]>;
+    static ɵmod: i0.ɵɵNgModuleDeclaration<NgxChartsModule, never, never, [typeof ChartCommonModule, typeof AreaChartModule, typeof BarChartModule, typeof BoxChartModule, typeof BubbleChartModule, typeof HeatMapModule, typeof SankeyModule, typeof LineChartModule, typeof PolarChartModule, typeof NumberCardModule, typeof PieChartModule, typeof TreeMapModule, typeof GaugeModule, typeof MGaugeModule]>;
     static ɵinj: i0.ɵɵInjectorDeclaration<NgxChartsModule>;
 }
 
@@ -3944,5 +4159,5 @@ declare function shadeRGBColor({ r, g, b }: {
     b: any;
 }, percent: number): string;
 
-export { AdvancedLegendComponent, AdvancedPieChartComponent, AreaChartComponent, AreaChartModule, AreaChartNormalizedComponent, AreaChartStackedComponent, AreaComponent, AreaSeriesComponent, AxesModule, AxisLabelComponent, BarChartModule, BarChartType, BarComponent, BarHorizontal2DComponent, BarHorizontalComponent, BarHorizontalNormalizedComponent, BarHorizontalStackedComponent, BarLabelComponent, BarOrientation, BarVertical2DComponent, BarVerticalComponent, BarVerticalNormalizedComponent, BarVerticalStackedComponent, BaseChartComponent, BoxChartComponent, BoxChartModule, BoxComponent, BoxSeriesComponent, BubbleChartComponent, BubbleChartModule, BubbleSeriesComponent, CardComponent, CardSeriesComponent, ChartCommonModule, ChartComponent, CircleComponent, CircleSeriesComponent, ColorHelper, CountUpDirective, D0Types, GaugeArcComponent, GaugeAxisComponent, GaugeComponent, GaugeModule, GridPanelComponent, GridPanelSeriesComponent, HeatCellSeriesComponent, HeatMapCellComponent, HeatMapComponent, HeatMapModule, LegendComponent, LegendEntryComponent, LegendPosition, LegendType, LineChartComponent, LineChartModule, LineComponent, LineSeriesComponent, LinearGaugeComponent, NgxChartsModule, NumberCardComponent, NumberCardModule, Orientation, PercentGaugeComponent, PieArcComponent, PieChartComponent, PieChartModule, PieGridComponent, PieGridSeriesComponent, PieLabelComponent, PieSeriesComponent, PlacementTypes, PolarChartComponent, PolarChartModule, PolarSeriesComponent, SankeyComponent, SankeyModule, ScaleLegendComponent, ScaleType, SeriesHorizontal, SeriesType, SeriesVerticalComponent, ShowTypes, StyleTypes, SvgLinearGradientComponent, SvgRadialGradientComponent, TextAnchor, Timeline, TooltipArea, TooltipContentComponent, TooltipDirective, TooltipModule, TooltipService, TreeMapCellComponent, TreeMapCellSeriesComponent, TreeMapComponent, TreeMapModule, VisibilityObserver, XAxisComponent, XAxisTicksComponent, YAxisComponent, YAxisTicksComponent, calculateViewDimensions, cloneLineCoordinates, clonePoint, cloneVector2d, colorSets, count, decimalChecker, escapeLabel, formatLabel, getDomain, getScale, getScaleType, getTickLines, getUniqueXDomainValues, getXDomainArray, gridLayout, gridSize, hexToRgb, id, invertColor, reduceTicks, shadeRGBColor, sortByDomain, sortByTime, sortLinear, throttle, throttleable, tickFormat, trimLabel };
-export type { AdvancedLegendItem, ArcItem, AreaChartDataItem, AreaChartSeries, Bar, BoxChartMultiSeries, BoxChartSeries, BubbleChartDataItem, BubbleChartMultiSeries, BubbleChartSeries, CardModel, Circle, Color, DataItem, Gradient, GridData, GridItem, IBoxModel, LegendEntry, LegendOptions, MultiSeries, PieArc, PieData, PieGridData, PieGridDataItem, SankeyData, SankeyObject, Series, SingleSeries, StringOrNumberOrDate, Tooltip, TreeMapData, TreeMapDataItem, ViewDimensions };
+export { AdvancedLegendComponent, AdvancedPieChartComponent, AreaChartComponent, AreaChartModule, AreaChartNormalizedComponent, AreaChartStackedComponent, AreaComponent, AreaSeriesComponent, AxesModule, AxisLabelComponent, BarChartModule, BarChartType, BarComponent, BarHorizontal2DComponent, BarHorizontalComponent, BarHorizontalNormalizedComponent, BarHorizontalStackedComponent, BarLabelComponent, BarOrientation, BarVertical2DComponent, BarVerticalComponent, BarVerticalNormalizedComponent, BarVerticalStackedComponent, BaseChartComponent, BoxChartComponent, BoxChartModule, BoxComponent, BoxSeriesComponent, BubbleChartComponent, BubbleChartModule, BubbleSeriesComponent, CardComponent, CardSeriesComponent, ChartCommonModule, ChartComponent, CircleComponent, CircleSeriesComponent, ColorHelper, CountUpDirective, D0Types, GaugeArcComponent, GaugeAxisComponent, GaugeComponent, GaugeModule, GridPanelComponent, GridPanelSeriesComponent, HeatCellSeriesComponent, HeatMapCellComponent, HeatMapComponent, HeatMapModule, LegendComponent, LegendEntryComponent, LegendPosition, LegendType, LineChartComponent, LineChartModule, LineComponent, LineSeriesComponent, LinearGaugeComponent, MGaugeArcComponent, MGaugeArcComponentRef, MGaugeAxisComponent, MGaugeComponent, MGaugeModule, MPieArcArrowComponent, MPieArcComponent, NgxChartsModule, NumberCardComponent, NumberCardModule, Orientation, PercentGaugeComponent, PieArcComponent, PieChartComponent, PieChartModule, PieGridComponent, PieGridSeriesComponent, PieLabelComponent, PieSeriesComponent, PlacementTypes, PolarChartComponent, PolarChartModule, PolarSeriesComponent, SankeyComponent, SankeyModule, ScaleLegendComponent, ScaleType, SeriesHorizontal, SeriesType, SeriesVerticalComponent, ShowTypes, StyleTypes, SvgLinearGradientComponent, SvgRadialGradientComponent, TextAnchor, Timeline, TooltipArea, TooltipContentComponent, TooltipDirective, TooltipModule, TooltipService, TreeMapCellComponent, TreeMapCellSeriesComponent, TreeMapComponent, TreeMapModule, VisibilityObserver, XAxisComponent, XAxisTicksComponent, YAxisComponent, YAxisTicksComponent, calculateViewDimensions, cloneLineCoordinates, clonePoint, cloneVector2d, colorSets, count, decimalChecker, escapeLabel, formatLabel, getDomain, getScale, getScaleType, getTickLines, getUniqueXDomainValues, getXDomainArray, gridLayout, gridSize, hexToRgb, id, invertColor, reduceTicks, shadeRGBColor, sortByDomain, sortByTime, sortLinear, throttle, throttleable, tickFormat, trimLabel };
+export type { AdvancedLegendItem, ArcItem, ArcItemRef, AreaChartDataItem, AreaChartSeries, Bar, BoxChartMultiSeries, BoxChartSeries, BubbleChartDataItem, BubbleChartMultiSeries, BubbleChartSeries, CardModel, Circle, Color, DataItem, Gradient, GridData, GridItem, IBoxModel, LegendEntry, LegendOptions, MultiSeries, PieArc, PieData, PieGridData, PieGridDataItem, SankeyData, SankeyObject, Series, SingleSeries, StringOrNumberOrDate, Tooltip, TreeMapData, TreeMapDataItem, ViewDimensions };
