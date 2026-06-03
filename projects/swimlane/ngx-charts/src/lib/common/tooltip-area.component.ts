@@ -237,8 +237,10 @@ export class TooltipArea {
       result += '???';
     }
     result += ': ';
-    if (tooltipItem.value !== undefined) {
+    if (tooltipItem.value !== undefined && tooltipItem.value !== null) {
       result += tooltipItem.value.toLocaleString();
+    } else {
+      result += '--';
     }
     if (tooltipItem.min !== undefined || tooltipItem.max !== undefined) {
       result += ' (';
