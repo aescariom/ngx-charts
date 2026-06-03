@@ -47,6 +47,18 @@ import { Gradient } from '../common/types/gradient.interface';
         [class.inactive]="isInactive(data)"
       />
       <svg:g
+        ngx-charts-line
+        *ngIf="connectNull"
+        class="line-series-null"
+        [data]="data"
+        [path]="nullPath"
+        [stroke]="stroke"
+        [animations]="animations"
+        [class.active]="isActive(data)"
+        [class.inactive]="isInactive(data)"
+        stroke-dasharray="5,5"
+      />
+      <svg:g
         ngx-charts-area
         *ngIf="hasRange"
         class="line-series-range"
@@ -74,8 +86,10 @@ export class LineSeriesComponent implements OnChanges {
   @Input() rangeFillOpacity: number;
   @Input() hasRange: boolean;
   @Input() animations: boolean = true;
+  @Input() connectNull: boolean = false;
 
   path: string;
+  nullPath: string;
   outerPath: string;
   areaPath: string;
   gradientId: string;
@@ -99,6 +113,17 @@ export class LineSeriesComponent implements OnChanges {
     const lineGen = this.getLineGenerator();
     this.path = lineGen(data) || '';
 
+    // When connectNull is enabled, draw a separate dashed line that bridges every
+    // gap of missing (null/undefined) points, connecting the last real point before
+    // the gap to the first real point after it. The solid path above breaks at the
+    // gaps (see getLineGenerator), so the two paths never overlap.
+    this.nullPath = '';
+    if (this.connectNull) {
+      this.nullPath = this.getNullBridgeSegments(data)
+        .map(segment => lineGen(segment) || '')
+        .join('');
+    }
+
     const areaGen = this.getAreaGenerator();
     this.areaPath = areaGen(data) || '';
 
@@ -121,7 +146,7 @@ export class LineSeriesComponent implements OnChanges {
   }
 
   getLineGenerator(): any {
-    return line<any>()
+    const generator = line<any>()
       .x(d => {
         const label = d.name;
         let value;
@@ -136,6 +161,45 @@ export class LineSeriesComponent implements OnChanges {
       })
       .y(d => this.yScale(d.value))
       .curve(this.curve);
+
+    // Only break the line on missing points when the consumer opts in. Without this
+    // guard the default behaviour is byte-for-byte identical to a plain line generator.
+    if (this.connectNull) {
+      generator.defined(d => d.value !== undefined && d.value !== null);
+    }
+
+    return generator;
+  }
+
+  /**
+   * Returns the [before, after] point pairs that bracket every run of missing
+   * (null/undefined) values, i.e. the gaps that should be bridged by a dashed line.
+   *
+   * Gaps are only produced when bounded by a real point on both sides, so leading
+   * and trailing missing values never create a bridge. Consecutive missing values
+   * collapse into a single bridge spanning the whole run.
+   */
+  getNullBridgeSegments(data: any[]): any[][] {
+    const segments: any[][] = [];
+    let lastReal: any = null;
+    let gapOpen = false;
+
+    for (const d of data) {
+      const isMissing = d.value === undefined || d.value === null;
+      if (isMissing) {
+        if (lastReal !== null) {
+          gapOpen = true;
+        }
+      } else {
+        if (gapOpen && lastReal !== null) {
+          segments.push([lastReal, d]);
+        }
+        lastReal = d;
+        gapOpen = false;
+      }
+    }
+
+    return segments;
   }
 
   getRangeGenerator(): any {

@@ -51,6 +51,7 @@
 | yScaleMin             | number             |               | the minimum value of the y axis                                                                                                                                                                                                            |
 | yScaleMax             | number             |               | the maximum value of the y axis                                                                                                                                                                                                            |
 | wrapTicks           | boolean            | false         | axis tick labels will wrap based on available space
+| connectNull           | boolean            | false         | break the line at missing \(null/undefined\) points and bridge each gap with a dashed connector
 
 
 ## Outputs

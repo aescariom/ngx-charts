@@ -386,6 +386,7 @@
         [maxXAxisTickLength]="maxXAxisTickLength"
         [maxYAxisTickLength]="maxYAxisTickLength"
         [wrapTicks]="wrapTicks"
+        [connectNull]="connectNull"
         (select)="select($event)"
         (activate)="activate($event)"
         (deactivate)="deactivate($event)"
@@ -1464,6 +1465,13 @@
           <label>
             <input type="checkbox" [(ngModel)]="timeline" />
             Timeline
+          </label>
+          <br />
+        </div>
+        <div *ngIf="chartType === 'line-chart'">
+          <label>
+            <input type="checkbox" [(ngModel)]="connectNull" />
+            Connect null (dashed)
           </label>
           <br />
         </div>

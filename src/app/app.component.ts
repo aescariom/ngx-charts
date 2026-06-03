@@ -185,6 +185,7 @@ export class AppComponent implements OnInit {
   // line, area
   autoScale = true;
   timeline = false;
+  connectNull = false;
 
   // margin
   margin: boolean = false;

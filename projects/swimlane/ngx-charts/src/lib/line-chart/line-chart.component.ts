@@ -96,6 +96,7 @@ import { isPlatformServer } from '@angular/common';
                 [rangeFillOpacity]="rangeFillOpacity"
                 [hasRange]="hasRange"
                 [animations]="animations"
+                [connectNull]="connectNull"
               />
             </svg:g>
           </svg:g>
@@ -113,6 +114,7 @@ import { isPlatformServer } from '@angular/common';
                 [rangeFillOpacity]="rangeFillOpacity"
                 [hasRange]="hasRange"
                 [animations]="animations"
+                [connectNull]="connectNull"
               />
             </svg:g>
           </svg:g>
@@ -237,6 +239,12 @@ export class LineChartComponent extends BaseChartComponent implements OnInit {
   @Input() yScaleMin: number;
   @Input() yScaleMax: number;
   @Input() wrapTicks = false;
+  /**
+   * When true, missing (null/undefined) points break the line and the resulting gaps
+   * are bridged with a dashed connector. Defaults to false (the line is drawn as if
+   * the missing points were not special).
+   */
+  @Input() connectNull: boolean = false;
 
   @Output() activate: EventEmitter<any> = new EventEmitter();
   @Output() deactivate: EventEmitter<any> = new EventEmitter();
