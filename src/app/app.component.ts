@@ -301,6 +301,15 @@ export class AppComponent implements OnInit {
     this.bubbleDemoProcess(bubbleDemoData[0]);
 
     this.dateData = generateData(5, false);
+    // Demo only: punch null gaps into the first two series so the line-chart
+    // `connectNull` toggle has something to show (single gap + consecutive gap).
+    if (this.dateData[0]?.series[2]) {
+      this.dateData[0].series[2].value = null;
+    }
+    if (this.dateData[1]?.series[1] && this.dateData[1]?.series[2]) {
+      this.dateData[1].series[1].value = null;
+      this.dateData[1].series[2].value = null;
+    }
     this.dateDataWithRange = generateData(2, true);
     this.setColorScheme('cool');
     this.calendarData = this.getCalendarData();
