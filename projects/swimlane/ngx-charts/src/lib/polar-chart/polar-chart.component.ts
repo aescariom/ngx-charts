@@ -358,9 +358,9 @@ export class PolarChartComponent extends BaseChartComponent implements OnInit {
     const values = [];
     for (const results of this.results) {
       for (const d of results.series) {
-        if (!values.includes(d.name)) {
-          values.push(d.name);
-        }
+        // madrija fork: keep repeated x-values (do not dedupe) so series with
+        // duplicate dates render every point.
+        values.push(d.name);
       }
     }
     return values;

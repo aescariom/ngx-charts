@@ -11,6 +11,7 @@ import { NumberCardModule } from './number-card/number-card.module';
 import { PieChartModule } from './pie-chart/pie-chart.module';
 import { TreeMapModule } from './tree-map/tree-map.module';
 import { GaugeModule } from './gauge/gauge.module';
+import { MGaugeModule } from './m-gauge/m-gauge.module';
 import { ngxChartsPolyfills } from './polyfills';
 import { SankeyModule } from './sankey/sankey.module';
 
@@ -28,7 +29,8 @@ import { SankeyModule } from './sankey/sankey.module';
     NumberCardModule,
     PieChartModule,
     TreeMapModule,
-    GaugeModule
+    GaugeModule,
+    MGaugeModule
   ]
 })
 export class NgxChartsModule {

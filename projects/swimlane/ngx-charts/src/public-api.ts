@@ -96,6 +96,14 @@ export * from './lib/gauge/gauge.component';
 export * from './lib/gauge/linear-gauge.component';
 export * from './lib/gauge/percent-gauge/percent-gauge.component';
 
+export * from './lib/m-gauge/m-gauge.module';
+export * from './lib/m-gauge/m-gauge-arc.component';
+export * from './lib/m-gauge/m-gauge-arcReference.component';
+export * from './lib/m-gauge/m-gauge-axis.component';
+export * from './lib/m-gauge/m-pie-arc.component';
+export * from './lib/m-gauge/m-pie-arcArrow.component';
+export * from './lib/m-gauge/m-gauge.component';
+
 export * from './lib/heat-map/heat-map.module';
 export * from './lib/heat-map/heat-map.component';
 export * from './lib/heat-map/heat-map-cell.component';
